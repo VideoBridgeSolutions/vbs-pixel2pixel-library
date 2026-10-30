@@ -1,0 +1,87 @@
+{
+ "id": "blackmagic-micro-converter-sdi-to-hdmi-12g",
+ "brand": "Blackmagic Design",
+ "model": "Micro Converter SDI to HDMI 12G",
+ "category": "converter",
+ "dims": {
+  "w": null,
+  "h": null,
+  "d": null,
+  "u": null,
+  "rack": null
+ },
+ "kg": null,
+ "power": {
+  "typW": null,
+  "maxW": 4,
+  "psu": 1,
+  "redundant": false,
+  "connector": "usb-c"
+ },
+ "ports": [
+  {
+   "group": "Video inputs",
+   "label": "SDI in",
+   "count": 1,
+   "start": 1,
+   "signal": "sdi12g",
+   "connector": "bnc",
+   "dir": "in",
+   "side": "rear",
+   "note": "270M/1.5G/3G/6G/12G",
+   "pool": ""
+  },
+  {
+   "group": "Video outputs",
+   "label": "SDI loop",
+   "count": 1,
+   "start": 1,
+   "signal": "sdi12g",
+   "connector": "bnc",
+   "dir": "out",
+   "side": "rear",
+   "note": "loop-out",
+   "pool": ""
+  },
+  {
+   "group": "Video outputs",
+   "label": "HDMI out",
+   "count": 1,
+   "start": 1,
+   "signal": "hdmi20",
+   "connector": "hdmi",
+   "dir": "out",
+   "side": "rear",
+   "note": "HDMI 2.0 type A",
+   "pool": ""
+  },
+  {
+   "group": "Control",
+   "label": "USB-C",
+   "count": 1,
+   "start": 1,
+   "signal": "usb",
+   "connector": "usb-c",
+   "dir": "io",
+   "side": "rear",
+   "note": "power (4.4-5.25 V DC), config, updates",
+   "pool": ""
+  }
+ ],
+ "slots": [],
+ "cards": [],
+ "cardsFrom": null,
+ "front": null,
+ "rear": null,
+ "model3d": null,
+ "src": [
+  "https://www.blackmagicdesign.com/products/microconverters/techspecs"
+ ],
+ "confidence": "partial",
+ "notes": "Dimensions/weight only shown as images on maker page (null). 4 W max via USB-C; PSU only in wPSU variant. Print-PDF id W-CONU-18.",
+ "family": "",
+ "pools": [],
+ "author": "vbs",
+ "v": 1,
+ "updated": null
+}

@@ -1,0 +1,63 @@
+{
+ "id": "briteq-pd-63a-mk2",
+ "brand": "Briteq",
+ "model": "PD-63A Mk2 /GER-NL",
+ "category": "distro",
+ "dims": {
+  "w": 482.6,
+  "h": 133.4,
+  "d": 274,
+  "u": 3,
+  "rack": "19"
+ },
+ "kg": 9.7,
+ "power": {
+  "typW": null,
+  "maxW": null,
+  "psu": 1,
+  "redundant": false,
+  "connector": "p17-63-3p"
+ },
+ "ports": [
+  {
+   "group": "Outputs 32A",
+   "label": "CEE 32A",
+   "count": 2,
+   "start": 1,
+   "signal": "ac400",
+   "connector": "p17-32-3p",
+   "dir": "out",
+   "side": "front",
+   "note": "outputs A/B; C32 4P MCB each; common 30 mA 4P RCCB",
+   "pool": ""
+  },
+  {
+   "group": "Outputs 16A",
+   "label": "Schuko",
+   "count": 3,
+   "start": 1,
+   "signal": "ac230",
+   "connector": "schuko",
+   "dir": "out",
+   "side": "front",
+   "note": "one per phase L1/L2/L3; C16 2P MCB each; common 30 mA 4P RCCB",
+   "pool": ""
+  }
+ ],
+ "slots": [],
+ "cards": [],
+ "cardsFrom": null,
+ "front": null,
+ "rear": null,
+ "model3d": null,
+ "src": [
+  "https://www.prozic.com/www2/media/files/P/D/558784.pdf"
+ ],
+ "confidence": "partial",
+ "notes": "Input CEE 63A 5p on 1.5 m H07RN-F 5G10. Width/height not in text (19\"/3U nominal). RCD type not stated; English spec says 2x C16 (other languages 3x). Source: Briteq manual hosted by reseller.",
+ "family": "",
+ "pools": [],
+ "author": "vbs",
+ "v": 1,
+ "updated": null
+}

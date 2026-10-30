@@ -1,0 +1,532 @@
+{
+ "format": "p2p-gear",
+ "schema": 1,
+ "version": 1,
+ "date": "2026-10-30T18:53:59.550Z",
+ "count": 58,
+ "items": [
+  {
+   "id": "aja-fido-2r-12g",
+   "brand": "AJA",
+   "model": "FiDO-2R-12G",
+   "category": "extender",
+   "file": "devices/aja-fido-2r-12g.json",
+   "hash": "c75a878a",
+   "v": 1
+  },
+  {
+   "id": "aja-fido-2t-12g",
+   "brand": "AJA",
+   "model": "FiDO-2T-12G",
+   "category": "extender",
+   "file": "devices/aja-fido-2t-12g.json",
+   "hash": "5423ac9e",
+   "v": 1
+  },
+  {
+   "id": "analogway-aquilon-rs4",
+   "brand": "Analog Way",
+   "model": "Aquilon RS4",
+   "category": "switcher",
+   "file": "devices/analogway-aquilon-rs4.json",
+   "hash": "60e1987",
+   "v": 1
+  },
+  {
+   "id": "analogway-pulse-4k",
+   "brand": "Analog Way",
+   "model": "Pulse 4K",
+   "category": "switcher",
+   "file": "devices/analogway-pulse-4k.json",
+   "hash": "38947be",
+   "v": 1
+  },
+  {
+   "id": "analogway-zenith-100",
+   "brand": "Analog Way",
+   "model": "Zenith 100",
+   "category": "switcher",
+   "file": "devices/analogway-zenith-100.json",
+   "hash": "a94379f2",
+   "v": 1
+  },
+  {
+   "id": "analogway-zenith-200",
+   "brand": "Analog Way",
+   "model": "Zenith 200",
+   "category": "switcher",
+   "file": "devices/analogway-zenith-200.json",
+   "hash": "dd8091cc",
+   "v": 1
+  },
+  {
+   "id": "avstumpfl-pixera-four-gen2",
+   "brand": "AV Stumpfl",
+   "model": "PIXERA four Gen.2",
+   "category": "media-server",
+   "file": "devices/avstumpfl-pixera-four-gen2.json",
+   "hash": "9afb452e",
+   "v": 1
+  },
+  {
+   "id": "avstumpfl-pixera-one-gen2",
+   "brand": "AV Stumpfl",
+   "model": "PIXERA one Gen.2",
+   "category": "media-server",
+   "file": "devices/avstumpfl-pixera-one-gen2.json",
+   "hash": "872bc2a2",
+   "v": 2
+  },
+  {
+   "id": "avstumpfl-pixera-two-gen2",
+   "brand": "AV Stumpfl",
+   "model": "PIXERA two Gen.2",
+   "category": "media-server",
+   "file": "devices/avstumpfl-pixera-two-gen2.json",
+   "hash": "e54c5aa8",
+   "v": 1
+  },
+  {
+   "id": "barco-e2-gen2",
+   "brand": "Barco",
+   "model": "E2 Gen 2",
+   "category": "switcher",
+   "file": "devices/barco-e2-gen2.json",
+   "hash": "c2673bef",
+   "v": 1
+  },
+  {
+   "id": "barco-ex",
+   "brand": "Barco",
+   "model": "Event Master Ex",
+   "category": "switcher",
+   "file": "devices/barco-ex.json",
+   "hash": "9358f7ce",
+   "v": 1
+  },
+  {
+   "id": "barco-s3-4k",
+   "brand": "Barco",
+   "model": "S3-4K",
+   "category": "switcher",
+   "file": "devices/barco-s3-4k.json",
+   "hash": "5784dd4c",
+   "v": 1
+  },
+  {
+   "id": "blackmagic-atem-2me-constellation-hd",
+   "brand": "Blackmagic Design",
+   "model": "ATEM 2 M/E Constellation HD",
+   "category": "switcher",
+   "file": "devices/blackmagic-atem-2me-constellation-hd.json",
+   "hash": "b5dd93b7",
+   "v": 1
+  },
+  {
+   "id": "blackmagic-atem-4me-constellation-4k",
+   "brand": "Blackmagic Design",
+   "model": "ATEM 4 M/E Constellation 4K",
+   "category": "switcher",
+   "file": "devices/blackmagic-atem-4me-constellation-4k.json",
+   "hash": "5407d8e",
+   "v": 1
+  },
+  {
+   "id": "blackmagic-micro-converter-hdmi-to-sdi-12g",
+   "brand": "Blackmagic Design",
+   "model": "Micro Converter HDMI to SDI 12G",
+   "category": "converter",
+   "file": "devices/blackmagic-micro-converter-hdmi-to-sdi-12g.json",
+   "hash": "c44d81ff",
+   "v": 1
+  },
+  {
+   "id": "blackmagic-micro-converter-sdi-to-hdmi-12g",
+   "brand": "Blackmagic Design",
+   "model": "Micro Converter SDI to HDMI 12G",
+   "category": "converter",
+   "file": "devices/blackmagic-micro-converter-sdi-to-hdmi-12g.json",
+   "hash": "50f7f0f1",
+   "v": 1
+  },
+  {
+   "id": "blackmagic-teranex-mini-sdi-to-hdmi-12g",
+   "brand": "Blackmagic Design",
+   "model": "Teranex Mini SDI to HDMI 12G",
+   "category": "converter",
+   "file": "devices/blackmagic-teranex-mini-sdi-to-hdmi-12g.json",
+   "hash": "51c306b5",
+   "v": 1
+  },
+  {
+   "id": "blackmagic-videohub-20x20-12g",
+   "brand": "Blackmagic Design",
+   "model": "Videohub 20x20 12G",
+   "category": "matrix",
+   "file": "devices/blackmagic-videohub-20x20-12g.json",
+   "hash": "c7daead8",
+   "v": 1
+  },
+  {
+   "id": "blackmagic-videohub-40x40-12g",
+   "brand": "Blackmagic Design",
+   "model": "Videohub 40x40 12G",
+   "category": "matrix",
+   "file": "devices/blackmagic-videohub-40x40-12g.json",
+   "hash": "9790bc70",
+   "v": 1
+  },
+  {
+   "id": "briteq-pd-32sh",
+   "brand": "Briteq",
+   "model": "PD-32SH/GE",
+   "category": "distro",
+   "file": "devices/briteq-pd-32sh.json",
+   "hash": "3575b160",
+   "v": 1
+  },
+  {
+   "id": "briteq-pd-63a-mk2",
+   "brand": "Briteq",
+   "model": "PD-63A Mk2 /GER-NL",
+   "category": "distro",
+   "file": "devices/briteq-pd-63a-mk2.json",
+   "hash": "592d960c",
+   "v": 1
+  },
+  {
+   "id": "briteq-pd-63sh",
+   "brand": "Briteq",
+   "model": "PD-63SH/GERMAN",
+   "category": "distro",
+   "file": "devices/briteq-pd-63sh.json",
+   "hash": "2636d202",
+   "v": 1
+  },
+  {
+   "id": "brompton-tessera-s8",
+   "brand": "Brompton",
+   "model": "Tessera S8",
+   "category": "led-processor",
+   "file": "devices/brompton-tessera-s8.json",
+   "hash": "b83344b7",
+   "v": 1
+  },
+  {
+   "id": "brompton-tessera-sx40",
+   "brand": "Brompton",
+   "model": "Tessera SX40",
+   "category": "led-processor",
+   "file": "devices/brompton-tessera-sx40.json",
+   "hash": "81461252",
+   "v": 1
+  },
+  {
+   "id": "brompton-tessera-t1",
+   "brand": "Brompton",
+   "model": "Tessera T1",
+   "category": "led-processor",
+   "file": "devices/brompton-tessera-t1.json",
+   "hash": "a8b464e6",
+   "v": 1
+  },
+  {
+   "id": "brompton-tessera-xd-10g",
+   "brand": "Brompton",
+   "model": "Tessera XD 10G",
+   "category": "converter",
+   "file": "devices/brompton-tessera-xd-10g.json",
+   "hash": "be8e8c99",
+   "v": 1
+  },
+  {
+   "id": "christie-spyder-x80",
+   "brand": "Christie",
+   "model": "Spyder X80",
+   "category": "switcher",
+   "file": "devices/christie-spyder-x80.json",
+   "hash": "f91c1e97",
+   "v": 1
+  },
+  {
+   "id": "colorlight-x16",
+   "brand": "Colorlight",
+   "model": "X16",
+   "category": "led-processor",
+   "file": "devices/colorlight-x16.json",
+   "hash": "86f741b0",
+   "v": 1
+  },
+  {
+   "id": "colorlight-x8",
+   "brand": "Colorlight",
+   "model": "X8",
+   "category": "led-processor",
+   "file": "devices/colorlight-x8.json",
+   "hash": "f4043730",
+   "v": 1
+  },
+  {
+   "id": "colorlight-z6",
+   "brand": "Colorlight",
+   "model": "Z6",
+   "category": "led-processor",
+   "file": "devices/colorlight-z6.json",
+   "hash": "4762f6db",
+   "v": 1
+  },
+  {
+   "id": "colorlight-z6-pro-g2",
+   "brand": "Colorlight",
+   "model": "Z6 PRO-G2",
+   "category": "led-processor",
+   "file": "devices/colorlight-z6-pro-g2.json",
+   "hash": "fdf9a29c",
+   "v": 1
+  },
+  {
+   "id": "disguise-gx-3",
+   "brand": "disguise",
+   "model": "gx 3",
+   "category": "media-server",
+   "file": "devices/disguise-gx-3.json",
+   "hash": "f5c5033b",
+   "v": 3
+  },
+  {
+   "id": "disguise-gx-3-",
+   "brand": "disguise",
+   "model": "gx 3+",
+   "category": "media-server",
+   "file": "devices/disguise-gx-3-.json",
+   "hash": "c518a02f",
+   "v": 2
+  },
+  {
+   "id": "disguise-rx-ii",
+   "brand": "disguise",
+   "model": "rx II",
+   "category": "media-server",
+   "file": "devices/disguise-rx-ii.json",
+   "hash": "3164d781",
+   "v": 1
+  },
+  {
+   "id": "disguise-vx-4plus",
+   "brand": "disguise",
+   "model": "vx 4+",
+   "category": "media-server",
+   "file": "devices/disguise-vx-4plus.json",
+   "hash": "72a3eedf",
+   "v": 12
+  },
+  {
+   "id": "green-hippo-hippotizer-boreal-plus-mk2",
+   "brand": "Green Hippo",
+   "model": "Hippotizer Boreal+ MK2",
+   "category": "media-server",
+   "file": "devices/green-hippo-hippotizer-boreal-plus-mk2.json",
+   "hash": "11af761f",
+   "v": 1
+  },
+  {
+   "id": "kramer-tp-583r",
+   "brand": "Kramer",
+   "model": "TP-583R",
+   "category": "extender",
+   "file": "devices/kramer-tp-583r.json",
+   "hash": "3fc3ad2d",
+   "v": 1
+  },
+  {
+   "id": "kramer-tp-583t",
+   "brand": "Kramer",
+   "model": "TP-583T",
+   "category": "extender",
+   "file": "devices/kramer-tp-583t.json",
+   "hash": "c5fb9b89",
+   "v": 1
+  },
+  {
+   "id": "luminex-gigacore-16xt",
+   "brand": "Luminex",
+   "model": "GigaCore 16Xt",
+   "category": "network",
+   "file": "devices/luminex-gigacore-16xt.json",
+   "hash": "24d93dbb",
+   "v": 1
+  },
+  {
+   "id": "megapixel-helios",
+   "brand": "Megapixel VR",
+   "model": "HELIOS",
+   "category": "led-processor",
+   "file": "devices/megapixel-helios.json",
+   "hash": "c9f59dfa",
+   "v": 1
+  },
+  {
+   "id": "netgear-m4250-10g2f-poeplus",
+   "brand": "NETGEAR",
+   "model": "M4250-10G2F-PoE+ (GSM4212P)",
+   "category": "network",
+   "file": "devices/netgear-m4250-10g2f-poeplus.json",
+   "hash": "45857938",
+   "v": 1
+  },
+  {
+   "id": "netgear-m4250-26g4f-poeplus",
+   "brand": "NETGEAR",
+   "model": "M4250-26G4F-PoE+ (GSM4230P)",
+   "category": "network",
+   "file": "devices/netgear-m4250-26g4f-poeplus.json",
+   "hash": "673ebcdc",
+   "v": 1
+  },
+  {
+   "id": "novastar-cvt10",
+   "brand": "NovaStar",
+   "model": "CVT10",
+   "category": "converter",
+   "file": "devices/novastar-cvt10.json",
+   "hash": "a138de8b",
+   "v": 1
+  },
+  {
+   "id": "novastar-h5",
+   "brand": "NovaStar",
+   "model": "H5",
+   "category": "led-processor",
+   "file": "devices/novastar-h5.json",
+   "hash": "27e2502f",
+   "v": 1
+  },
+  {
+   "id": "novastar-mctrl-r5",
+   "brand": "NovaStar",
+   "model": "MCTRL R5",
+   "category": "led-processor",
+   "file": "devices/novastar-mctrl-r5.json",
+   "hash": "cb26388a",
+   "v": 1
+  },
+  {
+   "id": "novastar-mctrl4k",
+   "brand": "NovaStar",
+   "model": "MCTRL4K",
+   "category": "led-processor",
+   "file": "devices/novastar-mctrl4k.json",
+   "hash": "22351298",
+   "v": 1
+  },
+  {
+   "id": "novastar-mx20",
+   "brand": "NovaStar",
+   "model": "MX20",
+   "category": "led-processor",
+   "file": "devices/novastar-mx20.json",
+   "hash": "8a1945d6",
+   "v": 1
+  },
+  {
+   "id": "novastar-mx30",
+   "brand": "NovaStar",
+   "model": "MX30",
+   "category": "led-processor",
+   "file": "devices/novastar-mx30.json",
+   "hash": "38c8fe64",
+   "v": 1
+  },
+  {
+   "id": "novastar-mx40-pro",
+   "brand": "NovaStar",
+   "model": "MX40 Pro",
+   "category": "led-processor",
+   "file": "devices/novastar-mx40-pro.json",
+   "hash": "aac57d99",
+   "v": 1
+  },
+  {
+   "id": "novastar-vx1000",
+   "brand": "NovaStar",
+   "model": "VX1000",
+   "category": "led-processor",
+   "file": "devices/novastar-vx1000.json",
+   "hash": "efe5c0f3",
+   "v": 1
+  },
+  {
+   "id": "novastar-vx600-pro",
+   "brand": "NovaStar",
+   "model": "VX600 Pro",
+   "category": "led-processor",
+   "file": "devices/novastar-vx600-pro.json",
+   "hash": "871a60e9",
+   "v": 1
+  },
+  {
+   "id": "pixelhue-p20",
+   "brand": "Pixelhue",
+   "model": "P20",
+   "category": "switcher",
+   "file": "devices/pixelhue-p20.json",
+   "hash": "aa0fbf5f",
+   "v": 1
+  },
+  {
+   "id": "pixelhue-p80",
+   "brand": "Pixelhue",
+   "model": "P80",
+   "category": "switcher",
+   "file": "devices/pixelhue-p80.json",
+   "hash": "93170659",
+   "v": 1
+  },
+  {
+   "id": "pixelhue-q8",
+   "brand": "Pixelhue",
+   "model": "Q8",
+   "category": "switcher",
+   "file": "devices/pixelhue-q8.json",
+   "hash": "7bba0306",
+   "v": 1
+  },
+  {
+   "id": "pixelhue-u5",
+   "brand": "Pixelhue",
+   "model": "U5",
+   "category": "misc",
+   "file": "devices/pixelhue-u5.json",
+   "hash": "e522b354",
+   "v": 1
+  },
+  {
+   "id": "power-distros-md125-120rcd",
+   "brand": "Power Distros",
+   "model": "MD125-120RCD",
+   "category": "distro",
+   "file": "devices/power-distros-md125-120rcd.json",
+   "hash": "aa9d546",
+   "v": 1
+  },
+  {
+   "id": "power-distros-md63-350rcbo",
+   "brand": "Power Distros",
+   "model": "MD63-350RCBO",
+   "category": "distro",
+   "file": "devices/power-distros-md63-350rcbo.json",
+   "hash": "70bab41b",
+   "v": 1
+  },
+  {
+   "id": "roland-v-160hd",
+   "brand": "Roland",
+   "model": "V-160HD",
+   "category": "switcher",
+   "file": "devices/roland-v-160hd.json",
+   "hash": "d4b564a9",
+   "v": 1
+  }
+ ],
+ "hash": "caa014d1"
+}

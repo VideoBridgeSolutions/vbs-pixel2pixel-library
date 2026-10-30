@@ -1,0 +1,95 @@
+{
+ "id": "megapixel-helios",
+ "brand": "Megapixel VR",
+ "model": "HELIOS",
+ "category": "led-processor",
+ "dims": {
+  "w": 482.6,
+  "h": 44.5,
+  "d": null,
+  "u": 1,
+  "rack": "19"
+ },
+ "kg": 3.9,
+ "power": {
+  "typW": null,
+  "maxW": 50,
+  "psu": 1,
+  "redundant": false,
+  "connector": "iec-c14"
+ },
+ "ports": [
+  {
+   "group": "Inputs",
+   "label": "QSFP 100G In",
+   "count": 1,
+   "start": 1,
+   "signal": "eth100g",
+   "connector": "qsfp",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Fiber outputs",
+   "label": "10G Out",
+   "count": 8,
+   "start": 1,
+   "signal": "led-megapixel",
+   "connector": "sfp-plus",
+   "dir": "out",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Control",
+   "label": "LAN",
+   "count": 1,
+   "start": 1,
+   "signal": "eth1g",
+   "connector": "rj45",
+   "dir": "io",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  }
+ ],
+ "slots": [
+  {
+   "id": "baseband-input-slot",
+   "type": "baseband-input-slot",
+   "label": "Baseband input slot",
+   "count": 2,
+   "def": null,
+   "note": "HDMI or DisplayPort input modules (versions per module, e.g. HDMI 2.0 / DP 1.4 / HDMI 2.1 SKUs)"
+  },
+  {
+   "id": "sfp-input-slot",
+   "type": "sfp-input-slot",
+   "label": "SFP input slot",
+   "count": 4,
+   "def": null,
+   "note": "12G-SDI or 10G SMPTE ST 2110 SFP modules"
+  }
+ ],
+ "cards": [],
+ "cardsFrom": null,
+ "front": null,
+ "rear": null,
+ "model3d": null,
+ "src": [
+  "https://megapixelvr.com/helios/",
+  "https://support.megapixelvr.com/support/solutions/articles/103000262246-helios-system-capacity-basics",
+  "https://support.megapixelvr.com/support/solutions/articles/103000297873-networking-with-helios-",
+  "https://www.roevisual.com/uploads/files/Product File/Processing/roe-visual-processors-02-jul-2020.pdf"
+ ],
+ "confidence": "partial",
+ "notes": "Megapixel brochure PDF could not be parsed. 1 RU; 8 x 10G fiber outputs to Megapixel switches (SFP+ assumed); 100G QSFP input with ST 2110/IPMX; up to 35 Mpx. Weight 3.9 kg, 50 W and IEC C13/C14 from ROE 2020 sheet (HELIOS 8K). Dimensions, genlock, USB unknown. LAN connector type not stated.",
+ "family": "",
+ "pools": [],
+ "author": "vbs",
+ "v": 1,
+ "updated": null
+}

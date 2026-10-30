@@ -1,0 +1,75 @@
+{
+ "id": "blackmagic-micro-converter-hdmi-to-sdi-12g",
+ "brand": "Blackmagic Design",
+ "model": "Micro Converter HDMI to SDI 12G",
+ "category": "converter",
+ "dims": {
+  "w": null,
+  "h": null,
+  "d": null,
+  "u": null,
+  "rack": null
+ },
+ "kg": null,
+ "power": {
+  "typW": null,
+  "maxW": 4,
+  "psu": 1,
+  "redundant": false,
+  "connector": "usb-c"
+ },
+ "ports": [
+  {
+   "group": "Video inputs",
+   "label": "HDMI in",
+   "count": 1,
+   "start": 1,
+   "signal": "hdmi20",
+   "connector": "hdmi",
+   "dir": "in",
+   "side": "rear",
+   "note": "HDMI 2.0 type A",
+   "pool": ""
+  },
+  {
+   "group": "Video outputs",
+   "label": "SDI out",
+   "count": 2,
+   "start": 1,
+   "signal": "sdi12g",
+   "connector": "bnc",
+   "dir": "out",
+   "side": "rear",
+   "note": "both outputs match HDMI input",
+   "pool": ""
+  },
+  {
+   "group": "Control",
+   "label": "USB-C",
+   "count": 1,
+   "start": 1,
+   "signal": "usb",
+   "connector": "usb-c",
+   "dir": "io",
+   "side": "rear",
+   "note": "power (4.4-5.25 V DC), config, updates",
+   "pool": ""
+  }
+ ],
+ "slots": [],
+ "cards": [],
+ "cardsFrom": null,
+ "front": null,
+ "rear": null,
+ "model3d": null,
+ "src": [
+  "https://www.blackmagicdesign.com/products/microconverters/techspecs"
+ ],
+ "confidence": "partial",
+ "notes": "Dimensions/weight only shown as images on maker page (null). 4 W max via USB-C; PSU only in wPSU variant. Print-PDF id W-CONU-17.",
+ "family": "",
+ "pools": [],
+ "author": "vbs",
+ "v": 1,
+ "updated": null
+}

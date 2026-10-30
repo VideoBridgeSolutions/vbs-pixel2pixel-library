@@ -1,0 +1,165 @@
+{
+ "id": "analogway-aquilon-rs4",
+ "brand": "Analog Way",
+ "model": "Aquilon RS4",
+ "category": "switcher",
+ "dims": {
+  "w": 439.8,
+  "h": 221.2,
+  "d": 700,
+  "u": 5,
+  "rack": "19"
+ },
+ "kg": 37.3,
+ "power": {
+  "typW": null,
+  "maxW": 1010,
+  "psu": 3,
+  "redundant": true,
+  "connector": null
+ },
+ "ports": [
+  {
+   "group": "Inputs",
+   "label": "In HDMI",
+   "count": 12,
+   "start": 1,
+   "signal": "hdmi20",
+   "connector": "hdmi",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Inputs",
+   "label": "In DP",
+   "count": 8,
+   "start": 1,
+   "signal": "dp12",
+   "connector": "dp",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Inputs",
+   "label": "In SDI",
+   "count": 4,
+   "start": 1,
+   "signal": "sdi12g",
+   "connector": "bnc",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Outputs",
+   "label": "Out HDMI",
+   "count": 16,
+   "start": 1,
+   "signal": "hdmi20",
+   "connector": "hdmi",
+   "dir": "out",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Multiviewer",
+   "label": "MVR",
+   "count": 2,
+   "start": 1,
+   "signal": "hdmi20",
+   "connector": "hdmi",
+   "dir": "out",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Sync",
+   "label": "Genlock In",
+   "count": 1,
+   "start": 1,
+   "signal": "genlock",
+   "connector": "bnc",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Sync",
+   "label": "Genlock Loop",
+   "count": 1,
+   "start": 1,
+   "signal": "genlock",
+   "connector": "bnc",
+   "dir": "out",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Control",
+   "label": "Ethernet / Dante",
+   "count": 2,
+   "start": 1,
+   "signal": "eth1g",
+   "connector": "rj45",
+   "dir": "io",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Control",
+   "label": "Tally/GPIO",
+   "count": 1,
+   "start": 1,
+   "signal": "gpio",
+   "connector": "phoenix",
+   "dir": "io",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  }
+ ],
+ "slots": [
+  {
+   "id": "input-slot",
+   "type": "input-slot",
+   "label": "Input slot",
+   "count": 6,
+   "def": null,
+   "note": "field-swappable; options (LivePremier family per RS2 2026 datasheet): HDMI 1.4, HDMI 2.0, DP 1.2/1.4, 8x 3G-SDI, 12G-SDI, NDI+12G-SDI, SFP+, optical, SDVoE, ST 2110"
+  },
+  {
+   "id": "output-slot",
+   "type": "output-slot",
+   "label": "Output slot",
+   "count": 4,
+   "def": null,
+   "note": "field-swappable; options: HDMI 2.0, DP 1.2/1.4, 12G-SDI, SFP+, optical, SDVoE, ST 2110"
+  }
+ ],
+ "cards": [],
+ "cardsFrom": null,
+ "front": null,
+ "rear": null,
+ "model3d": null,
+ "src": [
+  "https://www.rentex.com/wp-content/uploads/2019/11/Analog-Way-Aquilon-RS4-Data-Sheet.pdf",
+  "https://dwn01.analogway.com/Site+Internet/Series/LivePremier/Products/Aquilon+RS2/Technical+Datasheet/Aquilon-RS2-datasheet-en-20260703.pdf"
+ ],
+ "confidence": "partial",
+ "notes": "Ports = standard card set from datasheet (24 in: 12 HDMI 2.0 + 8 DP 1.2 + 4 12G-SDI; 16 HDMI 2.0 out). Datasheet says 'dual redundancy Ethernet ports with AES67' + native Dante 64x64: split between control and Dante ports not stated, modelled as 2 RJ45. Tally/GPI-O present, count not stated; connector assumed Phoenix (MCO 5-pin plugs supplied with RS2). USB/LTC not listed. Dimensions without rack ears. Max 1010 W, PSU 2+1 hot-swap, inlet type not stated. Card options list taken from RS2 2026 datasheet (same LivePremier platform).",
+ "family": "",
+ "pools": [],
+ "author": "vbs",
+ "v": 1,
+ "updated": null
+}

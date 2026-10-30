@@ -1,0 +1,190 @@
+{
+ "id": "christie-spyder-x80",
+ "brand": "Christie",
+ "model": "Spyder X80",
+ "category": "switcher",
+ "dims": {
+  "w": 441,
+  "h": 261,
+  "d": 598,
+  "u": 6,
+  "rack": "19"
+ },
+ "kg": 36.17,
+ "power": {
+  "typW": null,
+  "maxW": 1680,
+  "psu": 4,
+  "redundant": true,
+  "connector": null
+ },
+ "ports": [
+  {
+   "group": "Inputs",
+   "label": "In HDMI",
+   "count": 24,
+   "start": 1,
+   "signal": "hdmi20",
+   "connector": "hdmi",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Inputs",
+   "label": "In DP",
+   "count": 24,
+   "start": 1,
+   "signal": "dp12",
+   "connector": "dp",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Inputs",
+   "label": "In SDI",
+   "count": 24,
+   "start": 1,
+   "signal": "sdi12g",
+   "connector": "bnc",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Outputs",
+   "label": "Out HDMI",
+   "count": 16,
+   "start": 1,
+   "signal": "hdmi20",
+   "connector": "hdmi",
+   "dir": "out",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Outputs",
+   "label": "Out DP",
+   "count": 16,
+   "start": 1,
+   "signal": "dp12",
+   "connector": "dp",
+   "dir": "out",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Outputs",
+   "label": "Out SDI",
+   "count": 16,
+   "start": 1,
+   "signal": "sdi12g",
+   "connector": "bnc",
+   "dir": "out",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Sync",
+   "label": "Genlock In",
+   "count": 1,
+   "start": 1,
+   "signal": "genlock",
+   "connector": "bnc",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Sync",
+   "label": "Genlock Loop",
+   "count": 1,
+   "start": 1,
+   "signal": "genlock",
+   "connector": "bnc",
+   "dir": "out",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Control",
+   "label": "Ethernet",
+   "count": 1,
+   "start": 1,
+   "signal": "eth1g",
+   "connector": "rj45",
+   "dir": "io",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Control",
+   "label": "RS-232",
+   "count": 1,
+   "start": 1,
+   "signal": "rs232",
+   "connector": null,
+   "dir": "io",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Control",
+   "label": "USB",
+   "count": 1,
+   "start": 1,
+   "signal": "usb",
+   "connector": "usb-a",
+   "dir": "io",
+   "side": "front",
+   "note": "",
+   "pool": ""
+  }
+ ],
+ "slots": [
+  {
+   "id": "input-slot",
+   "type": "input-slot",
+   "label": "Input slot",
+   "count": 6,
+   "def": null,
+   "note": "input module: 4 inputs, each with DP 1.2 + HDMI 2.0 + 12G-SDI connectors"
+  },
+  {
+   "id": "output-slot",
+   "type": "output-slot",
+   "label": "Output slot",
+   "count": 4,
+   "def": null,
+   "note": "output card: 4 outputs, each with DP 1.2 + HDMI 2.0 + 12G-SDI connectors"
+  }
+ ],
+ "cards": [],
+ "cardsFrom": null,
+ "front": null,
+ "rear": null,
+ "model3d": null,
+ "src": [
+  "https://christiedigital.com/products/image-processors/spyder-x80",
+  "https://www.christiedigital.com/globalassets/resources/public/020-102024-02-christie-lit-man-instal-x80.pdf",
+  "https://cinos.net/wp-content/uploads/resources/christie/cinos-christie-spyder-x80-brochure.pdf"
+ ],
+ "confidence": "partial",
+ "notes": "Ports = fully loaded (6 input modules = 24 inputs, 4 output cards = 16 outputs); each input/output exposes DP 1.2, HDMI 2.0 and 12G-SDI connectors (whether only one is active per channel not stated). Multiviewer is assigned on outputs (no dedicated MVR port). Control card also has PCIe link IN/OUT (not modelled). RS-232 in/out connector type not stated. Front USB type assumed A. 1680 W max fully loaded; 4 AC inlets (2 used + 2 redundant), inlet type not stated.",
+ "family": "",
+ "pools": [],
+ "author": "vbs",
+ "v": 1,
+ "updated": null
+}

@@ -1,0 +1,111 @@
+{
+ "id": "blackmagic-teranex-mini-sdi-to-hdmi-12g",
+ "brand": "Blackmagic Design",
+ "model": "Teranex Mini SDI to HDMI 12G",
+ "category": "converter",
+ "dims": {
+  "w": null,
+  "h": null,
+  "d": null,
+  "u": null,
+  "rack": null
+ },
+ "kg": null,
+ "power": {
+  "typW": 16,
+  "maxW": 16,
+  "psu": 1,
+  "redundant": false,
+  "connector": "iec-c14"
+ },
+ "ports": [
+  {
+   "group": "Video inputs",
+   "label": "SDI in",
+   "count": 1,
+   "start": 1,
+   "signal": "sdi12g",
+   "connector": "bnc",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Video outputs",
+   "label": "SDI loop",
+   "count": 1,
+   "start": 1,
+   "signal": "sdi12g",
+   "connector": "bnc",
+   "dir": "out",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Video outputs",
+   "label": "HDMI out",
+   "count": 1,
+   "start": 1,
+   "signal": "hdmi20",
+   "connector": "hdmi",
+   "dir": "out",
+   "side": "rear",
+   "note": "HDMI 2.0 type A, up to 2160p60",
+   "pool": ""
+  },
+  {
+   "group": "Audio",
+   "label": "Audio out",
+   "count": 2,
+   "start": 1,
+   "signal": "audio-analog",
+   "connector": "xlr3",
+   "dir": "out",
+   "side": "rear",
+   "note": "2ch balanced analog or 4ch AES (110 ohm) on XLR; right XLR can output timecode",
+   "pool": ""
+  },
+  {
+   "group": "Network",
+   "label": "Ethernet",
+   "count": 1,
+   "start": 1,
+   "signal": "eth1g",
+   "connector": "rj45",
+   "dir": "io",
+   "side": "rear",
+   "note": "config/updates; also PoE+ (48 V) power input; speed not stated",
+   "pool": ""
+  },
+  {
+   "group": "Control",
+   "label": "USB",
+   "count": 1,
+   "start": 1,
+   "signal": "usb",
+   "connector": null,
+   "dir": "io",
+   "side": "rear",
+   "note": "config/updates; connector type not stated",
+   "pool": ""
+  }
+ ],
+ "slots": [],
+ "cards": [],
+ "cardsFrom": null,
+ "front": null,
+ "rear": null,
+ "model3d": null,
+ "src": [
+  "https://www.blackmagicdesign.com/products/teranexmini/techspecs"
+ ],
+ "confidence": "partial",
+ "notes": "Dimensions/weight not given in text (image only). 16 W, 100-240 V AC on IEC C14, or PoE+. Rack mounting via Teranex Mini Rack Shelf not verified here (u/rack null). Ethernet speed/USB connector not stated. Print-PDF id W-TERAMIN-01.",
+ "family": "",
+ "pools": [],
+ "author": "vbs",
+ "v": 1,
+ "updated": null
+}

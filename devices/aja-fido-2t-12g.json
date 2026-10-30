@@ -1,0 +1,64 @@
+{
+ "id": "aja-fido-2t-12g",
+ "brand": "AJA",
+ "model": "FiDO-2T-12G",
+ "category": "extender",
+ "dims": {
+  "w": 117,
+  "h": 21.6,
+  "d": 43.5,
+  "u": null,
+  "rack": null
+ },
+ "kg": 0.2,
+ "power": {
+  "typW": null,
+  "maxW": 3.5,
+  "psu": 1,
+  "redundant": false,
+  "connector": null
+ },
+ "ports": [
+  {
+   "group": "Video inputs",
+   "label": "SDI in",
+   "count": 2,
+   "start": 1,
+   "signal": "sdi12g",
+   "connector": "bnc",
+   "dir": "in",
+   "side": "rear",
+   "note": "2 independent 12G/6G/3G/HD/SD-SDI",
+   "pool": ""
+  },
+  {
+   "group": "Fiber outputs",
+   "label": "Fiber out",
+   "count": 2,
+   "start": 1,
+   "signal": "fiber-video",
+   "connector": "lc",
+   "dir": "out",
+   "side": "rear",
+   "note": "single-mode LC, 1310 nm, up to 10 km",
+   "pool": ""
+  }
+ ],
+ "slots": [],
+ "cards": [],
+ "cardsFrom": null,
+ "front": null,
+ "rear": null,
+ "model3d": null,
+ "src": [
+  "https://www.aja.com/products/fido-2t-12g/spec-sheet.pdf",
+  "https://www.aja.com/products/fido-2t-12g"
+ ],
+ "confidence": "partial",
+ "notes": "Substituted for FiDO-4T-12G: no standalone FiDO-4T-12G exists (only openGear OG-FiDO-4T-12G; standalone FiDO-4T is 3G). 5-20 V DC, PSU included, DC connector type not stated. No SDI loop-out listed.",
+ "family": "",
+ "pools": [],
+ "author": "vbs",
+ "v": 1,
+ "updated": null
+}

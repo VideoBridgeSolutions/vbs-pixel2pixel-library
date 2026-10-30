@@ -1,0 +1,75 @@
+{
+ "id": "novastar-cvt10",
+ "brand": "NovaStar",
+ "model": "CVT10",
+ "category": "converter",
+ "dims": {
+  "w": 254.3,
+  "h": 50.6,
+  "d": 290,
+  "u": 1,
+  "rack": "half"
+ },
+ "kg": 2.1,
+ "power": {
+  "typW": null,
+  "maxW": 22,
+  "psu": 1,
+  "redundant": false,
+  "connector": "powercon"
+ },
+ "ports": [
+  {
+   "group": "Fiber",
+   "label": "OPT",
+   "count": 2,
+   "start": 1,
+   "signal": "led-nova",
+   "connector": "lc",
+   "dir": "io",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "LED data",
+   "label": "Ethernet",
+   "count": 10,
+   "start": 1,
+   "signal": "led-nova",
+   "connector": "rj45",
+   "dir": "io",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Control",
+   "label": "USB",
+   "count": 1,
+   "start": 1,
+   "signal": "usb",
+   "connector": "usb-b",
+   "dir": "in",
+   "side": "front",
+   "note": "",
+   "pool": ""
+  }
+ ],
+ "slots": [],
+ "cards": [],
+ "cardsFrom": null,
+ "front": null,
+ "rear": null,
+ "model3d": null,
+ "src": [
+  "https://logando.de/wp-content/uploads/2024/05/CVT10_Datenblatt.pdf"
+ ],
+ "confidence": "partial",
+ "notes": "NovaStar spec V1.3.0. Half-1U width; pair with a second unit or connecting piece for 1U. Variants CVT10-S (single-mode 9/125, 1310 nm, 10 km) and CVT10-M (multi-mode OM3/OM4, 850 nm, 300 m); factory-fitted hot-swap modules, LC. Mode button switches CVT/DIS (fiber-to-copper or copper-to-fiber). Ethernet connector type not stated. PowerCON variant (blue/TRUE1) not stated. USB is for upgrades only.",
+ "family": "",
+ "pools": [],
+ "author": "vbs",
+ "v": 1,
+ "updated": null
+}

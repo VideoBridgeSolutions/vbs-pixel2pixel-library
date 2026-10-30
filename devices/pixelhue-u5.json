@@ -1,0 +1,40 @@
+{
+ "id": "pixelhue-u5",
+ "brand": "Pixelhue",
+ "model": "U5",
+ "category": "misc",
+ "dims": {
+  "w": 740,
+  "h": 431.6,
+  "d": 651.4,
+  "u": null,
+  "rack": null
+ },
+ "kg": 24,
+ "power": {
+  "typW": null,
+  "maxW": 240,
+  "psu": 1,
+  "redundant": false,
+  "connector": null
+ },
+ "ports": [],
+ "slots": [],
+ "cards": [],
+ "cardsFrom": null,
+ "front": null,
+ "rear": null,
+ "model3d": null,
+ "src": [
+  "https://luxwave.vn/downloads/pixelhue/u5-datasheet.pdf",
+  "https://fullcompass.com/common/files/89765-U5PXHDataSheet.pdf",
+  "https://fullcompass.com/common/files/89764-U5PRODataSheet.pdf"
+ ],
+ "confidence": "partial",
+ "notes": "U5 is a compact event CONTROLLER (console) for P20/P10/Q8/P80, not a video switcher; no category for consoles so 'misc'. Dimensions include handles/rack ears. Datasheet lists connector types (Ethernet, USB type B, LTC in/out, MTC in/out, MIDI, KVM, keyboard/mouse, external input, AC 100-240 V 6 A) but NO counts, so ports left empty. U5 Pro: 1129.6 x 695.4 x 422.7 mm, 46 kg, 330 W max.",
+ "family": "",
+ "pools": [],
+ "author": "vbs",
+ "v": 1,
+ "updated": null
+}

@@ -1,0 +1,75 @@
+{
+ "id": "power-distros-md125-120rcd",
+ "brand": "Power Distros",
+ "model": "MD125-120RCD",
+ "category": "distro",
+ "dims": {
+  "w": 610,
+  "h": 764,
+  "d": 580,
+  "u": null,
+  "rack": null
+ },
+ "kg": null,
+ "power": {
+  "typW": null,
+  "maxW": null,
+  "psu": 1,
+  "redundant": false,
+  "connector": "p17-125-3p"
+ },
+ "ports": [
+  {
+   "group": "Outputs 63A",
+   "label": "CEE 63A",
+   "count": 1,
+   "start": 1,
+   "signal": "ac400",
+   "connector": "p17-63-3p",
+   "dir": "out",
+   "side": "front",
+   "note": "63A 4P RCD + 63A 4P MCB",
+   "pool": ""
+  },
+  {
+   "group": "Outputs 32A 3ph",
+   "label": "CEE 32A 3P",
+   "count": 4,
+   "start": 1,
+   "signal": "ac400",
+   "connector": "p17-32-3p",
+   "dir": "out",
+   "side": "front",
+   "note": "40A 4P RCD + 32A 4P MCB each",
+   "pool": ""
+  },
+  {
+   "group": "Outputs 32A 1ph",
+   "label": "CEE 32A",
+   "count": 12,
+   "start": 1,
+   "signal": "ac230",
+   "connector": "p17-32-1p",
+   "dir": "out",
+   "side": "front",
+   "note": "32A 1P MCB each; grouped behind 2x 63A 4P MCB; RCD for these not stated",
+   "pool": ""
+  }
+ ],
+ "slots": [],
+ "cards": [],
+ "cardsFrom": null,
+ "front": null,
+ "rear": null,
+ "model3d": null,
+ "src": [
+  "https://www.procom-me.com/wp-content/uploads/2021/02/MD125-120RCD_technical_sheet.pdf"
+ ],
+ "confidence": "partial",
+ "notes": "Main 125A 4P MCB. 12U HDPE case, IP65 lids closed, digital multimeter. RCD sensitivity (mA) not stated. Dimension order assumed W x D x H. Weight not stated. Brand 'Power Distros', sold by Procom ME.",
+ "family": "",
+ "pools": [],
+ "author": "vbs",
+ "v": 1,
+ "updated": null
+}

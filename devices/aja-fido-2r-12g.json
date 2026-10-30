@@ -1,0 +1,63 @@
+{
+ "id": "aja-fido-2r-12g",
+ "brand": "AJA",
+ "model": "FiDO-2R-12G",
+ "category": "extender",
+ "dims": {
+  "w": 117,
+  "h": 21.6,
+  "d": 43.5,
+  "u": null,
+  "rack": null
+ },
+ "kg": 0.2,
+ "power": {
+  "typW": null,
+  "maxW": 2,
+  "psu": 1,
+  "redundant": false,
+  "connector": null
+ },
+ "ports": [
+  {
+   "group": "Fiber inputs",
+   "label": "Fiber in",
+   "count": 2,
+   "start": 1,
+   "signal": "fiber-video",
+   "connector": "lc",
+   "dir": "in",
+   "side": "rear",
+   "note": "single-mode LC, 1260-1620 nm",
+   "pool": ""
+  },
+  {
+   "group": "Video outputs",
+   "label": "SDI out",
+   "count": 2,
+   "start": 1,
+   "signal": "sdi12g",
+   "connector": "bnc",
+   "dir": "out",
+   "side": "rear",
+   "note": "SMPTE 259/292/424/2081/2082",
+   "pool": ""
+  }
+ ],
+ "slots": [],
+ "cards": [],
+ "cardsFrom": null,
+ "front": null,
+ "rear": null,
+ "model3d": null,
+ "src": [
+  "https://www.aja.com/products/fido-2r-12g/spec-sheet.pdf"
+ ],
+ "confidence": "partial",
+ "notes": "Receiver pair of FiDO-2T-12G. 5-20 V DC, PSU included, DC connector type not stated.",
+ "family": "",
+ "pools": [],
+ "author": "vbs",
+ "v": 1,
+ "updated": null
+}

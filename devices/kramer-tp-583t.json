@@ -1,0 +1,75 @@
+{
+ "id": "kramer-tp-583t",
+ "brand": "Kramer",
+ "model": "TP-583T",
+ "category": "extender",
+ "dims": {
+  "w": 120,
+  "h": 24.4,
+  "d": 71.5,
+  "u": 1,
+  "rack": "third"
+ },
+ "kg": 0.3,
+ "power": {
+  "typW": 5.8,
+  "maxW": null,
+  "psu": 1,
+  "redundant": false,
+  "connector": null
+ },
+ "ports": [
+  {
+   "group": "Video inputs",
+   "label": "HDMI in",
+   "count": 1,
+   "start": 1,
+   "signal": "hdmi20",
+   "connector": "hdmi",
+   "dir": "in",
+   "side": "rear",
+   "note": "HDMI 2.0 features, HDCP 2.2, HDR10",
+   "pool": ""
+  },
+  {
+   "group": "HDBaseT",
+   "label": "HDBT out",
+   "count": 1,
+   "start": 1,
+   "signal": "hdbaset",
+   "connector": "rj45",
+   "dir": "out",
+   "side": "rear",
+   "note": "HDBaseT 1.0 long reach; 4K60 4:2:0 40 m std / 70 m high compression",
+   "pool": ""
+  },
+  {
+   "group": "Control",
+   "label": "RS-232",
+   "count": 1,
+   "start": 1,
+   "signal": "rs232",
+   "connector": "phoenix",
+   "dir": "io",
+   "side": "rear",
+   "note": "3-pin terminal block, bidirectional",
+   "pool": ""
+  }
+ ],
+ "slots": [],
+ "cards": [],
+ "cardsFrom": null,
+ "front": null,
+ "rear": null,
+ "model3d": null,
+ "src": [
+  "https://www1.kramerav.com/product/TP-583T"
+ ],
+ "confidence": "partial",
+ "notes": "Power: 12 V DC 2 A adapter, 480 mA consumption (typW 5.8 W computed from these). DC connector not stated. Rack: 3 units per 1U with optional RK-3T-B adapter. IR 3.5 mm jack not modelled (no connector id). Pairs with TP-583R.",
+ "family": "",
+ "pools": [],
+ "author": "vbs",
+ "v": 1,
+ "updated": null
+}

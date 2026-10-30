@@ -1,0 +1,132 @@
+{
+ "id": "avstumpfl-pixera-one-gen2",
+ "brand": "AV Stumpfl",
+ "model": "PIXERA one Gen.2",
+ "category": "media-server",
+ "dims": {
+  "w": 444,
+  "h": 44.4,
+  "d": 441,
+  "u": 1,
+  "rack": "19"
+ },
+ "kg": 8.3,
+ "power": {
+  "typW": null,
+  "maxW": 500,
+  "psu": 1,
+  "redundant": false,
+  "connector": null
+ },
+ "ports": [
+  {
+   "group": "Video outputs",
+   "label": "Out",
+   "count": 4,
+   "start": 1,
+   "signal": "dp14",
+   "connector": "dp",
+   "dir": "out",
+   "side": "rear",
+   "note": "DP 1.4a, max 5120x2880; 2 or 4 licensed (Dual/Quad)",
+   "pool": ""
+  },
+  {
+   "group": "GUI outputs (optional)",
+   "label": "GUI",
+   "count": 4,
+   "start": 1,
+   "signal": "dp14",
+   "connector": "mini-dp",
+   "dir": "out",
+   "side": "rear",
+   "note": "optional, mDP 1.4a, max 4096x2160",
+   "pool": ""
+  },
+  {
+   "group": "Network",
+   "label": "10G",
+   "count": 2,
+   "start": 1,
+   "signal": "eth10g",
+   "connector": null,
+   "dir": "io",
+   "side": "rear",
+   "note": "connector not stated",
+   "pool": ""
+  },
+  {
+   "group": "Network",
+   "label": "IPMI",
+   "count": 1,
+   "start": 1,
+   "signal": "eth1g",
+   "connector": null,
+   "dir": "io",
+   "side": "rear",
+   "note": "IPMI LAN; speed/connector not stated",
+   "pool": ""
+  },
+  {
+   "group": "USB",
+   "label": "USB3 front",
+   "count": 2,
+   "start": 1,
+   "signal": "usb",
+   "connector": "usb-a",
+   "dir": "io",
+   "side": "front",
+   "note": "type A assumed",
+   "pool": ""
+  },
+  {
+   "group": "USB",
+   "label": "USB3 rear",
+   "count": 2,
+   "start": 1,
+   "signal": "usb",
+   "connector": "usb-a",
+   "dir": "io",
+   "side": "rear",
+   "note": "type A assumed",
+   "pool": ""
+  },
+  {
+   "group": "USB",
+   "label": "USB2 rear",
+   "count": 1,
+   "start": 1,
+   "signal": "usb",
+   "connector": "usb-a",
+   "dir": "io",
+   "side": "rear",
+   "note": "type A assumed",
+   "pool": ""
+  }
+ ],
+ "slots": [
+  {
+   "id": "capture-option",
+   "type": "capture-option",
+   "label": "Capture option",
+   "count": 1,
+   "def": null,
+   "note": "optional HDMI / 3G-SDI / 12G-SDI inputs (not all combinations possible); genlock/framelock optional"
+  }
+ ],
+ "cards": [],
+ "cardsFrom": null,
+ "front": null,
+ "rear": null,
+ "model3d": null,
+ "src": [
+  "https://pixera.helpjuice.com/pixera-server-specifications/pixera-one-basic-technical-specifications"
+ ],
+ "confidence": "partial",
+ "notes": "Art. PX1-2-G2 (Dual) / PX1-4-G2 (Quad). Rack U derived from 44.4 mm height. Max width/depth with handles 484x489 mm. PSU count, connector, typical power not stated (peak 500 W). Network connector type not stated. Analog stereo out on 1/4\" TRS not modelled.",
+ "family": "",
+ "pools": [],
+ "author": "vbs",
+ "v": 2,
+ "updated": "2026-10-30T18:46:06.284Z"
+}

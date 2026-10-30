@@ -1,0 +1,185 @@
+{
+ "id": "barco-e2-gen2",
+ "brand": "Barco",
+ "model": "E2 Gen 2",
+ "category": "switcher",
+ "dims": {
+  "w": 483,
+  "h": 178,
+  "d": 622,
+  "u": 4,
+  "rack": "19"
+ },
+ "kg": 31,
+ "power": {
+  "typW": null,
+  "maxW": 1100,
+  "psu": 2,
+  "redundant": true,
+  "connector": null
+ },
+ "ports": [
+  {
+   "group": "Inputs",
+   "label": "In HDMI",
+   "count": 12,
+   "start": 1,
+   "signal": "hdmi20",
+   "connector": "hdmi",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Inputs",
+   "label": "In DP",
+   "count": 12,
+   "start": 1,
+   "signal": "dp12",
+   "connector": "dp",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Inputs",
+   "label": "In SDI",
+   "count": 16,
+   "start": 1,
+   "signal": "sdi12g",
+   "connector": "bnc",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Outputs",
+   "label": "Out HDMI",
+   "count": 9,
+   "start": 1,
+   "signal": "hdmi20",
+   "connector": "hdmi",
+   "dir": "out",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Outputs",
+   "label": "Out DP",
+   "count": 1,
+   "start": 1,
+   "signal": "dp12",
+   "connector": "dp",
+   "dir": "out",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Outputs",
+   "label": "Out SDI",
+   "count": 4,
+   "start": 1,
+   "signal": "sdi12g",
+   "connector": "bnc",
+   "dir": "out",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Multiviewer",
+   "label": "MVR",
+   "count": 4,
+   "start": 1,
+   "signal": "hdmi20",
+   "connector": "hdmi",
+   "dir": "out",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Sync",
+   "label": "Genlock In",
+   "count": 1,
+   "start": 1,
+   "signal": "genlock",
+   "connector": "bnc",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Sync",
+   "label": "Genlock Loop",
+   "count": 1,
+   "start": 1,
+   "signal": "genlock",
+   "connector": "bnc",
+   "dir": "out",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Control",
+   "label": "Ethernet",
+   "count": 1,
+   "start": 1,
+   "signal": "eth1g",
+   "connector": "rj45",
+   "dir": "io",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  }
+ ],
+ "slots": [
+  {
+   "id": "input-slot",
+   "type": "input-slot",
+   "label": "Input slot",
+   "count": 8,
+   "def": null,
+   "note": "HDMI 2.0 quad (4x HDMI 2.0), DP 1.2 quad (4x DP 1.2), Tri-Combo (1x HDMI 2.0, 1x DP 1.2, 4x 12G-SDI BNC); up to 2x 4K60 per card"
+  },
+  {
+   "id": "output-slot",
+   "type": "output-slot",
+   "label": "Output slot",
+   "count": 3,
+   "def": null,
+   "note": "HDMI 2.0 quad, DP 1.2 quad, Tri-Combo; up to 2x 4K60 per card"
+  },
+  {
+   "id": "output-mvr-slot",
+   "type": "output-mvr-slot",
+   "label": "Output/MVR slot",
+   "count": 1,
+   "def": null,
+   "note": "HDMI 2.0 MVR card: 4x HDMI 2.0 (4x FHD or 1x 4K60), or a regular output card"
+  }
+ ],
+ "cards": [],
+ "cardsFrom": null,
+ "front": null,
+ "rear": null,
+ "model3d": null,
+ "src": [
+  "https://assets.barco.com/asset/2a4d3f41-17b4-4d64-8bf7-eaa41962a366/E2-Gen-2-en-Spec-sheet.pdf",
+  "https://www.barco.com/manuals/R5905948/nuafodjs2s1d.html"
+ ],
+ "confidence": "partial",
+ "notes": "Full configuration per Barco spec sheet (40 in / 18 out connectors): inputs = 2x HDMI quad + 2x DP quad + 4x Tri-Combo; outputs = 2x HDMI quad + 1x Tri-Combo + MVR card (card split derived from connector totals). 1100 W rating, no typical; 2 hot-swap redundant PSUs, inlet type not stated. Depth 569 mm chassis / 622 mm overall; width 432 mm without handles. S3D sync (4x DIN in, 2x DIN out) not modelled. Ex expansion links not modelled.",
+ "family": "",
+ "pools": [],
+ "author": "vbs",
+ "v": 1,
+ "updated": null
+}

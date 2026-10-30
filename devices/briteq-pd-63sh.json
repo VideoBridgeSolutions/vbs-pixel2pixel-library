@@ -1,0 +1,88 @@
+{
+ "id": "briteq-pd-63sh",
+ "brand": "Briteq",
+ "model": "PD-63SH/GERMAN",
+ "category": "distro",
+ "dims": {
+  "w": 482.6,
+  "h": 133.4,
+  "d": null,
+  "u": 3,
+  "rack": "19"
+ },
+ "kg": null,
+ "power": {
+  "typW": null,
+  "maxW": null,
+  "psu": 1,
+  "redundant": false,
+  "connector": "p17-63-3p"
+ },
+ "ports": [
+  {
+   "group": "Outputs 16A",
+   "label": "Schuko",
+   "count": 12,
+   "start": 1,
+   "signal": "ac230",
+   "connector": "schuko",
+   "dir": "out",
+   "side": "front",
+   "note": "4 per phase; C16 1P+N MCB each; common 30 mA 4P RCCB",
+   "pool": ""
+  },
+  {
+   "group": "Multicore",
+   "label": "Socapex",
+   "count": 2,
+   "start": 1,
+   "signal": "ac230",
+   "connector": "socapex19",
+   "dir": "out",
+   "side": "front",
+   "note": "19-pin round multicore",
+   "pool": ""
+  },
+  {
+   "group": "Multicore",
+   "label": "Harting 16",
+   "count": 2,
+   "start": 1,
+   "signal": "ac230",
+   "connector": "harting16",
+   "dir": "out",
+   "side": "front",
+   "note": "16-pin rectangular multicore",
+   "pool": ""
+  },
+  {
+   "group": "Thru",
+   "label": "CEE 63A thru",
+   "count": 1,
+   "start": 1,
+   "signal": "ac400",
+   "connector": "p17-63-3p",
+   "dir": "out",
+   "side": "front",
+   "note": "chain output; behind 63A 4P breaker + 30 mA RCCB",
+   "pool": ""
+  }
+ ],
+ "slots": [],
+ "cards": [],
+ "cardsFrom": null,
+ "front": null,
+ "rear": null,
+ "model3d": null,
+ "src": [
+  "https://hitmusic.eu/en/product/pd-63sh-german?pdf=true",
+  "https://www.huss-licht-ton.de/print_product_info.php/products_id/24164"
+ ],
+ "confidence": "partial",
+ "notes": "Part B04648. 3U per Briteq text; one reseller lists 6U (conflict). Dimensions/weight not found. Breaker allocation for Socapex/Harting circuits not stated. Per-phase digital V/A meters. Sources are reseller pages reproducing maker text.",
+ "family": "",
+ "pools": [],
+ "author": "vbs",
+ "v": 1,
+ "updated": null
+}

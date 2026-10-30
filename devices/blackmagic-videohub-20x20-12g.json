@@ -1,0 +1,111 @@
+{
+ "id": "blackmagic-videohub-20x20-12g",
+ "brand": "Blackmagic Design",
+ "model": "Videohub 20x20 12G",
+ "category": "matrix",
+ "dims": {
+  "w": 482.6,
+  "h": 44.5,
+  "d": null,
+  "u": 1,
+  "rack": "19"
+ },
+ "kg": null,
+ "power": {
+  "typW": null,
+  "maxW": 27.5,
+  "psu": 1,
+  "redundant": false,
+  "connector": "iec-c14"
+ },
+ "ports": [
+  {
+   "group": "Inputs",
+   "label": "In",
+   "count": 20,
+   "start": 1,
+   "signal": "sdi12g",
+   "connector": "bnc",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Outputs",
+   "label": "Out",
+   "count": 20,
+   "start": 1,
+   "signal": "sdi12g",
+   "connector": "bnc",
+   "dir": "out",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Sync",
+   "label": "Ref In",
+   "count": 1,
+   "start": 1,
+   "signal": "genlock",
+   "connector": "bnc",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Sync",
+   "label": "Ref Loop",
+   "count": 1,
+   "start": 1,
+   "signal": "genlock",
+   "connector": "bnc",
+   "dir": "out",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Control",
+   "label": "Ethernet",
+   "count": 1,
+   "start": 1,
+   "signal": "eth1g",
+   "connector": "rj45",
+   "dir": "io",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Control",
+   "label": "USB-C",
+   "count": 1,
+   "start": 1,
+   "signal": "usb",
+   "connector": "usb-c",
+   "dir": "io",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  }
+ ],
+ "slots": [],
+ "cards": [],
+ "cardsFrom": null,
+ "front": null,
+ "rear": null,
+ "model3d": null,
+ "src": [
+  "https://www.blackmagicdesign.com/products/blackmagicvideohub/techspecs"
+ ],
+ "confidence": "partial",
+ "notes": "'Blackmagic Videohub 20x20 12G' (current model). 27.5 W max, 1 internal PSU; 'IEC power cable' -> C14 inlet inferred. Ref out is a terminating loop. Dimensions/weight only as image - null.",
+ "family": "",
+ "pools": [],
+ "author": "vbs",
+ "v": 1,
+ "updated": null
+}

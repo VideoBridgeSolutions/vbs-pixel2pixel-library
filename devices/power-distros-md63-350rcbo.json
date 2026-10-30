@@ -1,0 +1,87 @@
+{
+ "id": "power-distros-md63-350rcbo",
+ "brand": "Power Distros",
+ "model": "MD63-350RCBO",
+ "category": "distro",
+ "dims": {
+  "w": 610,
+  "h": 764,
+  "d": 580,
+  "u": null,
+  "rack": null
+ },
+ "kg": null,
+ "power": {
+  "typW": null,
+  "maxW": null,
+  "psu": 1,
+  "redundant": false,
+  "connector": "p17-63-3p"
+ },
+ "ports": [
+  {
+   "group": "Multicore",
+   "label": "Socapex",
+   "count": 2,
+   "start": 1,
+   "signal": "ac230",
+   "connector": "socapex19",
+   "dir": "out",
+   "side": "front",
+   "note": "19-pin; 12x 16A RCBO (6 per Socapex)",
+   "pool": ""
+  },
+  {
+   "group": "Outputs 16A 1ph",
+   "label": "CEE 16A",
+   "count": 6,
+   "start": 1,
+   "signal": "ac230",
+   "connector": "p17-16-1p",
+   "dir": "out",
+   "side": "front",
+   "note": "16A RCBO each",
+   "pool": ""
+  },
+  {
+   "group": "Outputs 16A 3ph",
+   "label": "CEE 16A 3P",
+   "count": 2,
+   "start": 1,
+   "signal": "ac400",
+   "connector": "p17-16-3p",
+   "dir": "out",
+   "side": "front",
+   "note": "40A 4P RCD + 16A 4P MCB each",
+   "pool": ""
+  },
+  {
+   "group": "Outputs 32A 3ph",
+   "label": "CEE 32A 3P",
+   "count": 2,
+   "start": 1,
+   "signal": "ac400",
+   "connector": "p17-32-3p",
+   "dir": "out",
+   "side": "front",
+   "note": "40A 4P RCD + 32A 4P MCB each",
+   "pool": ""
+  }
+ ],
+ "slots": [],
+ "cards": [],
+ "cardsFrom": null,
+ "front": null,
+ "rear": null,
+ "model3d": null,
+ "src": [
+  "https://www.procom-me.com/wp-content/uploads/2023/09/MD63-350RCBO_technical_sheet-1.pdf"
+ ],
+ "confidence": "partial",
+ "notes": "12U HDPE stackable case on wheels, IP65 lids closed (not 19\" rack gear). Main 63A 4P MCB. RCD/RCBO sensitivity (mA) not stated. Dimension order (610x580x764) assumed W x D x H. Weight not stated. Brand 'Power Distros' (power-distros.com), sold by Procom ME (Dubai).",
+ "family": "",
+ "pools": [],
+ "author": "vbs",
+ "v": 1,
+ "updated": null
+}

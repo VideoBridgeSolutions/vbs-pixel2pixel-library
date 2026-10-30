@@ -1,0 +1,825 @@
+{
+ "id": "disguise-vx-4plus",
+ "brand": "disguise",
+ "model": "vx 4+",
+ "category": "media-server",
+ "dims": {
+  "w": 445,
+  "h": 178,
+  "d": 593,
+  "u": 4,
+  "rack": "19"
+ },
+ "kg": 21,
+ "power": {
+  "typW": null,
+  "maxW": 785,
+  "psu": 1,
+  "redundant": false,
+  "connector": "powercon-true1"
+ },
+ "ports": [
+  {
+   "group": "Video outputs",
+   "label": "GUI",
+   "count": 1,
+   "start": 1,
+   "signal": "dp14",
+   "connector": "dp",
+   "dir": "out",
+   "side": "rear",
+   "note": "DisplayPort 1.4 GUI output",
+   "pool": ""
+  },
+  {
+   "group": "Video outputs",
+   "label": "VFC out",
+   "count": 4,
+   "start": 1,
+   "signal": "hdmi20",
+   "connector": "hdmi",
+   "dir": "out",
+   "side": "rear",
+   "note": "4 VFC bays; ships with HDMI 2.0 VFC cards (DP 1.4, quad DVI-DL, quad 3G-SDI, 4x25GbE IP VFC options)",
+   "pool": ""
+  },
+  {
+   "group": "Video inputs",
+   "label": "SDI in",
+   "count": 16,
+   "start": 1,
+   "signal": "sdi3g",
+   "connector": "bnc",
+   "dir": "in",
+   "side": "rear",
+   "note": "HD-BNC; 4x 12G-SDI or 16x 3G-SDI",
+   "pool": ""
+  },
+  {
+   "group": "Network",
+   "label": "1G",
+   "count": 1,
+   "start": 1,
+   "signal": "eth1g",
+   "connector": "ethercon",
+   "dir": "io",
+   "side": "rear",
+   "note": "port A",
+   "pool": ""
+  },
+  {
+   "group": "Network",
+   "label": "10G",
+   "count": 2,
+   "start": 1,
+   "signal": "eth10g",
+   "connector": "ethercon",
+   "dir": "io",
+   "side": "rear",
+   "note": "ports B-C",
+   "pool": ""
+  },
+  {
+   "group": "Network",
+   "label": "100G",
+   "count": 2,
+   "start": 1,
+   "signal": "eth100g",
+   "connector": "qsfp",
+   "dir": "io",
+   "side": "rear",
+   "note": "ports D-E, QSFP28",
+   "pool": ""
+  },
+  {
+   "group": "Network",
+   "label": "Mgmt",
+   "count": 1,
+   "start": 1,
+   "signal": "eth1g",
+   "connector": null,
+   "dir": "io",
+   "side": "rear",
+   "note": "system management port; speed/connector not stated",
+   "pool": ""
+  },
+  {
+   "group": "Sync",
+   "label": "Genlock",
+   "count": 1,
+   "start": 1,
+   "signal": "genlock",
+   "connector": "bnc",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "USB",
+   "label": "USB",
+   "count": 5,
+   "start": 1,
+   "signal": "usb",
+   "connector": "usb-a",
+   "dir": "io",
+   "side": "rear",
+   "note": "USB 3.0; type A assumed",
+   "pool": ""
+  },
+  {
+   "group": "Audio",
+   "label": "Audio in",
+   "count": 2,
+   "start": 1,
+   "signal": "audio-analog",
+   "connector": "xlr3",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Audio",
+   "label": "Audio out",
+   "count": 2,
+   "start": 1,
+   "signal": "audio-analog",
+   "connector": "xlr3",
+   "dir": "out",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Control",
+   "label": "MIDI in",
+   "count": 1,
+   "start": 1,
+   "signal": "midi",
+   "connector": "din5",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Control",
+   "label": "MIDI out",
+   "count": 1,
+   "start": 1,
+   "signal": "midi",
+   "connector": "din5",
+   "dir": "out",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Phone",
+   "label": "Port",
+   "count": 1,
+   "start": 1,
+   "signal": "audio-analog",
+   "connector": "jack635",
+   "dir": "out",
+   "side": "front",
+   "note": "",
+   "pool": ""
+  }
+ ],
+ "slots": [
+  {
+   "id": "slot-1",
+   "type": "slot",
+   "label": "Slot",
+   "count": 1,
+   "def": "1x-hdmi-2-0-output",
+   "note": ""
+  },
+  {
+   "id": "slot-2",
+   "type": "slot",
+   "label": "Slot",
+   "count": 1,
+   "def": "1x-hdmi-2-0-output",
+   "note": ""
+  },
+  {
+   "id": "slot-3",
+   "type": "slot",
+   "label": "Slot",
+   "count": 1,
+   "def": "1x-hdmi-2-0-output",
+   "note": ""
+  },
+  {
+   "id": "slot-4",
+   "type": "slot",
+   "label": "Slot",
+   "count": 1,
+   "def": "1x-hdmi-2-0-output",
+   "note": ""
+  }
+ ],
+ "cards": [
+  {
+   "id": "4x-dual-link-dvi-outputs",
+   "name": "Quad-DVI",
+   "slot": "slot-4",
+   "pools": [],
+   "ports": [
+    {
+     "group": "DVI",
+     "label": "Port",
+     "count": 4,
+     "start": 1,
+     "signal": "dvi",
+     "connector": "dvi",
+     "dir": "out",
+     "side": "rear",
+     "note": "",
+     "pool": ""
+    }
+   ],
+   "note": "",
+   "face": {
+    "items": [
+     {
+      "kind": "port",
+      "ref": "g0:0",
+      "x": 10.5,
+      "y": 33,
+      "rot": 270
+     },
+     {
+      "kind": "port",
+      "ref": "g0:1",
+      "x": 28,
+      "y": 33,
+      "rot": 270
+     },
+     {
+      "kind": "port",
+      "ref": "g0:2",
+      "x": 10.5,
+      "y": 84,
+      "rot": 270
+     },
+     {
+      "kind": "port",
+      "ref": "g0:3",
+      "x": 28,
+      "y": 84,
+      "rot": 270
+     }
+    ],
+    "guides": [],
+    "w": 40,
+    "h": 130
+   }
+  },
+  {
+   "id": "4x-3g-sdi-outputs",
+   "name": "Quad-SDI",
+   "slot": "slot-4",
+   "pools": [],
+   "ports": [
+    {
+     "group": "SDI",
+     "label": "Port",
+     "count": 4,
+     "start": 1,
+     "signal": "sdi3g",
+     "connector": "bnc",
+     "dir": "out",
+     "side": "rear",
+     "note": "",
+     "pool": ""
+    }
+   ],
+   "note": "",
+   "face": {
+    "items": [
+     {
+      "kind": "port",
+      "ref": "g0:0",
+      "x": 26.5,
+      "y": 17,
+      "rot": 0
+     },
+     {
+      "kind": "port",
+      "ref": "g0:1",
+      "x": 26.5,
+      "y": 39.5,
+      "rot": 0
+     },
+     {
+      "kind": "port",
+      "ref": "g0:2",
+      "x": 26.5,
+      "y": 61.63,
+      "rot": 0
+     },
+     {
+      "kind": "port",
+      "ref": "g0:3",
+      "x": 26.5,
+      "y": 84.13,
+      "rot": 0
+     }
+    ],
+    "guides": [],
+    "w": 40,
+    "h": 130
+   }
+  },
+  {
+   "id": "1x-hdmi-2-0-output",
+   "name": "HDMI 2.0",
+   "slot": "slot-4",
+   "pools": [],
+   "ports": [
+    {
+     "group": "HDMI",
+     "label": "Port",
+     "count": 1,
+     "start": 1,
+     "signal": "hdmi20",
+     "connector": "hdmi",
+     "dir": "out",
+     "side": "rear",
+     "note": "",
+     "pool": ""
+    }
+   ],
+   "note": "",
+   "face": {
+    "items": [
+     {
+      "kind": "port",
+      "ref": "g0:0",
+      "x": 30,
+      "y": 100,
+      "rot": 90
+     }
+    ],
+    "guides": [],
+    "w": 40,
+    "h": 130
+   }
+  },
+  {
+   "id": "1x-dp-1-4-output",
+   "name": "DP 1.4",
+   "slot": "slot-4",
+   "pools": [],
+   "ports": [
+    {
+     "group": "DP 1.4",
+     "label": "Port",
+     "count": 1,
+     "start": 1,
+     "signal": "dp14",
+     "connector": "dp",
+     "dir": "out",
+     "side": "rear",
+     "note": "",
+     "pool": ""
+    }
+   ],
+   "note": "",
+   "face": {
+    "items": [
+     {
+      "kind": "port",
+      "ref": "g0:0",
+      "x": 30,
+      "y": 100,
+      "rot": 90
+     }
+    ],
+    "guides": [],
+    "w": 40,
+    "h": 130
+   }
+  },
+  {
+   "id": "4x-25gbe-sfp28-outputs",
+   "name": "IP",
+   "slot": "slot-1",
+   "pools": [],
+   "ports": [
+    {
+     "group": "IP",
+     "label": "Port",
+     "count": 4,
+     "start": 1,
+     "signal": "eth25g",
+     "connector": "sfp-plus",
+     "dir": "out",
+     "side": "rear",
+     "note": "",
+     "pool": ""
+    }
+   ],
+   "note": "",
+   "face": {
+    "items": [
+     {
+      "kind": "port",
+      "ref": "g0:0",
+      "x": 29.5,
+      "y": 43.5,
+      "rot": 90
+     },
+     {
+      "kind": "port",
+      "ref": "g0:1",
+      "x": 29.5,
+      "y": 66,
+      "rot": 90
+     },
+     {
+      "kind": "port",
+      "ref": "g0:2",
+      "x": 29.5,
+      "y": 88.5,
+      "rot": 90
+     },
+     {
+      "kind": "port",
+      "ref": "g0:3",
+      "x": 29.5,
+      "y": 111,
+      "rot": 90
+     }
+    ],
+    "guides": [],
+    "w": 40,
+    "h": 130
+   }
+  }
+ ],
+ "cardsFrom": null,
+ "front": {
+  "items": [
+   {
+    "kind": "port",
+    "ref": "g8:0",
+    "x": 45,
+    "y": 162,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g8:1",
+    "x": 72,
+    "y": 162,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g13:0",
+    "x": 72,
+    "y": 145,
+    "rot": 0
+   },
+   {
+    "kind": "zone",
+    "x": 26,
+    "y": 0,
+    "w": 391,
+    "h": 130,
+    "style": "vent"
+   },
+   {
+    "kind": "zone",
+    "x": 92.5,
+    "y": 130,
+    "w": 73.5,
+    "h": 48,
+    "style": "vent"
+   },
+   {
+    "kind": "zone",
+    "x": 280.5,
+    "y": 130,
+    "w": 71.5,
+    "h": 48,
+    "style": "vent"
+   },
+   {
+    "kind": "zone",
+    "x": 179.5,
+    "y": 135.5,
+    "w": 87,
+    "h": 31.5,
+    "style": "screen"
+   },
+   {
+    "kind": "image",
+    "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALAAAADuCAYAAACZM43ZAAAQAElEQVR4AeydaZQkVbXv/zsiM6snmraZFZoZLzSIggMOV8UB8Dkgk+AA76lwEcXlBxBEl6771tKPom+5XM4LUQQHUEAuCHiBC0tlBplBBJlEZKYHuiorM97+7aio6m6rq6uL6hyqTlTujBNnjh2/2LnjRMWJbOHCBUWSpIN+ZSBTWpIG+lgDCeA+Pnip61ICOFHQ1xpIAPf14UudTwAnBqaogd4olgDujeOQejFFDSSAp6i4VKw3NJAA7o3jkHoxRQ0kgKeouFSsNzSQAO6N45B6MUUNJICnqLhuFkttj2kgATymixTqQw0kgPvwoKUuj2kgATymixTqQw0kgPvwoKUuj2kgATymixTqQw0kgDfooKXMvaaBBHCvHZHUnw3SQAJ4g9SVMveaBhLAvXZEUn82SANdANi8gyYzb9pMhW9JbJuvXDzsgYgnrVara/78Bdpss821zTYv13ZLlmiHHXbUTjvt5LKzdtxxp9he4vGkL95sM82bN1+Us5E2zMbqVSwmI03mW+sST0qfnteAU9T5PpqZ8rymzHK1hltqtwtlWbltZjIzj2+HbLXVVnrb296uz3zmMzr99G/onLPP0cUXX6IrrrhSV155lX7/3/8d2+ec83N9/eun61OfOkFvetObtMUWW6rRaCjPcuXeVlEU0U6r1Vbbw8SZZaJt+ZJlmcxMpClOH49Mn57XQNaNHua1mprNpoaHh1WvNzQ0NKQ8z9VutzU4OCSs5x577KETTjhBJ5/8eR1//PE67LDD9cY3vjEs7uLFi8MqL1iwQIs2XSQgX7Jke732ta/Vh4/6sP7zP/+vTjnlFL3nPf9LL3/5K7zeQs5stEF7eZar1WrFrjcccnOQh/1EkkyZQyxfKy19oYGuANwcajpUbZmV1rZer4eyag72dtttp3e84x368Ic/rCOOOEIHHHCA9t13Xy1xF+FlL3uZ5s6d64DXVFlM1rnDTzzp2267rfbcc08ddNBBOvroo/WRj3wkLPLChQujPU4SBIBZU760zu3ROqMz6asvNNAVgIeHmwEhwAISAAMTlvUNb3iDjjzySB1yyCHaa6+93IK+XFhatEle1gBLWdZm5ta1COtKHDCSD6v8lre8JU6Cww8/XG9+85vdj95sFGLqoc1K2KY+LDXhJP2hga4ADCjAhvUDoGF3JYjbfffd9a53vUtvfetb/cJsh7C2qLHKQz4ANTOiQ9gmnQ3qM7NwTXBRaAPLjRXHHXnNa16jTTbZJCwtaWZlXuqgLEJdbFNfkt7XQFcAbjQGtGrVqpCG+6ArV64Ma4ulBGB+7gEQmMwsrCv5EEAHMNIQoANG+QLgWN+BgQEhxFNmyy231D777BMnx9KlS8Oim1n8ClCXmQXUtFkUbaWlfzTQFYCHhgZHfWAgw+99//vfL9yHLbbYwi/s6qNwASSgFv7bbmbhApiVa+BF1YODg2F1zUoozSzqB2jK0sb8+fPDF6YNgOYEom4zixNEvpAfd6aq16PSp8c1MAmAp38Phv2KH1CwjoD1tre9LXxU/FZaMzNWAWsFEyAiJJhZpBEGQvIgZmPxZha+MWWAH8u94447xkgFrgpQU9bMqCaEfFmeS2NRSktva6ArAOd5FhY2d1i4cDv44IO18847a86cOWE55UvAlGXx0242RhTxa0vm+aiLtRcNcFmbleWq/FwMcmH4+te/XoxYmJXp5CUP5Qsfk07DwGikP6QrAGN58Texjttss00Mm+H3AjBiZqM/64BlVm4DmHwhDvFgnAjUgzWt4qpt8mPpWZNO/A477BBWmBOGflCGeOoysxifbic/GHX0hXQFYIBBFi1aJIACIoAGMvnC9rCPTHhQZmNWstoGSMSsTANSXAKzchtrTBx5qjJs0yZt4HO/733vC+tetWtmcTKQP1ng0EJffHUFYDQDXFjAefPmBThmJXykIaSbrRlH/EsR6kTwu7nhwQlEH8zKdgA86i83I5i+elsDXQMYKwk8uAwMeQEWqsL6sq62CU+XUKeZha+N68KIB30gnjYA2MzEH9tJXqIGOlC8awADDT/rAMSa7Wp/K4ir7elcUzcnDENpXEDStpkj60La6v2YznZTXRtHA10BGFDYHWBBqrCZEdxoQrv4wLTJHTncF7OyTbNy2C3LTGa20fqQKp5eDXQNYH6uEaBil8wswDEr18RtDKE9BIhxY8zK9swsmvP7JbFOX/2hge4A7LoBIgBGfDM+ZiVEsbERvswsRh6AV76YWZw0Hoyx46pPrIlL0vsa6ArATsu4mgEcZNzEaYoEXqRqhzBVr34isZ2kPzTQHYBdN2al9asAqoDyJOe7YDXtsjqkhGnTzKKd1cMR0d9fs6b3XQMYDQOv2RhAFVSkbQzhAg4B1qots7H2aXNkk2CSPtBAVwA2K6/4gcisDAMzYmbhp2ojLNytow0A5gIOoQ9sE0+T6SIOLfSPdAVgqbR6GlkAyGzNuJGkaV2ZjbVhNhae1kZSZR3VQJcA7ug+psZmsAYSwDP44M6GXUsAT/dRTvV1VAMJ4I6qOzU23RpIAE+3RlN9HdVAArij6k6NTbcGEsDTrdFUX0c1kAB+yepmPBnZwIoYh65k7aLjxtMGsnbm2b09kwDu+JE0M79rWIqZxRPV3Nlr++286r85qps0Zhb/41Ft51mmWp4rzzKZlWnMnEm5PCOtFvFi8fQss2ir3WaiQnIpLa6BzCV9pqgB/q9iaKhZPsncbseELPGESa1WznLp4OUeBtq2p4MdYcrxMOlQsxmzZJpZlK3V8oCctMHBVV7vcJwUYXc9D+V9JSdbaSk1kAAu9TClb/63AugoDKBhebG+LhEGWg9LJjMLqLM8d0uahZi55ZUC0ngK27f5nwwzi3Tq5/815Eu71QrYPSjjK0loIIvv9DUlDWR5Hk9UAxrgAVlzeDimuSpG4CVOKmRmAWWeZQJKBBciyjnkAExekyK93mio0ahHuLLanCRekedIn0oDCeBKE1NYL3vhBTExIRDyfB0Pi+ZZVoLqcPPAKHC3HOYA1NdAOOzWtAS95WwXqrubMWfu3LDEg0ND7jq4W+LrwcFB4Wa03e+lDerKs8wZtin0dmYWyWbmbnVmr5hNCHDxaZcvX64XX3xRwErrWE2gxZ+t1+oxW2aW56pci8wtcu4+L5aYvMAKoHPnzBHgAy1lscp5nrk1bijPcgF+208E2kgiTQ/As1STwAi8QGtmJWQOKXHAC5CbbbaZtt9+iV71qr21/9vfrg8e/EExKxDv8dh1l11ijrZ6oyGABs5mc9gv5OQQ17y+AVEH6qXOdrsVFrsgIkloIIvv9DUlDQAp1jDLMjHaQBiLyWQtTKzNRN1HHnWUPv7xj7v8Hx1zzDEuR3v44/rkJz+pj3/iE/EqhXe+853ae++9tbnDXqvXvC9FWOoss3AXOFFoixOFdmjPM6WPayAB7EqY6gdgnTDFxZhbYMIvW7zYYXy1PnDwwQHpp084Qcd/6lP62Mc+pve+970CaoA99NDDdKxDfOKJJ+o/jjsu3uXxdrfQu+66qxZuuqla1cWgd85ccDMKdx1yt/AZbXlc+kgJ4IkosNUSVw+PROdZJqKxjGaZlmy3RAd/4GB9/vMn6wunfkFM2s1bkhr1hrIsD3eAfLyJqdkciritttpa++//Dh133H/oc5/7nD76kY9o33321fwFC3zsQuH31r18ntfU9ou5ocEhtVppFvmRQ5AArhQxti403BqWZQrg/MfcwWkpA9bMPNx2gFoyM/GzjmVcuMlCLV26p44//lM69tjj9NrXvs592IZXaV5H3fNm4ddKptxBxMUASur0EbRIy92y7rLLbjrkkEN1wgmf1vvf935ttnjzKC9f8IFpb2BgjsflHpM+aCDjK8maGrDRTb9cik/hkLUdv0LmECOAV0HIzPJHHHG43v3ud4s3iG666aKYQFBeQmssJjMk83XmKeZSfSze3bHlllv5ybBUhx9+hJi5npEO7vbR1oIFm2jIh9eGh1teyFz6//NS9yB7qRXMxPLm1taJDWsr58Q/Kvznu/CdxWpmhtoKt7I1Ldl+e/E6rwMOODDmOuZ9dVhTxLNHHVhpwusT6mbUgdnjX/e617k1PkS7+EgF48vEU2dRtFVw9qyvslmSzpGYJbs6+d3M3MoCa9svmsxMZubQtKMCs3Kbjbnz5umN++0XoGF5gcyMvEWASx7qYD0ZqcBkHJiZM7nY4+RgQm7SsL5YYkCeTH2zIU8CeJyj7Ig6sIUKBzisLVCSLyyfx/saK73dttuKn3kg481Lwz5yAGiVUASrauY1TkLID/DUY2bCfWDkgpc04gNTb+43P6iTvEmkBPA6KAAWrLC5NTYzBciS2j4C0Paf8Xl+65d3N7/yla8MC431RcxMAGZm4a9WYU1yoQ5cBrJjcXfbbTfxajBcCfo0uGowLh5JT5IAHpcBt7GSW1nGscxzAI7z6CGii4CZO2z/tvvu4qd+cHCVan67mAxmFgADLj/1lNUkFzOLk8HMYqSD8oxY4J5wo6OywpOsblZkSxZ4XYfZIZLJOS7CnzXzDY8onOparaatt95a27gs2GQTmWUC2MHBwciLG4AQR/UbAjGQUg/lzExmJk4WIOb/Lup+p878V4H0lyYzo3QCeJzj6NgEOKzbbolxGzxCMvliajQa4h0bmy5apPl+IcdPPmDjuwIuwLL2zBv0oRx1IMDPNhXMmTMnIN5888195MPHlcuOkDTrJZv1GhhHAWbmboLJV2GBW/wTjeTbxFlAhFXczG8b1+v1+PdHTxGvLWCbn34EEM08xUWTWICek2MBd+H8xKEIdVAnrgpvVSK6Apv02S4J4HEIAJAQTzOXRr3hF2+tEDNiJAC1LFPu7gQuhWdb44MFJd7M1oifaIMyZmP52c79Dh0WmBEJThC2J6pjtqUlgNd7xE34nIxIIDaS38xkHg7xsAf/5WNG6r9ETzrCrCwPyJwMiFkZN+lKZnjGBPAMP8AzffcSwF04wqnJ6dNAAnj6dJlq6oIGEsBdUHpqcvo0kACePl2mmrqggQRwF5Sempw+DSSAp0+XqaYuaGCWAdwFDacmN6oGEsAbVb3drXx4uBUTrXD3Ls9rMrMQehX/48H/O/vdxGrbrExvtdrxL5v8YxFpWZ57uTFURusbKUueSqo7mNX2xl6P9Wpjt5Tq77gGarVcPPIPVDwFPTzyD/dmpszFzNcOp9OpWNh2KHMvB6TcASSeR/wp3x55rKrZbGpwcJWGfU3d5DEzr2ZEiOiQJIA7pOhuNBMQOqBtt7Srw2sOKf0hHgHmPHMUikJYZvNE4DXzOA/zYTvLM5EXaOO2upfJXMxM1IOYmcyMIh2RsR52pLnUSCc1EKA5vLQJzEgA5xHABtRYUd8U8cDLNq4DZeHQzMT/YPAvo1hzpzO25wwMCCGN8pRBCEsJYKXlpWsAQIEKcBuNhrI8F5YTOOVgEo/g8/L4Eq4Crdbqrs9nfQAAEABJREFU9fifZ9aAzcQtzNs2ODioIRdciKGhZjwyNTQ0FE+PmJmoC7FsBgKstHRcA2YmAMzyEtymw9Z08AC44ZAyBUC90XBY66o3Gspr5YUeIAMmArjM9yZ3LzgJooyXlZ8KgMwJYmYK2L2diPOLR3VoSS5EhxTdzWYKv/gCQsB11gJqM4uRhlWrVok5iQEx8zj+eR63IPdRC1yGMpy7wbYY0SAf+0J8ldfMVLirgluCGyKHmzydkARwJ7TcxTaAlidKACt3C4mVdRoDXqwl4BG/YP588ZwfTz/vvvvuWrp0D+2+xx7abdddtf3224vZh3h8ysxEXdQb1j3LY+8AG4CBnviI7MBXArgDSu5aEw4boGF98Ur5mc+zLHxW4AVmHo3aZeedte+++4rZMT/wgQ/oiCOO0JFHHqkP+fqDHzxEBx50UMyq+epXv1rbLVkiphQYclcE96Io2rF7hbsYtIGbgXWOyA58JYA7oORuNZFnmbI8X6N5LuyY4ZKLuS0231x77bWXPvrRj+qUU07RSSefrBM/+1kdd9xx+sQnPqFjjz1WJ574GZ180kk65dRTdbKnH3P00QE7vrAcWqwtIxSAS53UjzVWh5asQ+2kZrqggSx3eJ0qgJozZ467poUzV2jBgvnac+lSffKTx+pLX/qSPvShD+lVr3qVtn3FK4QrQV5mwWTNo/zM1Ubaa/bZR0cddZROO+2LOuzww7TtttvGA664DrQx4BeCWOXhVms693bCuhLAE6qnvxPxb+W/61hJhsByB3q++7pLHd7DDjtM73nPQWLCFOYw5qFRgCUP+bPMVK4z4RKQtmjTTUXevV+9t/73MceI+Y933HHHyGdmAlwzi5sd6tCSdaid1EwXNMDPOQMCjBYM+RAaXeCCbP/99w/4mLYKMJ05ia/1iJmfDV4hlna//fbToYceqrf8+7/HHBlRXlKeZR40D3Xmk3WmmdRKNzTAT7s7DaqsKpaUaVsPPPDAGGHAPTAHjr6B3PqEfFysIVhn6nrfe9+r173+9aNWusrDuhOSAO6ElrvUBqMM7vTGHTNcBy7Y3n3AAcJt4GYFY8CsAXIyXSQf4DKasWLlyrC0QHyg18lMnQyh4Qtz4kymvunIkwCeDi32aB1YXLrGhRUA4/fu7RdrjBoAImussxm2l5wTC+O/wJlnWQylrVixIvzf3V75Sr3d3ZKVL74YFVB3BDrwlQDugJK71QTWkLa5AbHV1luLUQTmVwNCXAdAM5sAXq25ZJ6XcsQCPicIayY53O8Nb4jXKuBvUy95OiEJ4E5ouUttNEcu3JhTbeeddooJAvn5xxUAW0AmPNnumZmAmHJY9cbAQPi+myxcKF4PhhtRXhRSuzqyJIA7oubuNAKcPgws3Id/89vDWEvQYk0aoxSsN6R3uBGtVlsMy+Ffm5nqtZo4SZbuuae4wdFu0+qG1Dr1vAngqeuu50vi45pZXMRx02FhzGVscSvZr8DCfzUDAbBev/BvlYXDWa/XNH/efId4SEPNpszrmDN3rnbcYUfFHbmR28udUBC970Q7qY0uaABrad5uvV4XfqmZxZAaFpj4Mk6TXjLLvZ7c85vMTAN+d6+W1yLcaAwIV6Jeb8S2ZOrEknWikdRGdzRQuQfmowZVD8xMZlZtrrYmbmIxs5Gy5uVMeZb7NgiZMstUwlxuq0MLrXWoqdTMBmggZZ2kBhLAk1RUytabGkgA9+ZxSb2apAYSwJNUVMrWmxpIAPfmcUm9mqQGEsCTVFTK1psaSACvfVzSdl9pIAHcV4crdXZtDSSA19ZI2u4rDSSA++pwdbez3NlDJu4Fz4BMnGM6UxPA06nNVFfHNZAA7rjKU4PTqYFeAng69yvVNUs0kACeJQd6pu5mAnimHtlZsl8J4FlyoGfqbiaAZ+qRnSX7lQCeJQd6pu5mCfBM3btZvl/MC8xzcTwKn2dZzLBePS/cbrdlHldtT0ZVZjxKJFGW/Mw7wY2N8tk6k5mJbf8iuSOSAO6ImrvTCIACr5lFB/hGYsO/CCMenPQHQAGXAoSrNVCbURtCbGckAdwZPXelFeYqy/PcDWIRVhNLWXXEzIR1rransqZu6gRkACaMmHUO4gTwVI5cn5QxK0FiPge6jLtQCdtTmdjEzAS48qWCFYARppoizpM69kkAd0zVnW8IcIEU68jcEEBGL8wA24R7IRHWBi2rQ1rVWcXhXlRxG1TpFDMngKeouH4oVviFGjABV61eFyCzDbIwjCVlG5nM/gAndZCXNdus2aYNJtEmbrL1Ue6lSgL4pWqwl8s7pYCFpR1uNgXQVXdxJcxMRdF2YatKWfe6KIo18rJNbtogvGzZsjhJ5PUS3wlJAHdCy11qA3CBCyv5zDPPBFxYX2BD6Fa1Jrw+oS4zapAzuuaayf7++c9/xrxrtKsOLQngDim6G82YlZC9+OKL+ttDDwl/mH5gb8sUOYiZS7WlCRcAxu0gk5mJbTMT75x7/vnn9ZC3MTQ0OOn6NA1LNg11pCp6VANY1+FWS8yk/sjDDwdo+Kit4dYoZHmejYYnsxvUSR1YdcKUwfd96qmn9LC3sXz5irD0xHdCsk40ktroogbcb8UC33PPPbrvvvu0bNlyHwYbO+wAzmTVQLl6L4GzktXjzWzU8mZ+J49y//jHP3TzzTfriSeeiJNEHVzG9qSDjaampkMDk6jDYTOzcB0e+/vfdckll+j++/8S28DJjQychxD/Ig43Y3XrauYJ3hRpCGmVeHRY9wcffFB//vOf9cILLwTA5COtE5IA7oSWu9WGW18zCxdhaHBQl11+ua67/no96T/37XYh/leCrmFJzbIYYcCitn34jXiEMEAihJEKcsJY3zvvvFN33XWXuJAjzpulaEckAdwRNXenEUADyNxvJzP1/9MO7rV/+pP+fOutboWb4avyqi0uwshHLwdG3nthVlpu/FugNDOSA3KAp07K4pZce+21AmIg54ZJnncOq861FLufvjqpgcx9VOADNEA0s7DAF1xwgW5xiPGNeVEL0JmVgFb9M7N4gUuj0QhoORlIq24Xr1y5UldccYV+85vf6IYbbpCZiTcgAXGVl/wbWxLAG1vDXaw/d8ub57XoQbM5HP4qowU33Hijzjn7bF166aUx9AXIzl9ASGYsMu4AIJqZynrySMfPveOOO/Tb3/424L3uuutEneSpThJOHHVoSQB3SNHdaIaLtDzPxLssMl+Hm+AO6t/9gg54zz3vPP36vF+HBX388ccDcPppZgGrGXfqirg5AZyPPPKI/vCHP+g8L3e2nwCEuXlhVuZbvpwRjjwsN/V0QhLAU9ByvxRpDQ8LiBv1elhRXIU8z4XF5abDHx3Gn571UwHjf/3XxfrjH/+ou+++O8ZzGRID9L/+9a+67bbb9Cf3nS+88MLIC8BXX321Hn300YAbN8Os9Jl9FfB3SkcJ4E5pugvt4I8C8SofgVjld+My94nxXQdXrdKAX6zhKvz1/vv14zPP1Be/+EWdeuqp+spXvqJvfetbOuOMM/TjH/9Y3/72tyPu05/+tL761a/qoosuCsCx5gj+NfVwkbjpppv6ybFKtNep3U0Ad0rTXWgH1wGLC7DcPuY/0gANSwx8Q0NNcRE3d84ct6TDeuyxR93S/lHnn/8bnfmTM/UTFy74uEnx5JNPjg6TVVZ2wYL5wvoODQ0J96HRKC29dXBfE8AdVHanm4r/PnPaGDng6QygxSpjic3M3Yu2fIghfvLbRVuDQ4NatnyZnnn2Gb8we9LlKT3r4RUrl6s5PORZ255XLuYiMcIhFcoy88giACdM/erQkgDukKK70UwA5hdtWGGg4sZFxHlnzBw6TwPowuF1DmFxDSlG0kfTvFz1MTO32i2HGoAz8Z44XAl5Zk/ybIXLxv8kgDe+jvukBYCbDuns7vYZwJ1VTmqt9zWQAO79Y5R6OIEGEsATKCcl9b4GEsC9f4xSDyfQQAJ4AuWkpN7XQAK4949R6uEEGpg0wBPUkZKSBrqmgQTwOKpnsN/M4h9g5OP9sS3JzGLgnjtalpVPMDDYL188yb99GH9k8J94JCIn+WW2Wv0ephg3IFhTFzckCCcZ00ACeEwXa4YcoMwlIn18H5C428Q2MFVphBHiK2EbqbY3dE1ZMz9zVitIHH1YLSoFXQMJYFfC2h+zEp62W1M3uXGvH3gss7DCZuWacs42K7LF2qxMM7PY3tAvMxNtaR2L2dTqXUd1fR+dAB7nEJo5JA4vrgOA4i6QDSsYUPuGJ/u35DlHvjS6mJnMSok6qsyjOcYPUD8pZsbKT4oi6mGDehDCKpMjONu/EsDjEVABUshZsZBqpkf8X0ArNPJPLHkuXAuYi/hJwqpJLFV91Zq23cueRMmeyrJRO5Nt1Nr7tXIHF0sLpIDpBKv6Ty7zfRr9ifdEtj3KP2Wogs0j4mNmMrMIr+/LzEbzUk+VnzDwlv/t5XlkVdKsXyeAx0EAYIq244s1dajIUgYtRiYYDeBJB6Air0YWwpWMRE1pZVaORpiZzCz+bZGHLHn6QW75p1TpDC2UAB7nwI5C6NQ6QmUOU8DLP4c72vEAJI/pMC0T+clkZqzWELN/jVsjwwQbZmVZLC9PPDDH2agfPEG52ZSUAB7naJuZzEcc3PxFKoCah/Is8yjT4KpB8YjNc88/rxdXroxJQjw50szIyVYplC1DG/ZduSmU5yFMpkd97rnnxOPxnEAbVtvMzZ3N3F2b+p7hIuRZHkACEFbP3WKv0OJVVTwYCcDMkcDPOvMneGJ84NdsDGLKI5G4ni/aabdbI4/qlJmxvitWLBfw0h7bhbs3Sq5EKCgBHGpY8wuQAjqnlrBk/peJCzu4wTrySPlDf/ubnn/hBVmGGj2zJwLz8HDTh8DaIcyX23YoAa4o2l5HS4TXFtLMFP5uszkUeSiX+S8Bj7ffeust4leBbTPP6DnW+5kFGdD8LNjNDdlFU9stHOIusEMoh9dkZiVzUvjCWMTbb79df3/sMWWexgUdwPHzPtwaFuDKPHMlDndVAbCGjMaV8Hs1MjNvsx3l2w78c889q3vuvUe333G7Fy8ExEadXnX6SAngdVHglJjZv6SWUDumHrj11lt15113iXdDYDWBmKd/KdRsNkVp5l8A8MIjzUwR9rJFJRpZPI24PM+U12oxtwLvtWBSkZtuuklPxvT9wzGcR76RUrN+lQAeBwEzC9C01gI4jq5bSIxhofvvv1/XXH21brzxRrfa7RAgZq6EBQsWRGnGj7nwYtgNiInMskwh3g6Qt9vtEdehGeBSZsH8+cJ1OP/8872Na8JWUycuSqvVppokroEEsCth7Y+ZY+ViZjKzSK7gg97CcQJmwAPec845RzfdfLPablWzLFfhQA4NNd0NGJI5rPV6LdwOKqIMEDL8xt096s08T+539BCmgfJqYtqmn/70p7r2uut8yG65sOyMemDRa14fdSWREsDroMCIt/gmhMl1bMugnJlhwmUAAArzSURBVDAABjxmZmTesF/8/Oe63mF7/vnnAvo8dyvrUFKDmUWceXEz87CnObS4Ex4loG4ODREUNyweePABYXl/97vf6Yl//MObKzTkLgkuhZmXl0Xe9KUE8EQQ2NqJgLt6nMPU9gs+JsK77LLL9Ktf/SomyHv00UcDRMrjUrTdIgM8a6TwizPSzPjm3Ch8fLcZM+FwYXjZpZfq/AsuEBPrMWSHpcatyP2EqMqv3o3ZHE4WeAOPfokchSwuqPJaHv4s04xecOGF4mcfy8ksj4+79Xzeb3YwVsxFHa7DqLRaGnKru2LFCnGTgpOAuXbPPfdc/fKXv9Ttt90WfjF5KFOvN5T7xV3bT5jCTyR6kETJAk8EwdqgmNlIdlMVBLC2W9hFixYJa8ms5d/93vf0zW9+Uz8766yYCZ3XTzHshjXGh50zZ47wk4H2+uuvFz70N7/5/3T66aeHFb/33nvDIgM+PjKT7w3MGdDyZcs0MNAQt7NHOjLrV9ms18A4CgDcysgB0BpZnFz/RJSZaaDRcJhNWOCmX7hhLXkn2zXXXBMzmH/ta1/Tl7/8ZZ122mk66aST9NnPflZMVXriiSfqC184Td9waM/2i8BLLrnYx3vvjSE5TgjqqdXq4uINv5hb1ptvsYW4rYw1jw6kr2SB181Aia55BjMLSD3oDmt8j36RK4CPmEKEscrPPvusHnjwQeHTcpGHZb700sviVVe4GJdffrmuuebqeL8avu4/n3xSQIqVpg4z2vTm/Exi2zsgrHY0k75GNZCNhlJgkhooBFCVcHFFuFGvO2MWaWYWdQ2uWqWm+7nc6MDPfeqpJ8X/UDz99NMCcPxj/suMV2B5wShDXUjmoxSsscZmpjzL4sKQeLOyfqVlBlrgdFBnlQaSBZ5Vh3vm7WwCeOYd01m1RwngWXW4Z97OJoBn3jGdVXuUAJ5Vh3vm7ex0AjzztJP2qOc1kADu+UOUOjiRBhLAE2knpfW8BhLAPX+IUgcn0kACeCLtpLSe10ACuOcP0Wzo4NT3MQE8dd2lkj2ggQRwDxyE1IWpayABPHXdpZI9oIEEcA8chNSFqWsgATx13aWSPaCBBHAPHIRudqHf2+4KwNVzXyivemSG8OpC/Orb0xGmTh7TMbN4/IfHcxDqrvpkZpJ/lJa+0EBXAIYRtANMFVSrh6s04ghPVSi/tpiZiOOpX9bUTR9Y53keaWNT8BCbpJc10BWABwYGQicVRKyBCKAQEoHJbHpNIXVicbG2TCjCvAs8ss42aczXwCPr9IU+JOl9DXQFYCBFzCwm6ajX62H5gAuQSANq1htDhdQLqDwpzCPwtGFmMrOYp4ztJP2hga4AzER1ZhYawgqamQC2snwVYKwj0zR9UR/gYnVpl5lxsL6cOLQNzLVaLUCepiZTNRtZA10BmAk6sLTAxPwIQIRUEJuVltmshHw6dQDEzNPw4IMPxtwMbNMX1vSnVss7BPB07tXsrasrAGPxzCzmEsMKMrmHWQkrIHM4cCvMyji2p0PMyvqYBuraa68VVtjMYnI++QLEZpYAdl30y6crAJtl4WsyGR7z6/LCFDMT0KK4CmLC0ykACrRM5XTVVVeF313Vz0mF+8Ds5+Sr4tO6tzXQFYBRCe4CvigXUswbxnRLxAMS/ujGgIg2gZcZIXk9gJnR5BogK42hhU765asrAOd52SxAMVfYhRdeqLvvLl+WkmWmLCst9HRDjKtyxx13iBenYOU5UeQL7bCNZFkulVwrLb2vgZKkLvSTi6XMYX3hhefFO9CwwkAMZBjGwcFVahdtt45ttdutkGJku1qX1pLJ9sbyVHGsqYc15ZvDTd155x266aYb9fDDD/keF36iWNRPfeTNck6clhdhzknPkj49r4EuAFyo1RoWwABxURRatuwF/f73l+uKK6/Q/ff/JWZhBLpiFFiHNH7aAcvDXqZwwYJSVxWOMpFPDnw74CRu5coVevihh3TllVfqlltu1tPPPO1phfvctdF8ucNb9xGIqr6eP3Kpg6GBLgAsMVzFxZRkWrhwE82bN0933XWXLrroIjFv7mOPPaq5c+cqc8rNTMCVZ5nM/LfdJct87aAOu1VdtWrQYWx7mlR+yVMKb2PIT5SWjzQM6uFHHtFvf3uhA3yFmP0cK8/Jk+d5FInTwk8ITgTLMqWlfzTQlaNVbzRU87tv/KwvW75cea2muQ7xvffco7PPPltnnHGGHnvsMTEbedvBki/ABfjMpYvvbGZuQRsO/1zxEhTPIrAmfXBwULVanSj97W8P6he/+IVO/8Y3dONNN7m1X6bMy9ImNy6os5rjlwKMhGQJYlTRF9IdgB1YIHLTWSrJIW213Fo6eIB75ZVX6RsOHENdf7nvPj39zDPxU5+7xQR8AMNq4h4AYJ5l7s9mMsOnLfTiypW6556742T4+tfL904w2TRt1hsNB7+uot0O68yJQX0IYU6CslPpux80kHWjk1hVM1OW5wEdt5Z5BxqAYRUfeOCvuuCCC3TmT34SL0C55OKLdd311+s+h5l3Ez/51FPxZp9nnn1WDL9xY4IXqdx1191iiOySSy7ROT//ebzt53/+5yo99uij7lI0oy3aAH6seNt97JqfTFhd85OAuGE/kQBZaekLDXQFYGBFO3mWuSUsxDT8AISF5cJs2bJleuKJf+p3gHjOOTrrZz/T2T87W7z879JLL9U1V18t7qTd4FDfcMMNuuaaa+LdE+edd67OOutn+vGZZ8bbfniLJtP41xsNDQ4Nxf9bYOl57Svt5FkW1jjPa+44F5FOPIArLX2hgQ4DXOoEC2fmP/e+2YoRCdM8v2gDYFwCIFq8+GV+MSb9/fHHw6r++tfn6Yc//KG++93v6jvf+Y6+/73v6Qe+/aMf/Ujf//73I+4HP/iBznWIb73llngXBRdrK1asjPexzZ83X5Wb4M1GmPboCxeDWF/ieSuQWXIk0EU/SFcA5mc7QPWf6wULFmje/Pl67rnnwgLyvrXFixeLt/bkWSYg48KMf/p53GF+4IEHdaePWNx88826/rrrwhL/+bbbRNqqeKlKU8tXrIiXEOIa1Os1t/JtDfuJQl340LSPYGlxWZrDw3Gs6n5hmbs1NksAh0L64KsrAAOSmQmrx4gBF1QN/5lHX2yv8os5YHKnVaCE5QQ4ymGxuUjDzeCf0ivXYOXKF8WoRc3HcnkxICcIYFIPw3RcxBFXuQ+0Rd1mJqwu+agfa0x/SE/S+xroCsD8bJuZzCyGwFpuiYHHzDTsYXxkoJKPTmAlK/+4ykMcdSDmOkYUDgcbJvKbmUcVXgW5y3jyry4eq9G8vkFae6RN30yfPtBAVwAGWHQDkHnmF3IODX4vcYwSmLl/7HEA5QSOgkge4hzNgJ/8xFEfdWGlGdPlopBthDSset1HG9g2ozRVlmCzRZ3kQ6J9Kk7SFxroCsB9oZnUyd7SwDp6kwBeh2JSdH9oIAHcH8cp9XIdGkgAr0MxKbo/NJAA7o/jlHq5Dg0kgNehmBTdHxpIAPfHcepmL3u67QRwTx+e1Ln1aSABvD4NpfSe1kACuKcPT+rc+jSQAF6fhlJ6T2sgAdzThyd1bn0aSACvT0PdTE9tr1cDCeD1qihl6GUNJIB7+eikvq1XAwng9aooZehlDSSAe/nopL6tVwMJ4PWqKGXoZQ0kgMc/Oim2TzSQAO6TA5W6Ob4GEsDj6yXF9okGEsB9cqBSN8fXQAJ4fL2k2D7RQAK4Tw5U6ub4Gvj/AAAA//8gF6dlAAAABklEQVQDAHUsydk+44IzAAAAAElFTkSuQmCC",
+    "x": 386,
+    "y": 143,
+    "w": 18.25,
+    "h": 24.68
+   }
+  ],
+  "guides": []
+ },
+ "rear": {
+  "items": [
+   {
+    "kind": "port",
+    "ref": "g0:0",
+    "x": 412,
+    "y": 155,
+    "rot": 90
+   },
+   {
+    "kind": "port",
+    "ref": "g2:0",
+    "x": 306.5,
+    "y": 46,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g2:1",
+    "x": 320,
+    "y": 54,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g2:2",
+    "x": 306.5,
+    "y": 61.5,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g2:3",
+    "x": 320,
+    "y": 69.5,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g2:4",
+    "x": 306.5,
+    "y": 77,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g2:5",
+    "x": 320,
+    "y": 85,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g2:6",
+    "x": 306.5,
+    "y": 92.5,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g2:7",
+    "x": 320,
+    "y": 100,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g2:8",
+    "x": 306.5,
+    "y": 107.5,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g2:9",
+    "x": 320,
+    "y": 114.75,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g2:10",
+    "x": 306.5,
+    "y": 122.75,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g2:11",
+    "x": 320,
+    "y": 129.88,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g2:12",
+    "x": 306.5,
+    "y": 138.13,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g2:13",
+    "x": 320,
+    "y": 145.69,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g2:14",
+    "x": 306.5,
+    "y": 153.38,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g2:15",
+    "x": 320,
+    "y": 161.19,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g3:0",
+    "x": 249,
+    "y": 63,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g6:0",
+    "x": 277.5,
+    "y": 63,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g4:0",
+    "x": 249,
+    "y": 109,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g4:1",
+    "x": 277.5,
+    "y": 109,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g9:0",
+    "x": 346.5,
+    "y": 63,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g9:1",
+    "x": 375,
+    "y": 63,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g10:0",
+    "x": 346.5,
+    "y": 107.5,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g10:1",
+    "x": 375,
+    "y": 107.5,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g11:0",
+    "x": 412,
+    "y": 54,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g12:0",
+    "x": 412,
+    "y": 87.5,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g7:0",
+    "x": 412,
+    "y": 118.5,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g5:0",
+    "x": 249,
+    "y": 157,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g5:1",
+    "x": 277.5,
+    "y": 157,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g8:2",
+    "x": 15.5,
+    "y": 106,
+    "rot": 90
+   },
+   {
+    "kind": "port",
+    "ref": "g8:3",
+    "x": 28.5,
+    "y": 106,
+    "rot": 90
+   },
+   {
+    "kind": "port",
+    "ref": "g8:4",
+    "x": 41.5,
+    "y": 106,
+    "rot": 90
+   },
+   {
+    "kind": "slot",
+    "slot": "vfc-slot",
+    "idx": 0,
+    "x": 55,
+    "y": 46,
+    "w": 40,
+    "h": 130
+   },
+   {
+    "kind": "slot",
+    "slot": "vfc-slot",
+    "idx": 1,
+    "x": 95,
+    "y": 46,
+    "w": 40,
+    "h": 130
+   },
+   {
+    "kind": "slot",
+    "slot": "vfc-slot",
+    "idx": 2,
+    "x": 134.5,
+    "y": 46,
+    "w": 40,
+    "h": 130
+   },
+   {
+    "kind": "slot",
+    "slot": "vfc-slot",
+    "idx": 3,
+    "x": 174.5,
+    "y": 46,
+    "w": 40,
+    "h": 130
+   }
+  ],
+  "guides": []
+ },
+ "model3d": {
+  "body": "#2B2F36",
+  "panel": "#23262C",
+  "ears": true,
+  "earColor": "#3A3E46",
+  "handles": "front",
+  "handleColor": "#000000",
+  "feet": false,
+  "bodyW": null
+ },
+ "src": [
+  "https://disguise.one/sites/default/files/2024-08/Disguise%20VX%204%2B%20technical%20specs.pdf",
+  "https://www.disguise.one/sites/default/files/2024-11/VX%204%2B%20architectural%20spec.pdf"
+ ],
+ "confidence": "partial",
+ "notes": "Typical power, PSU count/redundancy not stated (peak 785 W). Mgmt port connector unknown; USB type assumed. Optical ADAT/S-PDIF (Toslink), headphone jack and LTC/VITC timecode inputs not modelled (no connector id). Width with rack handles 483 mm.",
+ "family": "",
+ "pools": [],
+ "author": "vbs",
+ "v": 12,
+ "updated": "2026-10-30T18:37:45.256Z"
+}

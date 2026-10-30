@@ -1,0 +1,87 @@
+{
+ "id": "briteq-pd-32sh",
+ "brand": "Briteq",
+ "model": "PD-32SH/GE",
+ "category": "distro",
+ "dims": {
+  "w": 482.6,
+  "h": 133.4,
+  "d": null,
+  "u": 3,
+  "rack": "19"
+ },
+ "kg": 8.8,
+ "power": {
+  "typW": null,
+  "maxW": 22080,
+  "psu": 1,
+  "redundant": false,
+  "connector": "p17-32-3p"
+ },
+ "ports": [
+  {
+   "group": "Outputs 16A",
+   "label": "Schuko",
+   "count": 6,
+   "start": 1,
+   "signal": "ac230",
+   "connector": "schuko",
+   "dir": "out",
+   "side": "front",
+   "note": "2 per phase; C16 1P+N MCB each; common 30 mA 4P RCCB",
+   "pool": ""
+  },
+  {
+   "group": "Multicore",
+   "label": "Socapex",
+   "count": 1,
+   "start": 1,
+   "signal": "ac230",
+   "connector": "socapex19",
+   "dir": "out",
+   "side": "front",
+   "note": "19-pin round, 6 circuits (pins 1-18); shares the 6 C16 circuits; common 30 mA RCCB",
+   "pool": ""
+  },
+  {
+   "group": "Multicore",
+   "label": "Harting 16",
+   "count": 1,
+   "start": 1,
+   "signal": "ac230",
+   "connector": "harting16",
+   "dir": "out",
+   "side": "front",
+   "note": "16-pin rectangular, 6 circuits; shares the 6 C16 circuits",
+   "pool": ""
+  },
+  {
+   "group": "Thru",
+   "label": "CEE 32A thru",
+   "count": 1,
+   "start": 1,
+   "signal": "ac400",
+   "connector": "p17-32-3p",
+   "dir": "out",
+   "side": "front",
+   "note": "feed-through to next unit; behind 32A 4P general breaker + 30 mA RCCB",
+   "pool": ""
+  }
+ ],
+ "slots": [],
+ "cards": [],
+ "cardsFrom": null,
+ "front": null,
+ "rear": null,
+ "model3d": null,
+ "src": [
+  "https://prozic.com/www2/media/files/P/D/558785.pdf"
+ ],
+ "confidence": "partial",
+ "notes": "Input CEE 32A 5p on 1.5 m cable, 3x32 A 400 V. Dimensions only in drawings (not extracted); width = 19\" nominal. Breaker curve letter and RCD type (A/AC) not stated. Socket variants /FR, /GE (Schuko), /SA. Source is Briteq (Beglec) manual hosted by a reseller.",
+ "family": "",
+ "pools": [],
+ "author": "vbs",
+ "v": 1,
+ "updated": null
+}

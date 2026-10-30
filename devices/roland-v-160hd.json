@@ -1,0 +1,171 @@
+{
+ "id": "roland-v-160hd",
+ "brand": "Roland",
+ "model": "V-160HD",
+ "category": "switcher",
+ "dims": {
+  "w": 480,
+  "h": 103,
+  "d": 253,
+  "u": null,
+  "rack": null
+ },
+ "kg": 3.9,
+ "power": {
+  "typW": null,
+  "maxW": 55,
+  "psu": 1,
+  "redundant": false,
+  "connector": null
+ },
+ "ports": [
+  {
+   "group": "Inputs",
+   "label": "HDMI In",
+   "count": 8,
+   "start": 1,
+   "signal": "hdmi14",
+   "connector": "hdmi",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Inputs",
+   "label": "SDI In",
+   "count": 8,
+   "start": 1,
+   "signal": "sdi3g",
+   "connector": "bnc",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Outputs",
+   "label": "HDMI Out",
+   "count": 3,
+   "start": 1,
+   "signal": "hdmi14",
+   "connector": "hdmi",
+   "dir": "out",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Outputs",
+   "label": "SDI Out",
+   "count": 3,
+   "start": 1,
+   "signal": "sdi3g",
+   "connector": "bnc",
+   "dir": "out",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Sync",
+   "label": "Reference",
+   "count": 1,
+   "start": 1,
+   "signal": "genlock",
+   "connector": "bnc",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Control",
+   "label": "LAN",
+   "count": 1,
+   "start": 1,
+   "signal": "eth1g",
+   "connector": "rj45",
+   "dir": "io",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Control",
+   "label": "RS-232",
+   "count": 1,
+   "start": 1,
+   "signal": "rs232",
+   "connector": "db9",
+   "dir": "io",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Control",
+   "label": "Tally/GPIO",
+   "count": 1,
+   "start": 1,
+   "signal": "gpio",
+   "connector": null,
+   "dir": "io",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Control",
+   "label": "USB Memory",
+   "count": 1,
+   "start": 1,
+   "signal": "usb",
+   "connector": "usb-a",
+   "dir": "io",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Control",
+   "label": "USB Stream",
+   "count": 1,
+   "start": 1,
+   "signal": "usb",
+   "connector": "usb-c",
+   "dir": "io",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Audio",
+   "label": "Audio In",
+   "count": 2,
+   "start": 1,
+   "signal": "audio-analog",
+   "connector": "xlr3",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  }
+ ],
+ "slots": [],
+ "cards": [],
+ "cardsFrom": null,
+ "front": null,
+ "rear": null,
+ "model3d": null,
+ "src": [
+  "https://proav.roland.com/global/products/v-160hd/specifications/"
+ ],
+ "confidence": "partial",
+ "notes": "Desktop switcher, rack-mount angles included (U not stated; 103 mm height). HDMI version not stated (1080p device, mapped hdmi14). Any output (HDMI/SDI/USB) can carry multiview (3 types). Reference = single BNC IN/THRU. LAN is 100BASE-TX (mapped eth1g). Tally/GPIO is DB-25F (16 tally/GPO + 8 GPI) - no connector id, null. Audio In 1-2 combo XLR/TRS w/ phantom; RCA in, XLR/RCA out, phones and CTL/EXP jack not modelled. External AC adaptor (55 W, 2.5 A). Panel side assumed rear.",
+ "family": "",
+ "pools": [],
+ "author": "vbs",
+ "v": 1,
+ "updated": null
+}

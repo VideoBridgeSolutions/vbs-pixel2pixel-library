@@ -1,0 +1,169 @@
+{
+ "id": "green-hippo-hippotizer-boreal-plus-mk2",
+ "brand": "Green Hippo",
+ "model": "Hippotizer Boreal+ MK2",
+ "category": "media-server",
+ "dims": {
+  "w": 425,
+  "h": 177.8,
+  "d": 630,
+  "u": 4,
+  "rack": "19"
+ },
+ "kg": 27,
+ "power": {
+  "typW": null,
+  "maxW": null,
+  "psu": 1,
+  "redundant": false,
+  "connector": "powercon-true1"
+ },
+ "ports": [
+  {
+   "group": "Video outputs",
+   "label": "Out",
+   "count": 4,
+   "start": 1,
+   "signal": "hdmi20",
+   "connector": "hdmi",
+   "dir": "out",
+   "side": "rear",
+   "note": "HDMI 2.0 variant; DP 1.2 variant also exists; genlock + software EDID on all outputs",
+   "pool": ""
+  },
+  {
+   "group": "Control outputs",
+   "label": "Control DP",
+   "count": 1,
+   "start": 1,
+   "signal": "dp12",
+   "connector": "dp",
+   "dir": "out",
+   "side": "rear",
+   "note": "ZooKeeper control output 1",
+   "pool": ""
+  },
+  {
+   "group": "Control outputs",
+   "label": "Control HDMI",
+   "count": 1,
+   "start": 1,
+   "signal": "hdmi20",
+   "connector": "hdmi",
+   "dir": "out",
+   "side": "rear",
+   "note": "ZooKeeper control output 2",
+   "pool": ""
+  },
+  {
+   "group": "Network",
+   "label": "1G",
+   "count": 2,
+   "start": 1,
+   "signal": "eth1g",
+   "connector": null,
+   "dir": "io",
+   "side": "rear",
+   "note": "connector not stated",
+   "pool": ""
+  },
+  {
+   "group": "Network",
+   "label": "10G",
+   "count": 2,
+   "start": 1,
+   "signal": "eth10g",
+   "connector": null,
+   "dir": "io",
+   "side": "rear",
+   "note": "connector not stated",
+   "pool": ""
+  },
+  {
+   "group": "USB",
+   "label": "USB rear",
+   "count": 4,
+   "start": 1,
+   "signal": "usb",
+   "connector": "usb-a",
+   "dir": "io",
+   "side": "rear",
+   "note": "USB 3",
+   "pool": ""
+  },
+  {
+   "group": "USB",
+   "label": "USB front",
+   "count": 2,
+   "start": 1,
+   "signal": "usb",
+   "connector": "usb-a",
+   "dir": "io",
+   "side": "front",
+   "note": "USB 3.1 5 Gb/s",
+   "pool": ""
+  },
+  {
+   "group": "Audio",
+   "label": "Audio in",
+   "count": 2,
+   "start": 1,
+   "signal": "audio-analog",
+   "connector": "xlr3",
+   "dir": "in",
+   "side": "rear",
+   "note": "balanced stereo; LTC over audio input supported",
+   "pool": ""
+  },
+  {
+   "group": "Audio",
+   "label": "Audio out",
+   "count": 2,
+   "start": 1,
+   "signal": "audio-analog",
+   "connector": "xlr3",
+   "dir": "out",
+   "side": "rear",
+   "note": "balanced stereo",
+   "pool": ""
+  },
+  {
+   "group": "Power",
+   "label": "Power loop",
+   "count": 1,
+   "start": 1,
+   "signal": "ac230",
+   "connector": "powercon-true1",
+   "dir": "out",
+   "side": "rear",
+   "note": "TRUE1 loop-through, 1000 W max",
+   "pool": ""
+  }
+ ],
+ "slots": [
+  {
+   "id": "capture-card-slot",
+   "type": "capture-card-slot",
+   "label": "Capture card slot",
+   "count": 2,
+   "def": null,
+   "note": "options: LTC in, extra 10G network, AV-SDI, dual DVI-SL, dual/quad 3G-SDI, dual HDMI 2.0"
+  }
+ ],
+ "cards": [],
+ "cardsFrom": null,
+ "front": null,
+ "rear": null,
+ "model3d": null,
+ "src": [
+  "https://www.green-hippo.com/boreal/",
+  "https://www.green-hippo.com/wp-content/uploads/2023/10/Hippotizer_BorealMK2_Specsheet_Web.pdf"
+ ],
+ "confidence": "partial",
+ "notes": "Height not stated (4U => 177.8 mm nominal). Width 480 mm / depth 660 mm with ears. Max consumption 1000 VA (W not stated), 100-250 V. PSU count not stated. Network connectors not stated. No separate genlock input listed (genlock stated on all outputs).",
+ "family": "",
+ "pools": [],
+ "author": "vbs",
+ "v": 1,
+ "updated": null
+}

@@ -1,0 +1,111 @@
+{
+ "id": "blackmagic-videohub-40x40-12g",
+ "brand": "Blackmagic Design",
+ "model": "Videohub 40x40 12G",
+ "category": "matrix",
+ "dims": {
+  "w": 482.6,
+  "h": 88.9,
+  "d": null,
+  "u": 2,
+  "rack": "19"
+ },
+ "kg": null,
+ "power": {
+  "typW": null,
+  "maxW": 46.5,
+  "psu": 2,
+  "redundant": false,
+  "connector": "iec-c14"
+ },
+ "ports": [
+  {
+   "group": "Inputs",
+   "label": "In",
+   "count": 40,
+   "start": 1,
+   "signal": "sdi12g",
+   "connector": "bnc",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Outputs",
+   "label": "Out",
+   "count": 40,
+   "start": 1,
+   "signal": "sdi12g",
+   "connector": "bnc",
+   "dir": "out",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Sync",
+   "label": "Ref In",
+   "count": 1,
+   "start": 1,
+   "signal": "genlock",
+   "connector": "bnc",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Sync",
+   "label": "Ref Loop",
+   "count": 1,
+   "start": 1,
+   "signal": "genlock",
+   "connector": "bnc",
+   "dir": "out",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Control",
+   "label": "Ethernet",
+   "count": 1,
+   "start": 1,
+   "signal": "eth1g",
+   "connector": "rj45",
+   "dir": "io",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Control",
+   "label": "USB-C",
+   "count": 1,
+   "start": 1,
+   "signal": "usb",
+   "connector": "usb-c",
+   "dir": "io",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  }
+ ],
+ "slots": [],
+ "cards": [],
+ "cardsFrom": null,
+ "front": null,
+ "rear": null,
+ "model3d": null,
+ "src": [
+  "https://www.blackmagicdesign.com/products/blackmagicvideohub/techspecs"
+ ],
+ "confidence": "partial",
+ "notes": "Substituted for 'Smart Videohub 12G 40x40' (discontinued, no longer on BMD tech-spec pages); current successor 'Blackmagic Videohub 40x40 12G' with built-in front control panel/LCD. 46.5 W max, 2 internal PSUs (redundancy not stated). BMD says 'IEC power cables' -> C14 inlet inferred. Ref out is a terminating loop. Dimensions/weight only as image - null.",
+ "family": "",
+ "pools": [],
+ "author": "vbs",
+ "v": 1,
+ "updated": null
+}

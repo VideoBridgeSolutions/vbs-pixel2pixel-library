@@ -1,0 +1,125 @@
+{
+ "id": "netgear-m4250-26g4f-poeplus",
+ "brand": "NETGEAR",
+ "model": "M4250-26G4F-PoE+ (GSM4230P)",
+ "category": "network",
+ "dims": {
+  "w": 440,
+  "h": 43.2,
+  "d": 257,
+  "u": 1,
+  "rack": "19"
+ },
+ "kg": 4.3,
+ "power": {
+  "typW": 35.8,
+  "maxW": 401,
+  "psu": 1,
+  "redundant": false,
+  "connector": "iec-c14"
+ },
+ "ports": [
+  {
+   "group": "PoE+ 1G",
+   "label": "Port",
+   "count": 24,
+   "start": 1,
+   "signal": "eth1g",
+   "connector": "rj45",
+   "dir": "io",
+   "side": "rear",
+   "note": "802.3at PoE+, 30 W/port",
+   "pool": ""
+  },
+  {
+   "group": "1G",
+   "label": "Port",
+   "count": 2,
+   "start": 25,
+   "signal": "eth1g",
+   "connector": "rj45",
+   "dir": "io",
+   "side": "rear",
+   "note": "non-PoE",
+   "pool": ""
+  },
+  {
+   "group": "SFP",
+   "label": "SFP",
+   "count": 4,
+   "start": 27,
+   "signal": "eth1g",
+   "connector": "sfp",
+   "dir": "io",
+   "side": "rear",
+   "note": "1000BASE-X",
+   "pool": ""
+  },
+  {
+   "group": "Management",
+   "label": "OOB",
+   "count": 1,
+   "start": 1,
+   "signal": "eth1g",
+   "connector": "rj45",
+   "dir": "io",
+   "side": "rear",
+   "note": "out-of-band management",
+   "pool": ""
+  },
+  {
+   "group": "Management",
+   "label": "Console RJ45",
+   "count": 1,
+   "start": 1,
+   "signal": "rs232",
+   "connector": "rj45",
+   "dir": "io",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Management",
+   "label": "Console USB-C",
+   "count": 1,
+   "start": 1,
+   "signal": "usb",
+   "connector": "usb-c",
+   "dir": "io",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Management",
+   "label": "USB storage",
+   "count": 1,
+   "start": 1,
+   "signal": "usb",
+   "connector": "usb-a",
+   "dir": "io",
+   "side": "front",
+   "note": "",
+   "pool": ""
+  }
+ ],
+ "slots": [],
+ "cards": [],
+ "cardsFrom": null,
+ "front": null,
+ "rear": null,
+ "model3d": null,
+ "src": [
+  "https://assets.netgear.com/asset/7fe3c89e-a3e1-40d0-ab46-43f16f5bb48e/M4250_Datasheet.pdf",
+  "https://auroramultimedia.com/products/m4250-26g4f-poe-gsm4230p",
+  "https://kb.netgear.com/000064904/NETGEAR-AV-Line-of-Fully-Managed-Switches-M4250-Series"
+ ],
+ "confidence": "partial",
+ "notes": "AV Line. PoE budget 300 W. Power consumption (35.8 W no PoE / 401 W full PoE) from a reseller page (Aurora), not in the NETGEAR datasheet. Internal fixed PSU, C14. Ports on rear (reversible mount). Port numbering order assumed.",
+ "family": "",
+ "pools": [],
+ "author": "vbs",
+ "v": 1,
+ "updated": null
+}

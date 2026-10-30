@@ -1,0 +1,168 @@
+{
+ "id": "avstumpfl-pixera-four-gen2",
+ "brand": "AV Stumpfl",
+ "model": "PIXERA four Gen.2",
+ "category": "media-server",
+ "dims": {
+  "w": 437,
+  "h": 176,
+  "d": 533,
+  "u": 4,
+  "rack": "19"
+ },
+ "kg": 19.6,
+ "power": {
+  "typW": null,
+  "maxW": 1600,
+  "psu": 1,
+  "redundant": false,
+  "connector": null
+ },
+ "ports": [
+  {
+   "group": "Video outputs",
+   "label": "Out",
+   "count": 4,
+   "start": 1,
+   "signal": "dp20",
+   "connector": "dp",
+   "dir": "out",
+   "side": "rear",
+   "note": "DisplayPort 2.1b, max 5120x2880; 1-2 (Dual) / 3-4 (Quad) licensed",
+   "pool": ""
+  },
+  {
+   "group": "GUI outputs (optional)",
+   "label": "GUI",
+   "count": 4,
+   "start": 1,
+   "signal": "dp14",
+   "connector": "mini-dp",
+   "dir": "out",
+   "side": "rear",
+   "note": "standard GUI option 4x mDP 1.4",
+   "pool": ""
+  },
+  {
+   "group": "Network",
+   "label": "10G",
+   "count": 2,
+   "start": 1,
+   "signal": "eth10g",
+   "connector": null,
+   "dir": "io",
+   "side": "rear",
+   "note": "standard; options 4x 1G or 2x 25G; connector not stated",
+   "pool": ""
+  },
+  {
+   "group": "Network",
+   "label": "IPMI",
+   "count": 1,
+   "start": 1,
+   "signal": "eth1g",
+   "connector": null,
+   "dir": "io",
+   "side": "rear",
+   "note": "IPMI LAN",
+   "pool": ""
+  },
+  {
+   "group": "USB",
+   "label": "USB3 front",
+   "count": 2,
+   "start": 1,
+   "signal": "usb",
+   "connector": "usb-a",
+   "dir": "io",
+   "side": "front",
+   "note": "type A assumed",
+   "pool": ""
+  },
+  {
+   "group": "USB",
+   "label": "USB-C front",
+   "count": 1,
+   "start": 1,
+   "signal": "usb",
+   "connector": "usb-c",
+   "dir": "io",
+   "side": "front",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "USB",
+   "label": "USB3 rear",
+   "count": 6,
+   "start": 1,
+   "signal": "usb",
+   "connector": "usb-a",
+   "dir": "io",
+   "side": "rear",
+   "note": "type A assumed",
+   "pool": ""
+  },
+  {
+   "group": "USB",
+   "label": "USB-C rear",
+   "count": 2,
+   "start": 1,
+   "signal": "usb",
+   "connector": "usb-c",
+   "dir": "io",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Audio",
+   "label": "Audio out",
+   "count": 2,
+   "start": 1,
+   "signal": "audio-analog",
+   "connector": "xlr3",
+   "dir": "out",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Sync",
+   "label": "Timecode in",
+   "count": 2,
+   "start": 1,
+   "signal": "ltc",
+   "connector": "xlr3",
+   "dir": "in",
+   "side": "rear",
+   "note": "SMPTE timecode on XLR",
+   "pool": ""
+  }
+ ],
+ "slots": [
+  {
+   "id": "capture-option",
+   "type": "capture-option",
+   "label": "Capture option",
+   "count": 1,
+   "def": null,
+   "note": "optional HDMI 2.0 / HDMI 2.1 / 3G-SDI / 12G-SDI inputs; genlock/framelock optional"
+  }
+ ],
+ "cards": [],
+ "cardsFrom": null,
+ "front": null,
+ "rear": null,
+ "model3d": null,
+ "src": [
+  "https://pixera.helpjuice.com/pixera-server-specifications/pixera-four-gen2-basic-technical-specifications"
+ ],
+ "confidence": "partial",
+ "notes": "Art. PX4-0-G2 / PX4-2-G2 / PX4-4-G2. Peak 1200 W (Dual) / 1600 W (Quad). Rack U derived from 176 mm height; max with handles 481x578 mm. PSU count/connector not stated.",
+ "family": "",
+ "pools": [],
+ "author": "vbs",
+ "v": 1,
+ "updated": null
+}

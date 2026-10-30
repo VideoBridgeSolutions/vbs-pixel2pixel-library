@@ -1,0 +1,148 @@
+{
+ "id": "colorlight-x16",
+ "brand": "Colorlight",
+ "model": "X16",
+ "category": "led-processor",
+ "dims": {
+  "w": 482.6,
+  "h": 88.9,
+  "d": null,
+  "u": 2,
+  "rack": "19"
+ },
+ "kg": 6.8,
+ "power": {
+  "typW": null,
+  "maxW": 80,
+  "psu": 1,
+  "redundant": false,
+  "connector": null
+ },
+ "ports": [
+  {
+   "group": "Inputs",
+   "label": "HDMI 2.0 In",
+   "count": 1,
+   "start": 1,
+   "signal": "hdmi20",
+   "connector": "hdmi",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Inputs",
+   "label": "DVI In",
+   "count": 4,
+   "start": 1,
+   "signal": "dvi",
+   "connector": "dvi",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Inputs",
+   "label": "3G-SDI In",
+   "count": 2,
+   "start": 1,
+   "signal": "sdi3g",
+   "connector": "bnc",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "LED outputs",
+   "label": "Out",
+   "count": 16,
+   "start": 1,
+   "signal": "led-colorlight",
+   "connector": "rj45",
+   "dir": "out",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Sync",
+   "label": "Genlock In",
+   "count": 1,
+   "start": 1,
+   "signal": "genlock",
+   "connector": "bnc",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Sync",
+   "label": "Genlock Loop",
+   "count": 1,
+   "start": 1,
+   "signal": "genlock",
+   "connector": "bnc",
+   "dir": "out",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Control",
+   "label": "LAN",
+   "count": 1,
+   "start": 1,
+   "signal": "eth1g",
+   "connector": "rj45",
+   "dir": "io",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Control",
+   "label": "USB In",
+   "count": 1,
+   "start": 1,
+   "signal": "usb",
+   "connector": "usb-b",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Control",
+   "label": "USB Out",
+   "count": 1,
+   "start": 1,
+   "signal": "usb",
+   "connector": "usb-a",
+   "dir": "out",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  }
+ ],
+ "slots": [],
+ "cards": [],
+ "cardsFrom": null,
+ "front": null,
+ "rear": null,
+ "model3d": null,
+ "src": [
+  "https://www.ledwallcentral.com/specs/led_controller_spec_85.pdf",
+  "https://www.ledwallcentral.com/ColorLight-X16-led-controller.htm"
+ ],
+ "confidence": "partial",
+ "notes": "Colorlight X16 spec V1.0 (2018), copy hosted by ledwallcentral; superseded by X16E (spec not reachable). 2U; dimension values not extracted. 16 x RJ45 Gigabit outputs, 8.8 Mpx; no fibre. 80 W rated. USB connector types and power connector not stated.",
+ "family": "",
+ "pools": [],
+ "author": "vbs",
+ "v": 1,
+ "updated": null
+}

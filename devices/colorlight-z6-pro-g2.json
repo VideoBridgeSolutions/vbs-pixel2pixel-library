@@ -1,0 +1,145 @@
+{
+ "id": "colorlight-z6-pro-g2",
+ "brand": "Colorlight",
+ "model": "Z6 PRO-G2",
+ "category": "led-processor",
+ "dims": {
+  "w": 482.6,
+  "h": 88,
+  "d": 430,
+  "u": 2,
+  "rack": "19"
+ },
+ "kg": 9.64,
+ "power": {
+  "typW": null,
+  "maxW": 150,
+  "psu": 1,
+  "redundant": false,
+  "connector": "powercon-true1"
+ },
+ "ports": [
+  {
+   "group": "Fiber outputs",
+   "label": "10G Fiber",
+   "count": 4,
+   "start": 1,
+   "signal": "led-colorlight",
+   "connector": "opticalcon-duo",
+   "dir": "out",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Sync",
+   "label": "Genlock In",
+   "count": 1,
+   "start": 1,
+   "signal": "genlock",
+   "connector": "bnc",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Sync",
+   "label": "Genlock Loop",
+   "count": 1,
+   "start": 1,
+   "signal": "genlock",
+   "connector": "bnc",
+   "dir": "out",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Control",
+   "label": "LAN",
+   "count": 1,
+   "start": 1,
+   "signal": "eth1g",
+   "connector": "ethercon",
+   "dir": "io",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Control",
+   "label": "USB In",
+   "count": 1,
+   "start": 1,
+   "signal": "usb",
+   "connector": "usb-b",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Control",
+   "label": "USB Out",
+   "count": 1,
+   "start": 1,
+   "signal": "usb",
+   "connector": "usb-a",
+   "dir": "out",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Control",
+   "label": "RS232",
+   "count": 1,
+   "start": 1,
+   "signal": "rs232",
+   "connector": "db9",
+   "dir": "io",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Power",
+   "label": "Power Out",
+   "count": 1,
+   "start": 1,
+   "signal": "ac230",
+   "connector": "powercon-true1",
+   "dir": "out",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  }
+ ],
+ "slots": [
+  {
+   "id": "input-card-slot",
+   "type": "input-card-slot",
+   "label": "Input card slot",
+   "count": 4,
+   "def": null,
+   "note": "HDMI 2.0, DP 1.2 or 12G-SDI input cards"
+  }
+ ],
+ "cards": [],
+ "cardsFrom": null,
+ "front": null,
+ "rear": null,
+ "model3d": null,
+ "src": [
+  "https://support.colorlightinside.com/uploads/Z6PRO-G2SpecificationV1.4_1709894494.pdf",
+  "https://en.colorlightinside.com/product/special/1049"
+ ],
+ "confidence": "partial",
+ "notes": "Colorlight spec V1.4. Outputs are fibre only: 4 x 10G (2 main + 2 backup), opticalCON DUO with LC-LC. 8.8 Mpx. Doc says 2.5U chassis but 88 mm high (2U set). LAN is Fast Ethernet (NE8FBH etherCON). 150 W rated with all cards. Power in/out Neutrik NAC3PX-TOP (in 6 A, out 4 A max). Genlock connector type not stated (BNC assumed). Ports per input card not stated.",
+ "family": "",
+ "pools": [],
+ "author": "vbs",
+ "v": 1,
+ "updated": null
+}

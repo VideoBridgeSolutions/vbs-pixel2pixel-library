@@ -1,0 +1,453 @@
+{
+ "id": "pixelhue-q8",
+ "brand": "Pixelhue",
+ "model": "Q8",
+ "category": "switcher",
+ "dims": {
+  "w": 482.6,
+  "h": 335.3,
+  "d": 694.7,
+  "u": 7,
+  "rack": "19"
+ },
+ "kg": 42.6,
+ "power": {
+  "typW": null,
+  "maxW": 1400,
+  "psu": 3,
+  "redundant": true,
+  "connector": null
+ },
+ "ports": [
+  {
+   "group": "Multiviewer",
+   "label": "MVR",
+   "count": 2,
+   "start": 1,
+   "signal": "hdmi20",
+   "connector": "hdmi",
+   "dir": "out",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Sync",
+   "label": "Genlock In",
+   "count": 1,
+   "start": 1,
+   "signal": "genlock",
+   "connector": "bnc",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Sync",
+   "label": "Genlock Loop",
+   "count": 1,
+   "start": 1,
+   "signal": "genlock",
+   "connector": "bnc",
+   "dir": "out",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Control",
+   "label": "Ethernet",
+   "count": 2,
+   "start": 1,
+   "signal": "eth1g",
+   "connector": "ethercon",
+   "dir": "io",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Control",
+   "label": "USB 3.0",
+   "count": 1,
+   "start": 1,
+   "signal": "usb",
+   "connector": "usb-a",
+   "dir": "io",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Audio",
+   "label": "Dante",
+   "count": 2,
+   "start": 1,
+   "signal": "dante",
+   "connector": "rj45",
+   "dir": "io",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Audio",
+   "label": "Audio In",
+   "count": 1,
+   "start": 1,
+   "signal": "audio-analog",
+   "connector": "jack35",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Audio",
+   "label": "Audio Out",
+   "count": 1,
+   "start": 1,
+   "signal": "audio-analog",
+   "connector": "jack35",
+   "dir": "out",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  }
+ ],
+ "slots": [
+  {
+   "id": "in",
+   "type": "input-slot",
+   "label": "Input slot",
+   "count": 6,
+   "def": "q8-in-hdmi-dp-sdi",
+   "note": ""
+  },
+  {
+   "id": "out",
+   "type": "output-slot",
+   "label": "Output slot",
+   "count": 4,
+   "def": "q8-out-hdmi-sdi-opt",
+   "note": ""
+  }
+ ],
+ "cards": [
+  {
+   "id": "q8-in-hdmi-dp-sdi",
+   "name": "HDMI 2.0 + DP 1.2 + 12G-SDI",
+   "slot": "in",
+   "pools": [
+    {
+     "id": "in",
+     "label": "Entrées simultanées",
+     "max": 8
+    }
+   ],
+   "ports": [
+    {
+     "group": "In",
+     "label": "HDMI",
+     "count": 4,
+     "start": 1,
+     "signal": "hdmi20",
+     "connector": "hdmi",
+     "dir": "in",
+     "side": "rear",
+     "note": "",
+     "pool": "in"
+    },
+    {
+     "group": "In",
+     "label": "DP",
+     "count": 4,
+     "start": 1,
+     "signal": "dp12",
+     "connector": "dp",
+     "dir": "in",
+     "side": "rear",
+     "note": "",
+     "pool": "in"
+    },
+    {
+     "group": "In",
+     "label": "SDI",
+     "count": 4,
+     "start": 1,
+     "signal": "sdi12g",
+     "connector": "bnc",
+     "dir": "in",
+     "side": "rear",
+     "note": "",
+     "pool": "in"
+    }
+   ],
+   "note": "12 connecteurs, 8 entrées utilisables en même temps.",
+   "face": null
+  },
+  {
+   "id": "q8-in-8hdmi-sdi",
+   "name": "8× HDMI 2.0 + 12G-SDI",
+   "slot": "in",
+   "pools": [
+    {
+     "id": "in",
+     "label": "Entrées simultanées",
+     "max": 8
+    }
+   ],
+   "ports": [
+    {
+     "group": "In",
+     "label": "HDMI",
+     "count": 8,
+     "start": 1,
+     "signal": "hdmi20",
+     "connector": "hdmi",
+     "dir": "in",
+     "side": "rear",
+     "note": "",
+     "pool": "in"
+    },
+    {
+     "group": "In",
+     "label": "SDI",
+     "count": 4,
+     "start": 1,
+     "signal": "sdi12g",
+     "connector": "bnc",
+     "dir": "in",
+     "side": "rear",
+     "note": "",
+     "pool": "in"
+    }
+   ],
+   "note": "12 connecteurs, 8 entrées utilisables en même temps.",
+   "face": null
+  },
+  {
+   "id": "q8-in-2110-25g",
+   "name": "ST 2110 · 4× SFP 25G",
+   "slot": "in",
+   "pools": [],
+   "ports": [
+    {
+     "group": "ST 2110",
+     "label": "SFP",
+     "count": 4,
+     "start": 1,
+     "signal": "eth25g",
+     "connector": "sfp28",
+     "dir": "io",
+     "side": "rear",
+     "note": "",
+     "pool": ""
+    }
+   ],
+   "note": "",
+   "face": null
+  },
+  {
+   "id": "q8-in-2110-100g",
+   "name": "ST 2110 100G + HDMI 2.1 + DP 1.4",
+   "slot": "in",
+   "pools": [
+    {
+     "id": "a",
+     "label": "Groupe 1",
+     "max": 1
+    },
+    {
+     "id": "b",
+     "label": "Groupe 2",
+     "max": 1
+    }
+   ],
+   "ports": [
+    {
+     "group": "ST 2110",
+     "label": "OPT 100G",
+     "count": 2,
+     "start": 1,
+     "signal": "eth100g",
+     "connector": "qsfp",
+     "dir": "io",
+     "side": "rear",
+     "note": "",
+     "pool": ""
+    },
+    {
+     "group": "In",
+     "label": "HDMI 1",
+     "count": 1,
+     "start": 1,
+     "signal": "hdmi21",
+     "connector": "hdmi",
+     "dir": "in",
+     "side": "rear",
+     "note": "",
+     "pool": "a"
+    },
+    {
+     "group": "In",
+     "label": "DP 1",
+     "count": 1,
+     "start": 1,
+     "signal": "dp14",
+     "connector": "dp",
+     "dir": "in",
+     "side": "rear",
+     "note": "",
+     "pool": "a"
+    },
+    {
+     "group": "In",
+     "label": "HDMI 2",
+     "count": 1,
+     "start": 1,
+     "signal": "hdmi21",
+     "connector": "hdmi",
+     "dir": "in",
+     "side": "rear",
+     "note": "",
+     "pool": "b"
+    },
+    {
+     "group": "In",
+     "label": "DP 2",
+     "count": 1,
+     "start": 1,
+     "signal": "dp14",
+     "connector": "dp",
+     "dir": "in",
+     "side": "rear",
+     "note": "",
+     "pool": "b"
+    }
+   ],
+   "note": "HDMI 2.1 / DP 1.4 : une seule entrée active par groupe.",
+   "face": null
+  },
+  {
+   "id": "q8-out-hdmi-sdi-opt",
+   "name": "HDMI 2.0 + 12G-SDI + fibre",
+   "slot": "out",
+   "pools": [
+    {
+     "id": "out",
+     "label": "Sorties simultanées",
+     "max": 4
+    }
+   ],
+   "ports": [
+    {
+     "group": "Out",
+     "label": "HDMI",
+     "count": 4,
+     "start": 1,
+     "signal": "hdmi20",
+     "connector": "hdmi",
+     "dir": "out",
+     "side": "rear",
+     "note": "",
+     "pool": "out"
+    },
+    {
+     "group": "Out",
+     "label": "SDI",
+     "count": 4,
+     "start": 1,
+     "signal": "sdi12g",
+     "connector": "bnc",
+     "dir": "out",
+     "side": "rear",
+     "note": "",
+     "pool": "out"
+    },
+    {
+     "group": "Out",
+     "label": "OPT",
+     "count": 8,
+     "start": 1,
+     "signal": "fiber-video",
+     "connector": "sfp-plus",
+     "dir": "out",
+     "side": "rear",
+     "note": "",
+     "pool": ""
+    }
+   ],
+   "note": "4 sorties 4K par carte (HDMI / SDI). Fibre 10G : répartition à vérifier.",
+   "face": null
+  },
+  {
+   "id": "q8-out-hdmi-dp-sfp",
+   "name": "4× HDMI 2.0 + 4× DP 1.2 + 8× SFP",
+   "slot": "out",
+   "pools": [
+    {
+     "id": "out",
+     "label": "Sorties simultanées",
+     "max": 4
+    }
+   ],
+   "ports": [
+    {
+     "group": "Out",
+     "label": "HDMI",
+     "count": 4,
+     "start": 1,
+     "signal": "hdmi20",
+     "connector": "hdmi",
+     "dir": "out",
+     "side": "rear",
+     "note": "",
+     "pool": "out"
+    },
+    {
+     "group": "Out",
+     "label": "DP",
+     "count": 4,
+     "start": 1,
+     "signal": "dp12",
+     "connector": "dp",
+     "dir": "out",
+     "side": "rear",
+     "note": "",
+     "pool": "out"
+    },
+    {
+     "group": "Out",
+     "label": "OPT",
+     "count": 8,
+     "start": 1,
+     "signal": "fiber-video",
+     "connector": "sfp-plus",
+     "dir": "out",
+     "side": "rear",
+     "note": "",
+     "pool": ""
+    }
+   ],
+   "note": "4 sorties 4K par carte (HDMI / DP). Fibre 10G : répartition à vérifier.",
+   "face": null
+  }
+ ],
+ "cardsFrom": null,
+ "front": null,
+ "rear": null,
+ "model3d": null,
+ "src": [
+  "https://www.rentex.com/wp-content/uploads/2026/04/Q8-Seamless-Switcher-Specifications-V1.9.0.pdf",
+  "https://www.rentex.com/wp-content/uploads/2026/04/Q8-One-as-All-4K-8K-Multi-Screen-Management-Presentation-Switcher-Datasheet-V1.9.0.pdf"
+ ],
+ "confidence": "partial",
+ "notes": "Cartes : 6 slots d'entrée, 4 slots de sortie (cartes et règles d'activation dans la fiche). 1400 W max chargé, alimentation 2+1 redondante. Prise secteur non indiquée. 3,5 mm audio in/out sur la carte de contrôle. Écran tactile 7\" en face avant.",
+ "family": "",
+ "pools": [],
+ "author": "vbs",
+ "v": 1,
+ "updated": null
+}

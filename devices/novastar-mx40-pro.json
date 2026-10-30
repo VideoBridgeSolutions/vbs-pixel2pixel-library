@@ -1,0 +1,171 @@
+{
+ "id": "novastar-mx40-pro",
+ "brand": "NovaStar",
+ "model": "MX40 Pro",
+ "category": "led-processor",
+ "dims": {
+  "w": 482.6,
+  "h": 94.2,
+  "d": 467,
+  "u": 2,
+  "rack": "19"
+ },
+ "kg": 7.5,
+ "power": {
+  "typW": null,
+  "maxW": 95,
+  "psu": 1,
+  "redundant": false,
+  "connector": null
+ },
+ "ports": [
+  {
+   "group": "Inputs",
+   "label": "HDMI 2.0 In",
+   "count": 3,
+   "start": 1,
+   "signal": "hdmi20",
+   "connector": "hdmi",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Inputs",
+   "label": "HDMI Loop",
+   "count": 3,
+   "start": 1,
+   "signal": "hdmi20",
+   "connector": "hdmi",
+   "dir": "out",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Inputs",
+   "label": "DP 1.2 In",
+   "count": 1,
+   "start": 1,
+   "signal": "dp12",
+   "connector": "dp",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Inputs",
+   "label": "12G-SDI In",
+   "count": 1,
+   "start": 1,
+   "signal": "sdi12g",
+   "connector": "bnc",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Inputs",
+   "label": "12G-SDI Loop",
+   "count": 1,
+   "start": 1,
+   "signal": "sdi12g",
+   "connector": "bnc",
+   "dir": "out",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "LED outputs",
+   "label": "Out",
+   "count": 20,
+   "start": 1,
+   "signal": "led-nova",
+   "connector": "rj45",
+   "dir": "out",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Fiber outputs",
+   "label": "OPT",
+   "count": 4,
+   "start": 1,
+   "signal": "led-nova",
+   "connector": "sfp-plus",
+   "dir": "out",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Sync",
+   "label": "Genlock In",
+   "count": 1,
+   "start": 1,
+   "signal": "genlock",
+   "connector": "bnc",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Sync",
+   "label": "Genlock Loop",
+   "count": 1,
+   "start": 1,
+   "signal": "genlock",
+   "connector": "bnc",
+   "dir": "out",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Control",
+   "label": "Ethernet",
+   "count": 2,
+   "start": 1,
+   "signal": "eth1g",
+   "connector": "rj45",
+   "dir": "io",
+   "side": "rear",
+   "note": "",
+   "pool": ""
+  },
+  {
+   "group": "Control",
+   "label": "USB",
+   "count": 1,
+   "start": 1,
+   "signal": "usb",
+   "connector": "usb-a",
+   "dir": "io",
+   "side": "front",
+   "note": "",
+   "pool": ""
+  }
+ ],
+ "slots": [],
+ "cards": [],
+ "cardsFrom": null,
+ "front": null,
+ "rear": null,
+ "model3d": null,
+ "src": [
+  "https://www.logando.de/wp-content/uploads/2024/02/MX40-Pro-LED-Display-Controller-Specifications-V1.1.0-1.pdf"
+ ],
+ "confidence": "partial",
+ "notes": "NovaStar spec V1.1.0. 2U inferred from 94.2 mm height incl. feet. Output and fiber connector types not stated (RJ45-compatible; OPT shown as SFP+ cage, unconfirmed). OPT1 carries ports 1-10, OPT2 ports 11-20, OPT3/4 are copies. Power connector type and typ W not stated (95 W max). RS232 AUX and SPDIF out are reserved, omitted. Front USB is for diagnostics export only.",
+ "family": "",
+ "pools": [],
+ "author": "vbs",
+ "v": 1,
+ "updated": null
+}
