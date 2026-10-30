@@ -1,9 +1,9 @@
 {
  "format": "p2p-gear",
  "schema": 1,
- "version": 1,
- "date": "2026-10-30T18:53:59.550Z",
- "count": 58,
+ "version": 2,
+ "date": "2026-10-30T19:02:17.212Z",
+ "count": 59,
  "items": [
   {
    "id": "aja-fido-2r-12g",
@@ -312,13 +312,22 @@
    "v": 1
   },
   {
+   "id": "disguise-rx-iii",
+   "brand": "disguise",
+   "model": "rx III",
+   "category": "media-server",
+   "file": "devices/disguise-rx-iii.json",
+   "hash": "3105727a",
+   "v": 2
+  },
+  {
    "id": "disguise-vx-4plus",
    "brand": "disguise",
    "model": "vx 4+",
    "category": "media-server",
    "file": "devices/disguise-vx-4plus.json",
-   "hash": "72a3eedf",
-   "v": 12
+   "hash": "e30b9497",
+   "v": 13
   },
   {
    "id": "green-hippo-hippotizer-boreal-plus-mk2",
@@ -528,5 +537,5 @@
    "v": 1
   }
  ],
- "hash": "caa014d1"
+ "hash": "96dc6a07"
 }

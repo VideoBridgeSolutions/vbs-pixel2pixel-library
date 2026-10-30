@@ -193,31 +193,7 @@
    "id": "slot-1",
    "type": "slot",
    "label": "Slot",
-   "count": 1,
-   "def": "1x-hdmi-2-0-output",
-   "note": ""
-  },
-  {
-   "id": "slot-2",
-   "type": "slot",
-   "label": "Slot",
-   "count": 1,
-   "def": "1x-hdmi-2-0-output",
-   "note": ""
-  },
-  {
-   "id": "slot-3",
-   "type": "slot",
-   "label": "Slot",
-   "count": 1,
-   "def": "1x-hdmi-2-0-output",
-   "note": ""
-  },
-  {
-   "id": "slot-4",
-   "type": "slot",
-   "label": "Slot",
-   "count": 1,
+   "count": 4,
    "def": "1x-hdmi-2-0-output",
    "note": ""
   }
@@ -820,6 +796,6 @@
  "family": "",
  "pools": [],
  "author": "vbs",
- "v": 12,
- "updated": "2026-10-30T18:37:45.256Z"
+ "v": 13,
+ "updated": "2026-10-30T19:02:13.528Z"
 }
