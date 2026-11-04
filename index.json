@@ -1,8 +1,8 @@
 {
  "format": "p2p-gear",
  "schema": 1,
- "version": 3,
- "date": "2026-11-04T22:10:13.726Z",
+ "version": 4,
+ "date": "2026-11-04T22:45:27.790Z",
  "count": 67,
  "items": [
   {
@@ -29,8 +29,8 @@
    "model": "Aquilon RS4",
    "category": "switcher",
    "file": "devices/analogway-aquilon-rs4.json",
-   "hash": "6f220b41",
-   "v": 8
+   "hash": "e3e536a6",
+   "v": 9
   },
   {
    "id": "analogway-pulse-4k",
@@ -38,8 +38,8 @@
    "model": "Pulse 4K",
    "category": "switcher",
    "file": "devices/analogway-pulse-4k.json",
-   "hash": "7a849b31",
-   "v": 1
+   "hash": "5eae142e",
+   "v": 3
   },
   {
    "id": "analogway-zenith-100",
@@ -47,8 +47,8 @@
    "model": "Zenith 100",
    "category": "switcher",
    "file": "devices/analogway-zenith-100.json",
-   "hash": "3d45212b",
-   "v": 1
+   "hash": "3120511d",
+   "v": 2
   },
   {
    "id": "analogway-zenith-200",
@@ -56,8 +56,8 @@
    "model": "Zenith 200",
    "category": "switcher",
    "file": "devices/analogway-zenith-200.json",
-   "hash": "64ccded",
-   "v": 1
+   "hash": "26c944bf",
+   "v": 3
   },
   {
    "id": "avstumpfl-pixera-four-gen2",
@@ -609,5 +609,5 @@
    "v": 1
   }
  ],
- "hash": "fbc8cdce"
+ "hash": "17f26a0b"
 }
