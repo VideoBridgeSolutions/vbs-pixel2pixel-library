@@ -29,7 +29,9 @@
    "dir": "in",
    "side": "rear",
    "note": "single-mode LC, 1260-1620 nm",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Video outputs",
@@ -41,22 +43,29 @@
    "dir": "out",
    "side": "rear",
    "note": "SMPTE 259/292/424/2081/2082",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   }
  ],
  "slots": [],
  "cards": [],
  "cardsFrom": null,
+ "cardOrder": [],
  "front": null,
  "rear": null,
  "model3d": null,
+ "pic": null,
+ "picFront": null,
  "src": [
   "https://www.aja.com/products/fido-2r-12g/spec-sheet.pdf"
  ],
  "confidence": "partial",
  "notes": "Receiver pair of FiDO-2T-12G. 5-20 V DC, PSU included, DC connector type not stated.",
+ "defaultCfg": null,
  "family": "",
  "pools": [],
+ "cardMode": "auto",
  "author": "vbs",
  "v": 1,
  "updated": null

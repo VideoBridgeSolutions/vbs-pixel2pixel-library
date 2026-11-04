@@ -29,7 +29,9 @@
    "dir": "in",
    "side": "rear",
    "note": "HDMI 2.0 type A",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Video outputs",
@@ -41,7 +43,9 @@
    "dir": "out",
    "side": "rear",
    "note": "both outputs match HDMI input",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Control",
@@ -53,22 +57,29 @@
    "dir": "io",
    "side": "rear",
    "note": "power (4.4-5.25 V DC), config, updates",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   }
  ],
  "slots": [],
  "cards": [],
  "cardsFrom": null,
+ "cardOrder": [],
  "front": null,
  "rear": null,
  "model3d": null,
+ "pic": null,
+ "picFront": null,
  "src": [
   "https://www.blackmagicdesign.com/products/microconverters/techspecs"
  ],
  "confidence": "partial",
  "notes": "Dimensions/weight only shown as images on maker page (null). 4 W max via USB-C; PSU only in wPSU variant. Print-PDF id W-CONU-17.",
+ "defaultCfg": null,
  "family": "",
  "pools": [],
+ "cardMode": "auto",
  "author": "vbs",
  "v": 1,
  "updated": null

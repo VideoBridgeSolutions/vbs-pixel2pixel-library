@@ -29,7 +29,9 @@
    "dir": "in",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Inputs",
@@ -41,7 +43,9 @@
    "dir": "out",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Inputs",
@@ -53,7 +57,9 @@
    "dir": "in",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Inputs",
@@ -65,7 +71,9 @@
    "dir": "out",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Inputs",
@@ -77,7 +85,9 @@
    "dir": "in",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Inputs",
@@ -89,7 +99,9 @@
    "dir": "out",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Fiber",
@@ -101,7 +113,9 @@
    "dir": "io",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Fiber outputs",
@@ -113,7 +127,9 @@
    "dir": "out",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "LED outputs",
@@ -125,7 +141,9 @@
    "dir": "out",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Monitor",
@@ -137,7 +155,9 @@
    "dir": "out",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Sync",
@@ -149,7 +169,9 @@
    "dir": "in",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Control",
@@ -161,7 +183,9 @@
    "dir": "io",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Control",
@@ -173,7 +197,9 @@
    "dir": "in",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Control",
@@ -185,22 +211,29 @@
    "dir": "out",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   }
  ],
  "slots": [],
  "cards": [],
  "cardsFrom": null,
+ "cardOrder": [],
  "front": null,
  "rear": null,
  "model3d": null,
+ "pic": null,
+ "picFront": null,
  "src": [
   "https://audioeffetti.com/product/documents/NOV/VX1000-01.pdf"
  ],
  "confidence": "partial",
  "notes": "NovaStar spec V1.2.1. 28 W is rated power. OPT1 self-adaptive in/out (copies the 10 Ethernet ports), OPT2 output only (copy/backup). Width printed as 483.6 mm. Genlock is a single IN-LOOP connector pair (loop not listed separately). Fiber/Ethernet/power connector types not stated. Ethernet ports 1-2 can carry audio via multifunction card.",
+ "defaultCfg": null,
  "family": "",
  "pools": [],
+ "cardMode": "auto",
  "author": "vbs",
  "v": 1,
  "updated": null

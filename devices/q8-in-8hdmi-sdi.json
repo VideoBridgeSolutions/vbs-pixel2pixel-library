@@ -1,0 +1,76 @@
+{
+ "id": "q8-in-8hdmi-sdi",
+ "brand": "Pixelhue",
+ "model": "8× HDMI 2.0 + 12G-SDI",
+ "category": "card",
+ "dims": {
+  "w": 120,
+  "h": 40,
+  "d": null,
+  "u": null,
+  "rack": null
+ },
+ "kg": null,
+ "power": {
+  "typW": null,
+  "maxW": null,
+  "psu": 1,
+  "redundant": false,
+  "connector": null
+ },
+ "ports": [
+  {
+   "group": "In",
+   "label": "HDMI",
+   "count": 8,
+   "start": 1,
+   "signal": "hdmi20",
+   "connector": "hdmi",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": "in",
+   "mirror": null,
+   "ord": null
+  },
+  {
+   "group": "In",
+   "label": "SDI",
+   "count": 4,
+   "start": 1,
+   "signal": "sdi12g",
+   "connector": "bnc",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": "in",
+   "mirror": null,
+   "ord": null
+  }
+ ],
+ "slots": [],
+ "cards": [],
+ "cardsFrom": null,
+ "cardOrder": [],
+ "front": null,
+ "rear": null,
+ "model3d": null,
+ "pic": null,
+ "picFront": null,
+ "src": [],
+ "confidence": "partial",
+ "notes": "12 connecteurs, 8 entrées utilisables en même temps.",
+ "defaultCfg": null,
+ "family": "q8-in-8hdmi-sdi",
+ "pools": [
+  {
+   "id": "in",
+   "label": "Entrées simultanées",
+   "max": 8
+  }
+ ],
+ "cardMode": "auto",
+ "author": "vbs",
+ "v": 1,
+ "updated": "2026-11-01T18:19:35.509Z"
+}

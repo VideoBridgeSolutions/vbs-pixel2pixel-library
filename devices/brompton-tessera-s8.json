@@ -29,7 +29,9 @@
    "dir": "in",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Inputs",
@@ -41,7 +43,9 @@
    "dir": "in",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Inputs",
@@ -53,7 +57,9 @@
    "dir": "out",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "LED outputs",
@@ -65,7 +71,9 @@
    "dir": "out",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Control",
@@ -77,7 +85,9 @@
    "dir": "in",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Control",
@@ -89,7 +99,9 @@
    "dir": "out",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Sync",
@@ -101,7 +113,9 @@
    "dir": "in",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Sync",
@@ -113,7 +127,9 @@
    "dir": "out",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Control",
@@ -125,7 +141,9 @@
    "dir": "io",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Control",
@@ -137,7 +155,9 @@
    "dir": "io",
    "side": "front",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Control",
@@ -149,7 +169,9 @@
    "dir": "io",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Monitor",
@@ -161,15 +183,20 @@
    "dir": "out",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   }
  ],
  "slots": [],
  "cards": [],
  "cardsFrom": null,
+ "cardOrder": [],
  "front": null,
  "rear": null,
  "model3d": null,
+ "pic": null,
+ "picFront": null,
  "src": [
   "https://www.bromptontech.com/wp-content/uploads/2025/07/Brompton-S8-Data-Sheet-Mar2025-EN.pdf",
   "https://www.bromptontech.com/compare/",
@@ -177,8 +204,10 @@
  ],
  "confidence": "partial",
  "notes": "Brompton datasheet Mar 2025; 2U per Brompton compare page. 8 x 1G outputs, ~525K px each at 8bpc 60 Hz, 4.5 Mpx total. Output connector (Neutrik etherCON) and IEC C14 inlet from ROE 2021 sheet. Power W not published (100-240 V, 1.2-0.6 A). Datasheet lists SDI thru only.",
+ "defaultCfg": null,
  "family": "",
  "pools": [],
+ "cardMode": "auto",
  "author": "vbs",
  "v": 1,
  "updated": null

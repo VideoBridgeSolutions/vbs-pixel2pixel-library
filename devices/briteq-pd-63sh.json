@@ -29,7 +29,9 @@
    "dir": "out",
    "side": "front",
    "note": "4 per phase; C16 1P+N MCB each; common 30 mA 4P RCCB",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Multicore",
@@ -41,7 +43,9 @@
    "dir": "out",
    "side": "front",
    "note": "19-pin round multicore",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Multicore",
@@ -53,7 +57,9 @@
    "dir": "out",
    "side": "front",
    "note": "16-pin rectangular multicore",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Thru",
@@ -65,23 +71,30 @@
    "dir": "out",
    "side": "front",
    "note": "chain output; behind 63A 4P breaker + 30 mA RCCB",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   }
  ],
  "slots": [],
  "cards": [],
  "cardsFrom": null,
+ "cardOrder": [],
  "front": null,
  "rear": null,
  "model3d": null,
+ "pic": null,
+ "picFront": null,
  "src": [
   "https://hitmusic.eu/en/product/pd-63sh-german?pdf=true",
   "https://www.huss-licht-ton.de/print_product_info.php/products_id/24164"
  ],
  "confidence": "partial",
  "notes": "Part B04648. 3U per Briteq text; one reseller lists 6U (conflict). Dimensions/weight not found. Breaker allocation for Socapex/Harting circuits not stated. Per-phase digital V/A meters. Sources are reseller pages reproducing maker text.",
+ "defaultCfg": null,
  "family": "",
  "pools": [],
+ "cardMode": "auto",
  "author": "vbs",
  "v": 1,
  "updated": null

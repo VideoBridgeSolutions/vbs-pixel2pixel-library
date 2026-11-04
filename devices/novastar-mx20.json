@@ -29,7 +29,9 @@
    "dir": "in",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Inputs",
@@ -41,7 +43,9 @@
    "dir": "out",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Inputs",
@@ -53,7 +57,9 @@
    "dir": "in",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Inputs",
@@ -65,7 +71,9 @@
    "dir": "out",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "LED outputs",
@@ -77,7 +85,9 @@
    "dir": "out",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Fiber outputs",
@@ -89,7 +99,9 @@
    "dir": "out",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Sync",
@@ -101,7 +113,9 @@
    "dir": "in",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Sync",
@@ -113,7 +127,9 @@
    "dir": "out",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Control",
@@ -125,7 +141,9 @@
    "dir": "io",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Control",
@@ -137,22 +155,29 @@
    "dir": "io",
    "side": "front",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   }
  ],
  "slots": [],
  "cards": [],
  "cardsFrom": null,
+ "cardOrder": [],
  "front": null,
  "rear": null,
  "model3d": null,
+ "pic": null,
+ "picFront": null,
  "src": [
   "https://chauvetprofessional.com/wp-content/uploads/2024/06/MX20-LED-Display-Controller-Specifications-V1.0.0.T2.pdf"
  ],
  "confidence": "partial",
  "notes": "NovaStar spec V1.0.0.T2 (preliminary): max power listed as TBD. HDMI 1.3 mapped to hdmi14. 1U inferred from 49.9 mm. Output, fiber and power connector types not stated (SFP+ cage assumed). RS232 AUX and SPDIF reserved, omitted.",
+ "defaultCfg": null,
  "family": "",
  "pools": [],
+ "cardMode": "auto",
  "author": "vbs",
  "v": 1,
  "updated": null

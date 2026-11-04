@@ -29,7 +29,9 @@
    "dir": "in",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Outputs",
@@ -41,7 +43,9 @@
    "dir": "out",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Sync",
@@ -53,7 +57,9 @@
    "dir": "in",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Sync",
@@ -65,7 +71,9 @@
    "dir": "out",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Control",
@@ -77,7 +85,9 @@
    "dir": "io",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Control",
@@ -89,22 +99,29 @@
    "dir": "io",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   }
  ],
  "slots": [],
  "cards": [],
  "cardsFrom": null,
+ "cardOrder": [],
  "front": null,
  "rear": null,
  "model3d": null,
+ "pic": null,
+ "picFront": null,
  "src": [
   "https://www.blackmagicdesign.com/products/blackmagicvideohub/techspecs"
  ],
  "confidence": "partial",
  "notes": "'Blackmagic Videohub 20x20 12G' (current model). 27.5 W max, 1 internal PSU; 'IEC power cable' -> C14 inlet inferred. Ref out is a terminating loop. Dimensions/weight only as image - null.",
+ "defaultCfg": null,
  "family": "",
  "pools": [],
+ "cardMode": "auto",
  "author": "vbs",
  "v": 1,
  "updated": null

@@ -29,7 +29,9 @@
    "dir": "in",
    "side": "rear",
    "note": "HDBaseT long reach",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Video outputs",
@@ -41,7 +43,9 @@
    "dir": "out",
    "side": "rear",
    "note": "HDMI 2.0 features",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Control",
@@ -53,22 +57,29 @@
    "dir": "io",
    "side": "rear",
    "note": "3-pin terminal block",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   }
  ],
  "slots": [],
  "cards": [],
  "cardsFrom": null,
+ "cardOrder": [],
  "front": null,
  "rear": null,
  "model3d": null,
+ "pic": null,
+ "picFront": null,
  "src": [
   "https://www1.kramerav.com/product/TP-583R"
  ],
  "confidence": "partial",
  "notes": "Power: 12 V DC 2 A adapter, 680 mA consumption (typW 8.2 W computed). DC connector not stated. Range 4K60 4:4:4: 40 m std / 70 m high compression; 4K30: 70 m. Rack via RK-3T-B (3 per 1U). IR 3.5 mm jack not modelled.",
+ "defaultCfg": null,
  "family": "",
  "pools": [],
+ "cardMode": "auto",
  "author": "vbs",
  "v": 1,
  "updated": null

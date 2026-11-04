@@ -29,7 +29,9 @@
    "dir": "in",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Inputs",
@@ -41,7 +43,9 @@
    "dir": "in",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Inputs",
@@ -53,7 +57,9 @@
    "dir": "in",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Inputs",
@@ -65,7 +71,9 @@
    "dir": "in",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Inputs",
@@ -77,7 +85,9 @@
    "dir": "in",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Outputs",
@@ -89,7 +99,9 @@
    "dir": "out",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Outputs",
@@ -101,7 +113,9 @@
    "dir": "out",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Multiviewer",
@@ -113,7 +127,9 @@
    "dir": "out",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Multiviewer",
@@ -125,7 +141,9 @@
    "dir": "out",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Sync",
@@ -137,7 +155,9 @@
    "dir": "in",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Sync",
@@ -149,7 +169,9 @@
    "dir": "out",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Control",
@@ -161,7 +183,9 @@
    "dir": "io",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Control",
@@ -173,7 +197,9 @@
    "dir": "io",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   }
  ],
  "slots": [
@@ -188,16 +214,21 @@
  ],
  "cards": [],
  "cardsFrom": null,
+ "cardOrder": [],
  "front": null,
  "rear": null,
  "model3d": null,
+ "pic": null,
+ "picFront": null,
  "src": [
   "https://www.rentex.com/wp-content/uploads/2023/09/pulse-4k-datasheet-en.pdf"
  ],
  "confidence": "partial",
  "notes": "Midra 4K series (Pulse 4K chosen; Eikos 4K not researched). 10 inputs: 4x HDMI 2.0, 2x DP 1.2, 2x 12G-SDI, 2x multi-plug HDMI 1.4 / 3G-SDI (one active each). 2 PGM outputs HDMI 2.0 with mirrored 12G-SDI. MVR HDMI 1.4 + mirrored 3G-SDI. USB host type A (panel side not stated, rear assumed). Max 80 W (fuse F4A); PSU count/redundancy/inlet not stated. Dims with handles (440 x 88 x 434 without).",
+ "defaultCfg": null,
  "family": "",
  "pools": [],
+ "cardMode": "auto",
  "author": "vbs",
  "v": 1,
  "updated": null

@@ -29,7 +29,9 @@
    "dir": "out",
    "side": "front",
    "note": "63A 4P RCD + 63A 4P MCB",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Outputs 32A 3ph",
@@ -41,7 +43,9 @@
    "dir": "out",
    "side": "front",
    "note": "40A 4P RCD + 32A 4P MCB each",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Outputs 32A 1ph",
@@ -53,22 +57,29 @@
    "dir": "out",
    "side": "front",
    "note": "32A 1P MCB each; grouped behind 2x 63A 4P MCB; RCD for these not stated",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   }
  ],
  "slots": [],
  "cards": [],
  "cardsFrom": null,
+ "cardOrder": [],
  "front": null,
  "rear": null,
  "model3d": null,
+ "pic": null,
+ "picFront": null,
  "src": [
   "https://www.procom-me.com/wp-content/uploads/2021/02/MD125-120RCD_technical_sheet.pdf"
  ],
  "confidence": "partial",
  "notes": "Main 125A 4P MCB. 12U HDPE case, IP65 lids closed, digital multimeter. RCD sensitivity (mA) not stated. Dimension order assumed W x D x H. Weight not stated. Brand 'Power Distros', sold by Procom ME.",
+ "defaultCfg": null,
  "family": "",
  "pools": [],
+ "cardMode": "auto",
  "author": "vbs",
  "v": 1,
  "updated": null

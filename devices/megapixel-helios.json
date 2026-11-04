@@ -29,7 +29,9 @@
    "dir": "in",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Fiber outputs",
@@ -41,7 +43,9 @@
    "dir": "out",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Control",
@@ -53,7 +57,9 @@
    "dir": "io",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   }
  ],
  "slots": [
@@ -76,9 +82,12 @@
  ],
  "cards": [],
  "cardsFrom": null,
+ "cardOrder": [],
  "front": null,
  "rear": null,
  "model3d": null,
+ "pic": null,
+ "picFront": null,
  "src": [
   "https://megapixelvr.com/helios/",
   "https://support.megapixelvr.com/support/solutions/articles/103000262246-helios-system-capacity-basics",
@@ -87,8 +96,10 @@
  ],
  "confidence": "partial",
  "notes": "Megapixel brochure PDF could not be parsed. 1 RU; 8 x 10G fiber outputs to Megapixel switches (SFP+ assumed); 100G QSFP input with ST 2110/IPMX; up to 35 Mpx. Weight 3.9 kg, 50 W and IEC C13/C14 from ROE 2020 sheet (HELIOS 8K). Dimensions, genlock, USB unknown. LAN connector type not stated.",
+ "defaultCfg": null,
  "family": "",
  "pools": [],
+ "cardMode": "auto",
  "author": "vbs",
  "v": 1,
  "updated": null

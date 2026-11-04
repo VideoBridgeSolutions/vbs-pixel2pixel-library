@@ -29,7 +29,9 @@
    "dir": "in",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Trunk",
@@ -41,7 +43,9 @@
    "dir": "in",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Trunk",
@@ -53,7 +57,9 @@
    "dir": "out",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Trunk",
@@ -65,7 +71,9 @@
    "dir": "out",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "LED outputs",
@@ -77,7 +85,9 @@
    "dir": "out",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Control",
@@ -89,7 +99,9 @@
    "dir": "io",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Power",
@@ -101,23 +113,30 @@
    "dir": "out",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   }
  ],
  "slots": [],
  "cards": [],
  "cardsFrom": null,
+ "cardOrder": [],
  "front": null,
  "rear": null,
  "model3d": null,
+ "pic": null,
+ "picFront": null,
  "src": [
   "https://www.bromptontech.com/wp-content/uploads/2026/03/Brompton-XD-Data-Sheet-Mar2026-EN.pdf",
   "https://www.bromptontech.com/product/xd/"
  ],
  "confidence": "partial",
  "notes": "Brompton datasheet Mar 2026 (now listed as legacy, XD-T is successor). 10G in on copper (etherCON Cat6A 60 m) or fibre (opticalCON DUO, 1310 nm SM, 2 km). Thru daisy-chains up to 5 more XDs with shared bandwidth, auto-switching copper/fibre; listed as two connectors (assumed). 10 x 1G outputs, 525K px each. Power W not stated (100-240 V, 0.4-0.2 A); TRUE1 in+thru, 16 A max. Management connector type not stated. Truss clamp mountable.",
+ "defaultCfg": null,
  "family": "",
  "pools": [],
+ "cardMode": "auto",
  "author": "vbs",
  "v": 1,
  "updated": null

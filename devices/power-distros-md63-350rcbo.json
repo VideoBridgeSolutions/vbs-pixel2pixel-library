@@ -29,7 +29,9 @@
    "dir": "out",
    "side": "front",
    "note": "19-pin; 12x 16A RCBO (6 per Socapex)",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Outputs 16A 1ph",
@@ -41,7 +43,9 @@
    "dir": "out",
    "side": "front",
    "note": "16A RCBO each",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Outputs 16A 3ph",
@@ -53,7 +57,9 @@
    "dir": "out",
    "side": "front",
    "note": "40A 4P RCD + 16A 4P MCB each",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Outputs 32A 3ph",
@@ -65,22 +71,29 @@
    "dir": "out",
    "side": "front",
    "note": "40A 4P RCD + 32A 4P MCB each",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   }
  ],
  "slots": [],
  "cards": [],
  "cardsFrom": null,
+ "cardOrder": [],
  "front": null,
  "rear": null,
  "model3d": null,
+ "pic": null,
+ "picFront": null,
  "src": [
   "https://www.procom-me.com/wp-content/uploads/2023/09/MD63-350RCBO_technical_sheet-1.pdf"
  ],
  "confidence": "partial",
  "notes": "12U HDPE stackable case on wheels, IP65 lids closed (not 19\" rack gear). Main 63A 4P MCB. RCD/RCBO sensitivity (mA) not stated. Dimension order (610x580x764) assumed W x D x H. Weight not stated. Brand 'Power Distros' (power-distros.com), sold by Procom ME (Dubai).",
+ "defaultCfg": null,
  "family": "",
  "pools": [],
+ "cardMode": "auto",
  "author": "vbs",
  "v": 1,
  "updated": null

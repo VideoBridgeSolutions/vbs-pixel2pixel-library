@@ -29,7 +29,9 @@
    "dir": "io",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Control",
@@ -41,7 +43,9 @@
    "dir": "in",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   }
  ],
  "slots": [
@@ -72,9 +76,12 @@
  ],
  "cards": [],
  "cardsFrom": null,
+ "cardOrder": [],
  "front": null,
  "rear": null,
  "model3d": null,
+ "pic": null,
+ "picFront": null,
  "src": [
   "https://procom-me.com/products/h5-all-in-one-video-splicing-processor",
   "https://avlgear.com/products/novastar-h5-all-in-one-splicer-and-controller-5u-chassis",
@@ -82,8 +89,10 @@
  ],
  "confidence": "partial",
  "notes": "No NovaStar H5 spec sheet found; chassis figures from reseller pages (17 kg net chassis, 400 W, 100-240 V). One PSU, backup PSU optional. LED outputs depend on fitted sending cards (not listed as ports). Control-card ports from H-series manual; RS232 connector type unknown (omitted), genlock port not described.",
+ "defaultCfg": null,
  "family": "",
  "pools": [],
+ "cardMode": "auto",
  "author": "vbs",
  "v": 1,
  "updated": null

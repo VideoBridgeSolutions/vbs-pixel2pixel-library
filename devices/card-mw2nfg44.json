@@ -1,0 +1,62 @@
+{
+ "id": "card-mw2nfg44",
+ "brand": "Analog Way",
+ "model": "4x HDMI",
+ "category": "card",
+ "dims": {
+  "w": 120,
+  "h": 40,
+  "d": null,
+  "u": null,
+  "rack": null
+ },
+ "kg": null,
+ "power": {
+  "typW": null,
+  "maxW": null,
+  "psu": 1,
+  "redundant": false,
+  "connector": null
+ },
+ "ports": [
+  {
+   "group": "",
+   "label": "HDMI",
+   "count": 4,
+   "start": 1,
+   "signal": "hdmi20",
+   "connector": "hdmi",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": "p1",
+   "mirror": null,
+   "ord": null
+  }
+ ],
+ "slots": [],
+ "cards": [],
+ "cardsFrom": null,
+ "cardOrder": [],
+ "front": null,
+ "rear": null,
+ "model3d": null,
+ "pic": null,
+ "picFront": null,
+ "src": [],
+ "confidence": "partial",
+ "notes": "",
+ "defaultCfg": null,
+ "family": "analog-way-input-slot",
+ "pools": [
+  {
+   "id": "p1",
+   "label": "Entrées simultanées",
+   "max": 8
+  }
+ ],
+ "cardMode": "fixed",
+ "author": "vbs",
+ "v": 2,
+ "updated": "2026-11-04T21:52:07.772Z"
+}

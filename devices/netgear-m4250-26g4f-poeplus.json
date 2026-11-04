@@ -29,7 +29,9 @@
    "dir": "io",
    "side": "rear",
    "note": "802.3at PoE+, 30 W/port",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "1G",
@@ -41,7 +43,9 @@
    "dir": "io",
    "side": "rear",
    "note": "non-PoE",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "SFP",
@@ -53,7 +57,9 @@
    "dir": "io",
    "side": "rear",
    "note": "1000BASE-X",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Management",
@@ -65,7 +71,9 @@
    "dir": "io",
    "side": "rear",
    "note": "out-of-band management",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Management",
@@ -77,7 +85,9 @@
    "dir": "io",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Management",
@@ -89,7 +99,9 @@
    "dir": "io",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Management",
@@ -101,15 +113,20 @@
    "dir": "io",
    "side": "front",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   }
  ],
  "slots": [],
  "cards": [],
  "cardsFrom": null,
+ "cardOrder": [],
  "front": null,
  "rear": null,
  "model3d": null,
+ "pic": null,
+ "picFront": null,
  "src": [
   "https://assets.netgear.com/asset/7fe3c89e-a3e1-40d0-ab46-43f16f5bb48e/M4250_Datasheet.pdf",
   "https://auroramultimedia.com/products/m4250-26g4f-poe-gsm4230p",
@@ -117,8 +134,10 @@
  ],
  "confidence": "partial",
  "notes": "AV Line. PoE budget 300 W. Power consumption (35.8 W no PoE / 401 W full PoE) from a reseller page (Aurora), not in the NETGEAR datasheet. Internal fixed PSU, C14. Ports on rear (reversible mount). Port numbering order assumed.",
+ "defaultCfg": null,
  "family": "",
  "pools": [],
+ "cardMode": "auto",
  "author": "vbs",
  "v": 1,
  "updated": null

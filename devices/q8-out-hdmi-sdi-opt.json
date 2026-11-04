@@ -1,0 +1,90 @@
+{
+ "id": "q8-out-hdmi-sdi-opt",
+ "brand": "Pixelhue",
+ "model": "HDMI 2.0 + 12G-SDI + 8x SFP",
+ "category": "card",
+ "dims": {
+  "w": 120,
+  "h": 40,
+  "d": null,
+  "u": null,
+  "rack": null
+ },
+ "kg": null,
+ "power": {
+  "typW": null,
+  "maxW": null,
+  "psu": 1,
+  "redundant": false,
+  "connector": null
+ },
+ "ports": [
+  {
+   "group": "Out",
+   "label": "HDMI",
+   "count": 4,
+   "start": 1,
+   "signal": "hdmi20",
+   "connector": "hdmi",
+   "dir": "out",
+   "side": "rear",
+   "note": "",
+   "pool": "out",
+   "mirror": null,
+   "ord": null
+  },
+  {
+   "group": "Out",
+   "label": "SDI",
+   "count": 4,
+   "start": 1,
+   "signal": "sdi12g",
+   "connector": "bnc",
+   "dir": "out",
+   "side": "rear",
+   "note": "",
+   "pool": "",
+   "mirror": 0,
+   "ord": null
+  },
+  {
+   "group": "Out",
+   "label": "OPT",
+   "count": 8,
+   "start": 1,
+   "signal": "fiber-video",
+   "connector": "sfp-plus",
+   "dir": "out",
+   "side": "rear",
+   "note": "",
+   "pool": "",
+   "mirror": 0,
+   "ord": null
+  }
+ ],
+ "slots": [],
+ "cards": [],
+ "cardsFrom": null,
+ "cardOrder": [],
+ "front": null,
+ "rear": null,
+ "model3d": null,
+ "pic": null,
+ "picFront": null,
+ "src": [],
+ "confidence": "partial",
+ "notes": "4 sorties 4K par carte (HDMI / SDI). Fibre 10G : répartition à vérifier.",
+ "defaultCfg": null,
+ "family": "pixelhue-output-slot",
+ "pools": [
+  {
+   "id": "out",
+   "label": "Sorties simultanées",
+   "max": 4
+  }
+ ],
+ "cardMode": "fixed",
+ "author": "vbs",
+ "v": 4,
+ "updated": "2026-11-02T09:39:09.292Z"
+}

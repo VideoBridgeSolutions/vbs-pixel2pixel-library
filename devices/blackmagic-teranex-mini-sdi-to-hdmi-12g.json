@@ -29,7 +29,9 @@
    "dir": "in",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Video outputs",
@@ -41,7 +43,9 @@
    "dir": "out",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Video outputs",
@@ -53,7 +57,9 @@
    "dir": "out",
    "side": "rear",
    "note": "HDMI 2.0 type A, up to 2160p60",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Audio",
@@ -65,7 +71,9 @@
    "dir": "out",
    "side": "rear",
    "note": "2ch balanced analog or 4ch AES (110 ohm) on XLR; right XLR can output timecode",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Network",
@@ -77,7 +85,9 @@
    "dir": "io",
    "side": "rear",
    "note": "config/updates; also PoE+ (48 V) power input; speed not stated",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Control",
@@ -89,22 +99,29 @@
    "dir": "io",
    "side": "rear",
    "note": "config/updates; connector type not stated",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   }
  ],
  "slots": [],
  "cards": [],
  "cardsFrom": null,
+ "cardOrder": [],
  "front": null,
  "rear": null,
  "model3d": null,
+ "pic": null,
+ "picFront": null,
  "src": [
   "https://www.blackmagicdesign.com/products/teranexmini/techspecs"
  ],
  "confidence": "partial",
  "notes": "Dimensions/weight not given in text (image only). 16 W, 100-240 V AC on IEC C14, or PoE+. Rack mounting via Teranex Mini Rack Shelf not verified here (u/rack null). Ethernet speed/USB connector not stated. Print-PDF id W-TERAMIN-01.",
+ "defaultCfg": null,
  "family": "",
  "pools": [],
+ "cardMode": "auto",
  "author": "vbs",
  "v": 1,
  "updated": null

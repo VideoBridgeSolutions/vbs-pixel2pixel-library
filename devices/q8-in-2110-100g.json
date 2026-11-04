@@ -1,0 +1,123 @@
+{
+ "id": "q8-in-2110-100g",
+ "brand": "Pixelhue",
+ "model": "ST 2110 100G + HDMI 2.1 + DP 1.4",
+ "category": "card",
+ "dims": {
+  "w": 120,
+  "h": 40,
+  "d": null,
+  "u": null,
+  "rack": null
+ },
+ "kg": null,
+ "power": {
+  "typW": null,
+  "maxW": null,
+  "psu": 1,
+  "redundant": false,
+  "connector": null
+ },
+ "ports": [
+  {
+   "group": "ST 2110",
+   "label": "OPT 100G",
+   "count": 2,
+   "start": 1,
+   "signal": "eth100g",
+   "connector": "qsfp",
+   "dir": "io",
+   "side": "rear",
+   "note": "",
+   "pool": "",
+   "mirror": null,
+   "ord": null
+  },
+  {
+   "group": "In",
+   "label": "HDMI 1",
+   "count": 1,
+   "start": 1,
+   "signal": "hdmi21",
+   "connector": "hdmi",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": "a",
+   "mirror": null,
+   "ord": null
+  },
+  {
+   "group": "In",
+   "label": "DP 1",
+   "count": 1,
+   "start": 1,
+   "signal": "dp14",
+   "connector": "dp",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": "a",
+   "mirror": null,
+   "ord": null
+  },
+  {
+   "group": "In",
+   "label": "HDMI 2",
+   "count": 1,
+   "start": 1,
+   "signal": "hdmi21",
+   "connector": "hdmi",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": "b",
+   "mirror": null,
+   "ord": null
+  },
+  {
+   "group": "In",
+   "label": "DP 2",
+   "count": 1,
+   "start": 1,
+   "signal": "dp14",
+   "connector": "dp",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": "b",
+   "mirror": null,
+   "ord": null
+  }
+ ],
+ "slots": [],
+ "cards": [],
+ "cardsFrom": null,
+ "cardOrder": [],
+ "front": null,
+ "rear": null,
+ "model3d": null,
+ "pic": null,
+ "picFront": null,
+ "src": [],
+ "confidence": "partial",
+ "notes": "HDMI 2.1 / DP 1.4 : une seule entrée active par groupe.",
+ "defaultCfg": null,
+ "family": "q8-in-2110-100g",
+ "pools": [
+  {
+   "id": "a",
+   "label": "Groupe 1",
+   "max": 1
+  },
+  {
+   "id": "b",
+   "label": "Groupe 2",
+   "max": 1
+  }
+ ],
+ "cardMode": "auto",
+ "author": "vbs",
+ "v": 1,
+ "updated": "2026-11-01T18:19:40.634Z"
+}

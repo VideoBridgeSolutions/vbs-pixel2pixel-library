@@ -29,7 +29,9 @@
    "dir": "io",
    "side": "front",
    "note": "shielded etherCON; optional PoE/PoE+ up to 160 W total",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "SFP",
@@ -41,22 +43,29 @@
    "dir": "io",
    "side": "front",
    "note": "SFP speed not stated (1G assumed)",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   }
  ],
  "slots": [],
  "cards": [],
  "cardsFrom": null,
+ "cardOrder": [],
  "front": null,
  "rear": null,
  "model3d": null,
+ "pic": null,
+ "picFront": null,
  "src": [
   "https://www.luminex.be/?p=1847"
  ],
  "confidence": "partial",
  "notes": "DISCONTINUED. 30 W max (non-PoE). Pre-Rev A units had 15 V DC backup + 48 V PoE backup inputs (Molex). Weight 3 kg (page also states 2.5 kg). 1U derived from 44 mm height. Port side front assumed from 'PoE on front ports'.",
+ "defaultCfg": null,
  "family": "",
  "pools": [],
+ "cardMode": "auto",
  "author": "vbs",
  "v": 1,
  "updated": null

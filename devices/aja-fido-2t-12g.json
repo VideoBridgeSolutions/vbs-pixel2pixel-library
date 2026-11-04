@@ -29,7 +29,9 @@
    "dir": "in",
    "side": "rear",
    "note": "2 independent 12G/6G/3G/HD/SD-SDI",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Fiber outputs",
@@ -41,23 +43,30 @@
    "dir": "out",
    "side": "rear",
    "note": "single-mode LC, 1310 nm, up to 10 km",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   }
  ],
  "slots": [],
  "cards": [],
  "cardsFrom": null,
+ "cardOrder": [],
  "front": null,
  "rear": null,
  "model3d": null,
+ "pic": null,
+ "picFront": null,
  "src": [
   "https://www.aja.com/products/fido-2t-12g/spec-sheet.pdf",
   "https://www.aja.com/products/fido-2t-12g"
  ],
  "confidence": "partial",
  "notes": "Substituted for FiDO-4T-12G: no standalone FiDO-4T-12G exists (only openGear OG-FiDO-4T-12G; standalone FiDO-4T is 3G). 5-20 V DC, PSU included, DC connector type not stated. No SDI loop-out listed.",
+ "defaultCfg": null,
  "family": "",
  "pools": [],
+ "cardMode": "auto",
  "author": "vbs",
  "v": 1,
  "updated": null

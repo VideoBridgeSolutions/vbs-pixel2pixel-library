@@ -29,7 +29,9 @@
    "dir": "io",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "LED data",
@@ -41,7 +43,9 @@
    "dir": "io",
    "side": "rear",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Control",
@@ -53,22 +57,29 @@
    "dir": "in",
    "side": "front",
    "note": "",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   }
  ],
  "slots": [],
  "cards": [],
  "cardsFrom": null,
+ "cardOrder": [],
  "front": null,
  "rear": null,
  "model3d": null,
+ "pic": null,
+ "picFront": null,
  "src": [
   "https://logando.de/wp-content/uploads/2024/05/CVT10_Datenblatt.pdf"
  ],
  "confidence": "partial",
  "notes": "NovaStar spec V1.3.0. Half-1U width; pair with a second unit or connecting piece for 1U. Variants CVT10-S (single-mode 9/125, 1310 nm, 10 km) and CVT10-M (multi-mode OM3/OM4, 850 nm, 300 m); factory-fitted hot-swap modules, LC. Mode button switches CVT/DIS (fiber-to-copper or copper-to-fiber). Ethernet connector type not stated. PowerCON variant (blue/TRUE1) not stated. USB is for upgrades only.",
+ "defaultCfg": null,
  "family": "",
  "pools": [],
+ "cardMode": "auto",
  "author": "vbs",
  "v": 1,
  "updated": null

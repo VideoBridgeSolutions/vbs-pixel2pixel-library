@@ -29,7 +29,9 @@
    "dir": "out",
    "side": "front",
    "note": "2 per phase; C16 1P+N MCB each; common 30 mA 4P RCCB",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Multicore",
@@ -41,7 +43,9 @@
    "dir": "out",
    "side": "front",
    "note": "19-pin round, 6 circuits (pins 1-18); shares the 6 C16 circuits; common 30 mA RCCB",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Multicore",
@@ -53,7 +57,9 @@
    "dir": "out",
    "side": "front",
    "note": "16-pin rectangular, 6 circuits; shares the 6 C16 circuits",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   },
   {
    "group": "Thru",
@@ -65,22 +71,29 @@
    "dir": "out",
    "side": "front",
    "note": "feed-through to next unit; behind 32A 4P general breaker + 30 mA RCCB",
-   "pool": ""
+   "pool": "",
+   "mirror": null,
+   "ord": null
   }
  ],
  "slots": [],
  "cards": [],
  "cardsFrom": null,
+ "cardOrder": [],
  "front": null,
  "rear": null,
  "model3d": null,
+ "pic": null,
+ "picFront": null,
  "src": [
   "https://prozic.com/www2/media/files/P/D/558785.pdf"
  ],
  "confidence": "partial",
  "notes": "Input CEE 32A 5p on 1.5 m cable, 3x32 A 400 V. Dimensions only in drawings (not extracted); width = 19\" nominal. Breaker curve letter and RCD type (A/AC) not stated. Socket variants /FR, /GE (Schuko), /SA. Source is Briteq (Beglec) manual hosted by a reseller.",
+ "defaultCfg": null,
  "family": "",
  "pools": [],
+ "cardMode": "auto",
  "author": "vbs",
  "v": 1,
  "updated": null

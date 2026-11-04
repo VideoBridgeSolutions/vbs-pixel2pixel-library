@@ -1,0 +1,56 @@
+{
+ "id": "q8-in-2110-25g",
+ "brand": "Pixelhue",
+ "model": "ST 2110 · 4× SFP 25G",
+ "category": "card",
+ "dims": {
+  "w": 120,
+  "h": 40,
+  "d": null,
+  "u": null,
+  "rack": null
+ },
+ "kg": null,
+ "power": {
+  "typW": null,
+  "maxW": null,
+  "psu": 1,
+  "redundant": false,
+  "connector": null
+ },
+ "ports": [
+  {
+   "group": "ST 2110",
+   "label": "SFP",
+   "count": 4,
+   "start": 1,
+   "signal": "eth25g",
+   "connector": "sfp28",
+   "dir": "io",
+   "side": "rear",
+   "note": "",
+   "pool": "",
+   "mirror": null,
+   "ord": null
+  }
+ ],
+ "slots": [],
+ "cards": [],
+ "cardsFrom": null,
+ "cardOrder": [],
+ "front": null,
+ "rear": null,
+ "model3d": null,
+ "pic": null,
+ "picFront": null,
+ "src": [],
+ "confidence": "partial",
+ "notes": "",
+ "defaultCfg": null,
+ "family": "pixelhue-input-slot",
+ "pools": [],
+ "cardMode": "auto",
+ "author": "vbs",
+ "v": 1,
+ "updated": "2026-11-01T18:18:11.927Z"
+}
