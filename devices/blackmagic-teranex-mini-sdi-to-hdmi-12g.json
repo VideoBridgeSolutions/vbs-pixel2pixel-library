@@ -11,7 +11,9 @@
   "rack": null
  },
  "kg": null,
+ "form": null,
  "power": {
+  "source": "mains",
   "typW": 16,
   "maxW": 16,
   "psu": 1,
@@ -31,7 +33,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Video outputs",
@@ -45,7 +48,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Video outputs",
@@ -59,7 +63,8 @@
    "note": "HDMI 2.0 type A, up to 2160p60",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Audio",
@@ -73,7 +78,8 @@
    "note": "2ch balanced analog or 4ch AES (110 ohm) on XLR; right XLR can output timecode",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Network",
@@ -87,7 +93,8 @@
    "note": "config/updates; also PoE+ (48 V) power input; speed not stated",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Control",
@@ -101,7 +108,8 @@
    "note": "config/updates; connector type not stated",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   }
  ],
  "slots": [],
@@ -120,6 +128,7 @@
  "notes": "Dimensions/weight not given in text (image only). 16 W, 100-240 V AC on IEC C14, or PoE+. Rack mounting via Teranex Mini Rack Shelf not verified here (u/rack null). Ethernet speed/USB connector not stated. Print-PDF id W-TERAMIN-01.",
  "defaultCfg": null,
  "family": "",
+ "alsoFits": [],
  "pools": [],
  "cardMode": "auto",
  "author": "vbs",

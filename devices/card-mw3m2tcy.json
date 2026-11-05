@@ -1,0 +1,357 @@
+{
+ "id": "card-mw3m2tcy",
+ "brand": "Analog Way",
+ "model": "4x 12G-SDI / 8x 3G-SDI",
+ "category": "card",
+ "dims": {
+  "w": 120,
+  "h": 40,
+  "d": null,
+  "u": null,
+  "rack": null
+ },
+ "kg": null,
+ "form": null,
+ "power": {
+  "source": "mains",
+  "typW": null,
+  "maxW": null,
+  "psu": 1,
+  "redundant": false,
+  "connector": null
+ },
+ "ports": [
+  {
+   "group": "3G-SDI",
+   "label": "3G-SDI #1",
+   "count": 1,
+   "start": 1,
+   "signal": "sdi3g",
+   "connector": "bnc",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": "m1",
+   "mirror": null,
+   "ord": 0,
+   "shares": null
+  },
+  {
+   "group": "3G-SDI",
+   "label": "3G-SDI #7",
+   "count": 1,
+   "start": 7,
+   "signal": "sdi3g",
+   "connector": "bnc",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": "m1",
+   "mirror": null,
+   "ord": 6,
+   "shares": null
+  },
+  {
+   "group": "3G-SDI",
+   "label": "3G-SDI #6",
+   "count": 1,
+   "start": 6,
+   "signal": "sdi3g",
+   "connector": "bnc",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": "m1",
+   "mirror": null,
+   "ord": 5,
+   "shares": null
+  },
+  {
+   "group": "3G-SDI",
+   "label": "3G-SDI #5",
+   "count": 1,
+   "start": 5,
+   "signal": "sdi3g",
+   "connector": "bnc",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": "m1",
+   "mirror": null,
+   "ord": 4,
+   "shares": null
+  },
+  {
+   "group": "3G-SDI",
+   "label": "3G-SDI #4",
+   "count": 1,
+   "start": 4,
+   "signal": "sdi3g",
+   "connector": "bnc",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": "m1",
+   "mirror": null,
+   "ord": 3,
+   "shares": null
+  },
+  {
+   "group": "3G-SDI",
+   "label": "3G-SDI #3",
+   "count": 1,
+   "start": 3,
+   "signal": "sdi3g",
+   "connector": "bnc",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": "m1",
+   "mirror": null,
+   "ord": 2,
+   "shares": null
+  },
+  {
+   "group": "3G-SDI",
+   "label": "3G-SDI #2",
+   "count": 1,
+   "start": 2,
+   "signal": "sdi3g",
+   "connector": "bnc",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": "m1",
+   "mirror": null,
+   "ord": 1,
+   "shares": null
+  },
+  {
+   "group": "3G-SDI",
+   "label": "3G-SDI #8",
+   "count": 1,
+   "start": 8,
+   "signal": "sdi3g",
+   "connector": "bnc",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": "m1",
+   "mirror": null,
+   "ord": 7,
+   "shares": null
+  },
+  {
+   "group": "12G-SDI",
+   "label": "12G-SDI #1",
+   "count": 1,
+   "start": 9,
+   "signal": "sdi12g",
+   "connector": "bnc",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": "m2",
+   "mirror": null,
+   "ord": 8,
+   "shares": {
+    "g": 0,
+    "from": 1
+   }
+  },
+  {
+   "group": "12G-SDI",
+   "label": "12G-SDI #2",
+   "count": 1,
+   "start": 10,
+   "signal": "sdi12g",
+   "connector": "bnc",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": "m2",
+   "mirror": null,
+   "ord": 9,
+   "shares": {
+    "g": 6,
+    "from": 1
+   }
+  },
+  {
+   "group": "12G-SDI",
+   "label": "12G-SDI #3",
+   "count": 1,
+   "start": 11,
+   "signal": "sdi12g",
+   "connector": "bnc",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": "m2",
+   "mirror": null,
+   "ord": 10,
+   "shares": {
+    "g": 5,
+    "from": 1
+   }
+  },
+  {
+   "group": "12G-SDI",
+   "label": "12G-SDI #4",
+   "count": 1,
+   "start": 12,
+   "signal": "sdi12g",
+   "connector": "bnc",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": "m2",
+   "mirror": null,
+   "ord": 11,
+   "shares": {
+    "g": 4,
+    "from": 1
+   }
+  }
+ ],
+ "slots": [],
+ "cards": [],
+ "cardsFrom": null,
+ "cardOrder": [],
+ "front": {
+  "items": [
+   {
+    "kind": "port",
+    "ref": "g0:0",
+    "x": 20.5,
+    "y": 28.5,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g0:1",
+    "x": 32,
+    "y": 13.5,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g0:2",
+    "x": 43.5,
+    "y": 28.5,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g0:3",
+    "x": 55.5,
+    "y": 13.5,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g0:4",
+    "x": 66.5,
+    "y": 28.5,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g0:5",
+    "x": 78,
+    "y": 13.5,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g0:6",
+    "x": 89.5,
+    "y": 28.5,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g0:7",
+    "x": 101.5,
+    "y": 13.5,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g6:0",
+    "x": 43.5,
+    "y": 28.5,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g5:0",
+    "x": 66.5,
+    "y": 28.5,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g4:0",
+    "x": 89.5,
+    "y": 28.5,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g3:0",
+    "x": 32,
+    "y": 13.5,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g2:0",
+    "x": 55.5,
+    "y": 13.5,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g1:0",
+    "x": 78,
+    "y": 13.5,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g7:0",
+    "x": 101.5,
+    "y": 13.5,
+    "rot": 0
+   }
+  ],
+  "guides": []
+ },
+ "rear": null,
+ "model3d": null,
+ "pic": null,
+ "picFront": null,
+ "src": [],
+ "confidence": "partial",
+ "notes": "",
+ "defaultCfg": null,
+ "family": "analog-way-input-slot",
+ "alsoFits": [],
+ "pools": [
+  {
+   "id": "m1",
+   "label": "8x 3G-SDI",
+   "max": 1
+  },
+  {
+   "id": "m2",
+   "label": "4x 12G-SDI",
+   "max": 1
+  }
+ ],
+ "cardMode": "modes",
+ "author": "vbs",
+ "v": 3,
+ "updated": "2026-11-05T14:17:15.539Z"
+}

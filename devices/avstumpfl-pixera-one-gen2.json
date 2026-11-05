@@ -11,7 +11,9 @@
   "rack": "19"
  },
  "kg": 8.3,
+ "form": null,
  "power": {
+  "source": "mains",
   "typW": 350,
   "maxW": 500,
   "psu": 2,
@@ -31,7 +33,8 @@
    "note": "DP 1.4a, max 5120x2880; 2 or 4 licensed (Dual/Quad)",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "GUI outputs (optional)",
@@ -45,7 +48,8 @@
    "note": "optional, mDP 1.4a, max 4096x2160",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Network",
@@ -59,7 +63,8 @@
    "note": "connector not stated",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Network",
@@ -73,7 +78,8 @@
    "note": "IPMI LAN; speed/connector not stated",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "USB",
@@ -87,7 +93,8 @@
    "note": "type A assumed",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "USB",
@@ -101,7 +108,8 @@
    "note": "type A assumed",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "USB",
@@ -115,7 +123,8 @@
    "note": "type A assumed",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   }
  ],
  "slots": [
@@ -287,13 +296,14 @@
   "https://avstumpfl.com/fileadmin/user_upload/downloads/ru/manuals_rus/pixera-one-technical-specifications.pdf",
   "https://www.bhphotovideo.com/c/product/1900607-REG/pixera_px1_2_g2_ada_one_dual_gen_2_ada.html"
  ],
- "confidence": "partial",
+ "confidence": "verified",
  "notes": "Art. PX1-2-G2 (Dual) / PX1-4-G2 (Quad). Rack U derived from 44.4 mm height. Max width/depth with handles 484x489 mm. PSU count, connector, typical power not stated (peak 500 W). Network connector type not stated. Analog stereo out on 1/4\" TRS not modelled.\nIA — non confirmé : power_connector (IEC C14 assumed, manual only says 'socket for mains connection'), LAN connector type (RJ45 inferred from 100M/1G/10G support), IPMI LAN speed, USB 2 rear count (2 in PDF datasheet vs 1 on help page), USB connector type (USB-A assumed), DP connector size for main outputs (full-size DP assumed), typ_w (350W is 'average with high load', not idle/typical), option slot layout for Gen.2 (FP1/FP2/LP1 taken from manual/Gen.1 layout), presence of rear analog audio out / unused VGA port as on Gen.1\nIA — non confirmé : typ_w (derived from 1540 BTU/h average heat dissipation, not a stated power figure), power_connector (inlet type not stated), psu count (datasheet says redundant PSU; 2 assumed), 10GbE connector type (RJ45 assumed), IPMI connector/speed (RJ45 1GbE assumed), USB connector type (USB-A assumed), front/rear side of DP outputs and LAN (rear assumed), number of option slots, optional ports (GUI mDP, genlock BNC, capture inputs, audio) not listed as fixed ports\nIA — non confirmé : power_connector (inlet type not stated in datasheet; likely IEC C14 but unconfirmed), psu count (1 inferred; manual says only PX2 has redundant dual PSUs), typ_w (350W taken from earlier-generation datasheet and BTU/h-equivalent, not stated in Gen.2 sheet), USB connector type (USB-A vs USB-C conflicting; retailer lists USB-C 3.0 x4 + USB-A 2.0 x2), number of rear USB2 ports (2 in PDF vs 1 in online help), LAN/IPMI connector type and IPMI speed (RJ45 assumed from retailer listing), optional GUI output panel side, optional genlock/framelock BNC counts, optional video input (HDMI/3G-SDI/12G-SDI) counts and connectors, audio output (only in retailer listing)",
  "defaultCfg": null,
  "family": "",
+ "alsoFits": [],
  "pools": [],
  "cardMode": "auto",
  "author": "vbs",
- "v": 12,
- "updated": "2026-11-04T21:22:35.337Z"
+ "v": 13,
+ "updated": "2026-11-05T07:58:39.579Z"
 }

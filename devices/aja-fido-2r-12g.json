@@ -11,7 +11,9 @@
   "rack": null
  },
  "kg": 0.2,
+ "form": null,
  "power": {
+  "source": "mains",
   "typW": null,
   "maxW": 2,
   "psu": 1,
@@ -31,7 +33,8 @@
    "note": "single-mode LC, 1260-1620 nm",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Video outputs",
@@ -45,7 +48,8 @@
    "note": "SMPTE 259/292/424/2081/2082",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   }
  ],
  "slots": [],
@@ -64,6 +68,7 @@
  "notes": "Receiver pair of FiDO-2T-12G. 5-20 V DC, PSU included, DC connector type not stated.",
  "defaultCfg": null,
  "family": "",
+ "alsoFits": [],
  "pools": [],
  "cardMode": "auto",
  "author": "vbs",

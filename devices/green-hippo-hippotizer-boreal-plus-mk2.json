@@ -11,7 +11,9 @@
   "rack": "19"
  },
  "kg": 27,
+ "form": null,
  "power": {
+  "source": "mains",
   "typW": null,
   "maxW": 1000,
   "psu": 1,
@@ -31,7 +33,8 @@
    "note": "HDMI 2.0 variant; DP 1.2 variant also exists; genlock + software EDID on all outputs",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Control outputs",
@@ -45,7 +48,8 @@
    "note": "ZooKeeper control output 1",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Control outputs",
@@ -59,7 +63,8 @@
    "note": "ZooKeeper control output 2",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Network",
@@ -73,7 +78,8 @@
    "note": "connector not stated",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Network",
@@ -87,7 +93,8 @@
    "note": "connector not stated",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "USB",
@@ -101,7 +108,8 @@
    "note": "USB 3",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "USB",
@@ -115,7 +123,8 @@
    "note": "USB 3.1 5 Gb/s",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Audio",
@@ -129,7 +138,8 @@
    "note": "balanced stereo; LTC over audio input supported",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Audio",
@@ -143,7 +153,8 @@
    "note": "balanced stereo",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Power",
@@ -157,7 +168,8 @@
    "note": "TRUE1 loop-through, 1000 W max",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Input",
@@ -171,7 +183,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   }
  ],
  "slots": [
@@ -397,13 +410,14 @@
   "https://www.green-hippo.com/wp-content/uploads/2021/10/Architectural-Specifications.pdf",
   "https://www.manula.com/manuals/green-hippo/hippotizer-v4/4.6.4/en/topic/boreal-mk2"
  ],
- "confidence": "partial",
+ "confidence": "verified",
  "notes": "Height not stated (4U => 177.8 mm nominal). Width 480 mm / depth 660 mm with ears. Max consumption 1000 VA (W not stated), 100-250 V. PSU count not stated. Network connectors not stated. No separate genlock input listed (genlock stated on all outputs).\nIA — non confirmé : h_mm (not given on the MK2 page; the previous-generation Boreal+ datasheet lists 175 mm, but this is not confirmed for MK2), typ_w (no typical power consumption published), max_w (manufacturer gives 1000VA, not W), 10Gb network connector type (RJ45 vs SFP+ not stated), Genlock connector type and count (BNC assumed), Network port counts as 'io' direction and exact XLR channel counts (stereo = 2 assumed), w_mm (425 mm is body width; 480 mm with rack ears), PSU count of 1 (from architectural spec: single integrated 1000W PSU), Power loop output is listed on the manufacturer page, but the connector count is inferred as 1, Hardware EDID emulation applies to HDMI model only (not a port field)",
  "defaultCfg": null,
  "family": "",
+ "alsoFits": [],
  "pools": [],
  "cardMode": "auto",
  "author": "vbs",
- "v": 2,
- "updated": "2026-11-04T21:36:54.510Z"
+ "v": 3,
+ "updated": "2026-11-05T07:59:05.913Z"
 }

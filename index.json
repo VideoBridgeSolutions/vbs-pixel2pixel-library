@@ -1,9 +1,9 @@
 {
  "format": "p2p-gear",
  "schema": 1,
- "version": 4,
- "date": "2026-11-04T22:45:27.790Z",
- "count": 67,
+ "version": 5,
+ "date": "2026-11-05T14:52:45.017Z",
+ "count": 97,
  "items": [
   {
    "id": "aja-fido-2r-12g",
@@ -11,7 +11,7 @@
    "model": "FiDO-2R-12G",
    "category": "extender",
    "file": "devices/aja-fido-2r-12g.json",
-   "hash": "71baae1",
+   "hash": "53055afa",
    "v": 1
   },
   {
@@ -20,8 +20,107 @@
    "model": "FiDO-2T-12G",
    "category": "extender",
    "file": "devices/aja-fido-2t-12g.json",
-   "hash": "406bc587",
+   "hash": "c0b093d6",
    "v": 1
+  },
+  {
+   "id": "analog-way-aquilon-c",
+   "brand": "Analog Way",
+   "model": "Aquilon C+",
+   "category": "media-server",
+   "file": "devices/analog-way-aquilon-c.json",
+   "hash": "4c0d0dd7",
+   "v": 3
+  },
+  {
+   "id": "analog-way-aquilon-c-2",
+   "brand": "Analog Way",
+   "model": "Aquilon C",
+   "category": "switcher",
+   "file": "devices/analog-way-aquilon-c-2.json",
+   "hash": "17583cf9",
+   "v": 3
+  },
+  {
+   "id": "analog-way-aquilon-cmax",
+   "brand": "Analog Way",
+   "model": "Aquilon CMax",
+   "category": "switcher",
+   "file": "devices/analog-way-aquilon-cmax.json",
+   "hash": "e33f4070",
+   "v": 3
+  },
+  {
+   "id": "analog-way-aquilon-cmini",
+   "brand": "Analog Way",
+   "model": "Aquilon CMini",
+   "category": "switcher",
+   "file": "devices/analog-way-aquilon-cmini.json",
+   "hash": "d60f8e9d",
+   "v": 14
+  },
+  {
+   "id": "analog-way-aquilon-rs-alpha",
+   "brand": "Analog Way",
+   "model": "Aquilon RS Alpha",
+   "category": "switcher",
+   "file": "devices/analog-way-aquilon-rs-alpha.json",
+   "hash": "ccd89ce9",
+   "v": 4
+  },
+  {
+   "id": "analog-way-aquilon-rs1",
+   "brand": "Analog Way",
+   "model": "Aquilon RS1",
+   "category": "switcher",
+   "file": "devices/analog-way-aquilon-rs1.json",
+   "hash": "fc98ce6e",
+   "v": 3
+  },
+  {
+   "id": "analog-way-aquilon-rs2",
+   "brand": "Analog Way",
+   "model": "Aquilon RS2",
+   "category": "switcher",
+   "file": "devices/analog-way-aquilon-rs2.json",
+   "hash": "ec6bce56",
+   "v": 3
+  },
+  {
+   "id": "analog-way-aquilon-rs3",
+   "brand": "Analog Way",
+   "model": "Aquilon RS3",
+   "category": "switcher",
+   "file": "devices/analog-way-aquilon-rs3.json",
+   "hash": "2c75aec6",
+   "v": 3
+  },
+  {
+   "id": "analog-way-aquilon-rs5",
+   "brand": "Analog Way",
+   "model": "Aquilon RS5",
+   "category": "switcher",
+   "file": "devices/analog-way-aquilon-rs5.json",
+   "hash": "8bea2a4f",
+   "v": 8
+  },
+  {
+   "id": "analog-way-aquilon-rs6",
+   "brand": "Analog Way",
+   "model": "Aquilon RS6",
+   "category": "switcher",
+   "file": "devices/analog-way-aquilon-rs6.json",
+   "hash": "23a01fd7",
+   "v": 6
+  },
+  {
+   "id": "analog-way-dph104",
+   "brand": "Analog Way",
+   "model": "DPH104",
+   "category": "splitter",
+   "file": "devices/analog-way-dph104.json",
+   "hash": "8618cd5a",
+   "v": 2
   },
   {
    "id": "analogway-aquilon-rs4",
@@ -29,8 +128,8 @@
    "model": "Aquilon RS4",
    "category": "switcher",
    "file": "devices/analogway-aquilon-rs4.json",
-   "hash": "e3e536a6",
-   "v": 9
+   "hash": "209d2c29",
+   "v": 10
   },
   {
    "id": "analogway-pulse-4k",
@@ -38,8 +137,8 @@
    "model": "Pulse 4K",
    "category": "switcher",
    "file": "devices/analogway-pulse-4k.json",
-   "hash": "5eae142e",
-   "v": 3
+   "hash": "694e0ca2",
+   "v": 4
   },
   {
    "id": "analogway-zenith-100",
@@ -47,8 +146,8 @@
    "model": "Zenith 100",
    "category": "switcher",
    "file": "devices/analogway-zenith-100.json",
-   "hash": "3120511d",
-   "v": 2
+   "hash": "24c5c582",
+   "v": 3
   },
   {
    "id": "analogway-zenith-200",
@@ -56,7 +155,7 @@
    "model": "Zenith 200",
    "category": "switcher",
    "file": "devices/analogway-zenith-200.json",
-   "hash": "26c944bf",
+   "hash": "4c69f7c0",
    "v": 3
   },
   {
@@ -65,8 +164,8 @@
    "model": "PIXERA four Gen.2",
    "category": "media-server",
    "file": "devices/avstumpfl-pixera-four-gen2.json",
-   "hash": "62ba01a1",
-   "v": 3
+   "hash": "5fa2b5c9",
+   "v": 4
   },
   {
    "id": "avstumpfl-pixera-one-gen2",
@@ -74,8 +173,8 @@
    "model": "PIXERA one Gen.2",
    "category": "media-server",
    "file": "devices/avstumpfl-pixera-one-gen2.json",
-   "hash": "fb504611",
-   "v": 12
+   "hash": "84c22c6f",
+   "v": 13
   },
   {
    "id": "avstumpfl-pixera-two-gen2",
@@ -83,8 +182,8 @@
    "model": "PIXERA two Gen.2",
    "category": "media-server",
    "file": "devices/avstumpfl-pixera-two-gen2.json",
-   "hash": "8c697b63",
-   "v": 3
+   "hash": "90be1020",
+   "v": 4
   },
   {
    "id": "barco-e2-gen2",
@@ -92,7 +191,7 @@
    "model": "E2 Gen 2",
    "category": "switcher",
    "file": "devices/barco-e2-gen2.json",
-   "hash": "7f5f307a",
+   "hash": "feb7ef9",
    "v": 1
   },
   {
@@ -101,7 +200,7 @@
    "model": "Event Master Ex",
    "category": "switcher",
    "file": "devices/barco-ex.json",
-   "hash": "3a16a7e1",
+   "hash": "df47e24",
    "v": 1
   },
   {
@@ -110,7 +209,7 @@
    "model": "S3-4K",
    "category": "switcher",
    "file": "devices/barco-s3-4k.json",
-   "hash": "65a96fb7",
+   "hash": "587d1b97",
    "v": 1
   },
   {
@@ -119,7 +218,7 @@
    "model": "ATEM 2 M/E Constellation HD",
    "category": "switcher",
    "file": "devices/blackmagic-atem-2me-constellation-hd.json",
-   "hash": "7cd5e0c8",
+   "hash": "2735f430",
    "v": 1
   },
   {
@@ -128,7 +227,7 @@
    "model": "ATEM 4 M/E Constellation 4K",
    "category": "switcher",
    "file": "devices/blackmagic-atem-4me-constellation-4k.json",
-   "hash": "5d939461",
+   "hash": "cad1194d",
    "v": 1
   },
   {
@@ -137,7 +236,7 @@
    "model": "Micro Converter HDMI to SDI 12G",
    "category": "converter",
    "file": "devices/blackmagic-micro-converter-hdmi-to-sdi-12g.json",
-   "hash": "cd7c9156",
+   "hash": "726db0ea",
    "v": 1
   },
   {
@@ -146,7 +245,7 @@
    "model": "Micro Converter SDI to HDMI 12G",
    "category": "converter",
    "file": "devices/blackmagic-micro-converter-sdi-to-hdmi-12g.json",
-   "hash": "e7601c1e",
+   "hash": "a37a8935",
    "v": 1
   },
   {
@@ -155,7 +254,7 @@
    "model": "Teranex Mini SDI to HDMI 12G",
    "category": "converter",
    "file": "devices/blackmagic-teranex-mini-sdi-to-hdmi-12g.json",
-   "hash": "7f70a4e8",
+   "hash": "ee271973",
    "v": 1
   },
   {
@@ -164,7 +263,7 @@
    "model": "Videohub 20x20 12G",
    "category": "matrix",
    "file": "devices/blackmagic-videohub-20x20-12g.json",
-   "hash": "a0e3dfd9",
+   "hash": "c0c94d2e",
    "v": 1
   },
   {
@@ -173,7 +272,7 @@
    "model": "Videohub 40x40 12G",
    "category": "matrix",
    "file": "devices/blackmagic-videohub-40x40-12g.json",
-   "hash": "aedff8e3",
+   "hash": "211de050",
    "v": 1
   },
   {
@@ -182,7 +281,7 @@
    "model": "PD-32SH/GE",
    "category": "distro",
    "file": "devices/briteq-pd-32sh.json",
-   "hash": "507c424d",
+   "hash": "2e5cda14",
    "v": 1
   },
   {
@@ -191,7 +290,7 @@
    "model": "PD-63A Mk2 /GER-NL",
    "category": "distro",
    "file": "devices/briteq-pd-63a-mk2.json",
-   "hash": "535845df",
+   "hash": "42e91452",
    "v": 1
   },
   {
@@ -200,7 +299,7 @@
    "model": "PD-63SH/GERMAN",
    "category": "distro",
    "file": "devices/briteq-pd-63sh.json",
-   "hash": "302bde55",
+   "hash": "afcedc22",
    "v": 1
   },
   {
@@ -209,7 +308,7 @@
    "model": "Tessera S8",
    "category": "led-processor",
    "file": "devices/brompton-tessera-s8.json",
-   "hash": "8ee1fe16",
+   "hash": "bd921227",
    "v": 1
   },
   {
@@ -218,7 +317,7 @@
    "model": "Tessera SX40",
    "category": "led-processor",
    "file": "devices/brompton-tessera-sx40.json",
-   "hash": "4fa91fd9",
+   "hash": "25a11784",
    "v": 1
   },
   {
@@ -227,7 +326,7 @@
    "model": "Tessera T1",
    "category": "led-processor",
    "file": "devices/brompton-tessera-t1.json",
-   "hash": "e233b261",
+   "hash": "de481333",
    "v": 1
   },
   {
@@ -236,7 +335,7 @@
    "model": "Tessera XD 10G",
    "category": "converter",
    "file": "devices/brompton-tessera-xd-10g.json",
-   "hash": "b12f96a8",
+   "hash": "fb247ca2",
    "v": 1
   },
   {
@@ -245,8 +344,8 @@
    "model": "4x HDMI",
    "category": "card",
    "file": "devices/card-mw2nfg44.json",
-   "hash": "9fe504ca",
-   "v": 2
+   "hash": "ec76f667",
+   "v": 3
   },
   {
    "id": "card-mw2nfg44-g8k6",
@@ -254,8 +353,8 @@
    "model": "4x DP",
    "category": "card",
    "file": "devices/card-mw2nfg44-g8k6.json",
-   "hash": "7b49d656",
-   "v": 2
+   "hash": "a4926556",
+   "v": 3
   },
   {
    "id": "card-mw2nfg44-g8k6-gmgn",
@@ -263,7 +362,178 @@
    "model": "4x 12G-SDI",
    "category": "card",
    "file": "devices/card-mw2nfg44-g8k6-gmgn.json",
-   "hash": "9590bf95",
+   "hash": "77e684d",
+   "v": 3
+  },
+  {
+   "id": "card-mw3b8tj71cs",
+   "brand": "Analog Way",
+   "model": "4x DP",
+   "category": "card",
+   "file": "devices/card-mw3b8tj71cs.json",
+   "hash": "6d49b67e",
+   "v": 2
+  },
+  {
+   "id": "card-mw3b8vz60wu",
+   "brand": "Analog Way",
+   "model": "4x HDMI",
+   "category": "card",
+   "file": "devices/card-mw3b8vz60wu.json",
+   "hash": "6ebd30b8",
+   "v": 1
+  },
+  {
+   "id": "card-mw3b91bnttp",
+   "brand": "Analog Way",
+   "model": "4x HDMI 2.0",
+   "category": "card",
+   "file": "devices/card-mw3b91bnttp.json",
+   "hash": "7a40b650",
+   "v": 2
+  },
+  {
+   "id": "card-mw3jfahe",
+   "brand": "Analog Way",
+   "model": "4x DP1.2",
+   "category": "card",
+   "file": "devices/card-mw3jfahe.json",
+   "hash": "cf8a6b4c",
+   "v": 2
+  },
+  {
+   "id": "card-mw3jh8we",
+   "brand": "Analog Way",
+   "model": "LINK QSFP+",
+   "category": "card",
+   "file": "devices/card-mw3jh8we.json",
+   "hash": "333b1376",
+   "v": 2
+  },
+  {
+   "id": "card-mw3jh8we-2",
+   "brand": "Analog Way",
+   "model": "LINK QSFP+",
+   "category": "card",
+   "file": "devices/card-mw3jh8we-2.json",
+   "hash": "8733b8c3",
+   "v": 1
+  },
+  {
+   "id": "card-mw3m2tcy",
+   "brand": "Analog Way",
+   "model": "4x 12G-SDI / 8x 3G-SDI",
+   "category": "card",
+   "file": "devices/card-mw3m2tcy.json",
+   "hash": "5875e724",
+   "v": 3
+  },
+  {
+   "id": "card-mw3muhep",
+   "brand": "Analog Way",
+   "model": "SMPTE 2110",
+   "category": "card",
+   "file": "devices/card-mw3muhep.json",
+   "hash": "5522170c",
+   "v": 2
+  },
+  {
+   "id": "card-mw3n00rf",
+   "brand": "Analog Way",
+   "model": "8x HDMI 1.4",
+   "category": "card",
+   "file": "devices/card-mw3n00rf.json",
+   "hash": "4b5a821e",
+   "v": 2
+  },
+  {
+   "id": "card-mw3n2rfl",
+   "brand": "Analog Way",
+   "model": "4x DP 1.2 / 2x DP 1.4",
+   "category": "card",
+   "file": "devices/card-mw3n2rfl.json",
+   "hash": "6f6caba",
+   "v": 2
+  },
+  {
+   "id": "card-mw3n892b",
+   "brand": "Analog Way",
+   "model": "4x HDMI FIBER",
+   "category": "card",
+   "file": "devices/card-mw3n892b.json",
+   "hash": "5f2c9ffa",
+   "v": 2
+  },
+  {
+   "id": "card-mw3na6al",
+   "brand": "Analog Way",
+   "model": "4x SFP",
+   "category": "card",
+   "file": "devices/card-mw3na6al.json",
+   "hash": "c7788a57",
+   "v": 2
+  },
+  {
+   "id": "card-mw3nchl1",
+   "brand": "Analog Way",
+   "model": "4x SDVoE",
+   "category": "card",
+   "file": "devices/card-mw3nchl1.json",
+   "hash": "47e58648",
+   "v": 2
+  },
+  {
+   "id": "card-mw3nf9gq",
+   "brand": "Analog Way",
+   "model": "4x 12G-SDI & IP 2.5Gb",
+   "category": "card",
+   "file": "devices/card-mw3nf9gq.json",
+   "hash": "7db878b0",
+   "v": 2
+  },
+  {
+   "id": "card-mw3nk8ay",
+   "brand": "Analog Way",
+   "model": "SMPTE 2110",
+   "category": "card",
+   "file": "devices/card-mw3nk8ay.json",
+   "hash": "20cced1d",
+   "v": 1
+  },
+  {
+   "id": "card-mw3nmagv",
+   "brand": "Analog Way",
+   "model": "4x HDMI FIBER",
+   "category": "card",
+   "file": "devices/card-mw3nmagv.json",
+   "hash": "c78f3cc6",
+   "v": 2
+  },
+  {
+   "id": "card-mw3no4ca",
+   "brand": "Analog Way",
+   "model": "4x 12G SFP",
+   "category": "card",
+   "file": "devices/card-mw3no4ca.json",
+   "hash": "a2de1a27",
+   "v": 3
+  },
+  {
+   "id": "card-mw3npq88",
+   "brand": "Analog Way",
+   "model": "4x 12G-SDI",
+   "category": "card",
+   "file": "devices/card-mw3npq88.json",
+   "hash": "9562634e",
+   "v": 2
+  },
+  {
+   "id": "card-mw3nr6ci",
+   "brand": "Analog Way",
+   "model": "4x SDVoE",
+   "category": "card",
+   "file": "devices/card-mw3nr6ci.json",
+   "hash": "e6ce337d",
    "v": 2
   },
   {
@@ -272,7 +542,7 @@
    "model": "Spyder X80",
    "category": "switcher",
    "file": "devices/christie-spyder-x80.json",
-   "hash": "10673a5c",
+   "hash": "59db04d0",
    "v": 1
   },
   {
@@ -281,7 +551,7 @@
    "model": "X16",
    "category": "led-processor",
    "file": "devices/colorlight-x16.json",
-   "hash": "d16d8fc7",
+   "hash": "2d8f3f",
    "v": 1
   },
   {
@@ -290,7 +560,7 @@
    "model": "X8",
    "category": "led-processor",
    "file": "devices/colorlight-x8.json",
-   "hash": "cc15eecf",
+   "hash": "d2034770",
    "v": 1
   },
   {
@@ -299,7 +569,7 @@
    "model": "Z6",
    "category": "led-processor",
    "file": "devices/colorlight-z6.json",
-   "hash": "69196870",
+   "hash": "4ee7c9f8",
    "v": 1
   },
   {
@@ -308,7 +578,7 @@
    "model": "Z6 PRO-G2",
    "category": "led-processor",
    "file": "devices/colorlight-z6-pro-g2.json",
-   "hash": "381fa6cb",
+   "hash": "97d2d1d4",
    "v": 1
   },
   {
@@ -317,8 +587,8 @@
    "model": "gx 3",
    "category": "media-server",
    "file": "devices/disguise-gx-3.json",
-   "hash": "2ff28482",
-   "v": 5
+   "hash": "59027931",
+   "v": 6
   },
   {
    "id": "disguise-gx-3-",
@@ -326,7 +596,7 @@
    "model": "gx 3+",
    "category": "media-server",
    "file": "devices/disguise-gx-3-.json",
-   "hash": "9d478b49",
+   "hash": "7dc66c8b",
    "v": 4
   },
   {
@@ -335,7 +605,7 @@
    "model": "rx III",
    "category": "media-server",
    "file": "devices/disguise-rx-iii.json",
-   "hash": "692389f4",
+   "hash": "6226597c",
    "v": 5
   },
   {
@@ -344,7 +614,7 @@
    "model": "vx 4+",
    "category": "media-server",
    "file": "devices/disguise-vx-4plus.json",
-   "hash": "7f30f36c",
+   "hash": "950cf722",
    "v": 15
   },
   {
@@ -353,8 +623,8 @@
    "model": "Hippotizer Boreal+ MK2",
    "category": "media-server",
    "file": "devices/green-hippo-hippotizer-boreal-plus-mk2.json",
-   "hash": "1b268754",
-   "v": 2
+   "hash": "f7e0a167",
+   "v": 3
   },
   {
    "id": "kramer-tp-583r",
@@ -362,7 +632,7 @@
    "model": "TP-583R",
    "category": "extender",
    "file": "devices/kramer-tp-583r.json",
-   "hash": "d87e3410",
+   "hash": "5cf0c392",
    "v": 1
   },
   {
@@ -371,7 +641,7 @@
    "model": "TP-583T",
    "category": "extender",
    "file": "devices/kramer-tp-583t.json",
-   "hash": "a79d116a",
+   "hash": "ce2e18ca",
    "v": 1
   },
   {
@@ -380,7 +650,7 @@
    "model": "GigaCore 16Xt",
    "category": "network",
    "file": "devices/luminex-gigacore-16xt.json",
-   "hash": "40681a36",
+   "hash": "9b3a100b",
    "v": 1
   },
   {
@@ -389,7 +659,7 @@
    "model": "HELIOS",
    "category": "led-processor",
    "file": "devices/megapixel-helios.json",
-   "hash": "e37c6ffd",
+   "hash": "e24a1c29",
    "v": 1
   },
   {
@@ -398,7 +668,7 @@
    "model": "M4250-10G2F-PoE+ (GSM4212P)",
    "category": "network",
    "file": "devices/netgear-m4250-10g2f-poeplus.json",
-   "hash": "42efccc5",
+   "hash": "d9bcfc37",
    "v": 1
   },
   {
@@ -407,7 +677,7 @@
    "model": "M4250-26G4F-PoE+ (GSM4230P)",
    "category": "network",
    "file": "devices/netgear-m4250-26g4f-poeplus.json",
-   "hash": "48b7377d",
+   "hash": "72d03fa9",
    "v": 1
   },
   {
@@ -416,7 +686,7 @@
    "model": "CVT10",
    "category": "converter",
    "file": "devices/novastar-cvt10.json",
-   "hash": "2775802e",
+   "hash": "9d8e441e",
    "v": 1
   },
   {
@@ -425,7 +695,7 @@
    "model": "H5",
    "category": "led-processor",
    "file": "devices/novastar-h5.json",
-   "hash": "96710a46",
+   "hash": "a6b10321",
    "v": 1
   },
   {
@@ -434,7 +704,7 @@
    "model": "MCTRL R5",
    "category": "led-processor",
    "file": "devices/novastar-mctrl-r5.json",
-   "hash": "d1a06ed1",
+   "hash": "1a8fc08d",
    "v": 1
   },
   {
@@ -443,7 +713,7 @@
    "model": "MCTRL4K",
    "category": "led-processor",
    "file": "devices/novastar-mctrl4k.json",
-   "hash": "6ad5d58d",
+   "hash": "369762a5",
    "v": 1
   },
   {
@@ -452,7 +722,7 @@
    "model": "MX20",
    "category": "led-processor",
    "file": "devices/novastar-mx20.json",
-   "hash": "d172e9d",
+   "hash": "67b984be",
    "v": 1
   },
   {
@@ -461,7 +731,7 @@
    "model": "MX30",
    "category": "led-processor",
    "file": "devices/novastar-mx30.json",
-   "hash": "3d4f9f47",
+   "hash": "bb755880",
    "v": 1
   },
   {
@@ -470,7 +740,7 @@
    "model": "MX40 Pro",
    "category": "led-processor",
    "file": "devices/novastar-mx40-pro.json",
-   "hash": "4c1ac940",
+   "hash": "c9d8795a",
    "v": 1
   },
   {
@@ -479,7 +749,7 @@
    "model": "VX1000",
    "category": "led-processor",
    "file": "devices/novastar-vx1000.json",
-   "hash": "91e6171c",
+   "hash": "891275b1",
    "v": 1
   },
   {
@@ -488,7 +758,7 @@
    "model": "VX600 Pro",
    "category": "led-processor",
    "file": "devices/novastar-vx600-pro.json",
-   "hash": "4187794",
+   "hash": "530d6247",
    "v": 1
   },
   {
@@ -497,7 +767,7 @@
    "model": "P20",
    "category": "switcher",
    "file": "devices/pixelhue-p20.json",
-   "hash": "d013d10b",
+   "hash": "df39397a",
    "v": 2
   },
   {
@@ -506,7 +776,7 @@
    "model": "P80",
    "category": "switcher",
    "file": "devices/pixelhue-p80.json",
-   "hash": "6e856098",
+   "hash": "f7bc9d3",
    "v": 1
   },
   {
@@ -515,7 +785,7 @@
    "model": "Q8",
    "category": "switcher",
    "file": "devices/pixelhue-q8.json",
-   "hash": "a0c135c4",
+   "hash": "31bbcce0",
    "v": 15
   },
   {
@@ -524,7 +794,7 @@
    "model": "U5",
    "category": "misc",
    "file": "devices/pixelhue-u5.json",
-   "hash": "8a8b4dcd",
+   "hash": "bcab65de",
    "v": 1
   },
   {
@@ -533,7 +803,7 @@
    "model": "MD125-120RCD",
    "category": "distro",
    "file": "devices/power-distros-md125-120rcd.json",
-   "hash": "174bbfd3",
+   "hash": "476e3091",
    "v": 1
   },
   {
@@ -542,7 +812,7 @@
    "model": "MD63-350RCBO",
    "category": "distro",
    "file": "devices/power-distros-md63-350rcbo.json",
-   "hash": "4e639c62",
+   "hash": "6eb3d001",
    "v": 1
   },
   {
@@ -551,7 +821,7 @@
    "model": "ST 2110 100G + HDMI 2.1 + DP 1.4",
    "category": "card",
    "file": "devices/q8-in-2110-100g.json",
-   "hash": "d6414fde",
+   "hash": "b79846d2",
    "v": 1
   },
   {
@@ -560,7 +830,7 @@
    "model": "ST 2110 · 4× SFP 25G",
    "category": "card",
    "file": "devices/q8-in-2110-25g.json",
-   "hash": "f75d7c62",
+   "hash": "b71fdf24",
    "v": 1
   },
   {
@@ -569,7 +839,7 @@
    "model": "8× HDMI 2.0 + 12G-SDI",
    "category": "card",
    "file": "devices/q8-in-8hdmi-sdi.json",
-   "hash": "62d0404",
+   "hash": "b9d10297",
    "v": 1
   },
   {
@@ -578,7 +848,7 @@
    "model": "HDMI 2.0 + DP 1.2 + 12G-SDI",
    "category": "card",
    "file": "devices/q8-in-hdmi-dp-sdi.json",
-   "hash": "bdf20b9f",
+   "hash": "ce65d391",
    "v": 1
   },
   {
@@ -587,7 +857,7 @@
    "model": "4× HDMI 2.0 + 4× DP 1.2 + 8× SFP",
    "category": "card",
    "file": "devices/q8-out-hdmi-dp-sfp.json",
-   "hash": "6ab7dc5b",
+   "hash": "8ef85033",
    "v": 1
   },
   {
@@ -596,7 +866,7 @@
    "model": "HDMI 2.0 + 12G-SDI + 8x SFP",
    "category": "card",
    "file": "devices/q8-out-hdmi-sdi-opt.json",
-   "hash": "52c00a85",
+   "hash": "e62911b",
    "v": 4
   },
   {
@@ -605,9 +875,9 @@
    "model": "V-160HD",
    "category": "switcher",
    "file": "devices/roland-v-160hd.json",
-   "hash": "991774a2",
+   "hash": "a013d470",
    "v": 1
   }
  ],
- "hash": "17f26a0b"
+ "hash": "b045a863"
 }

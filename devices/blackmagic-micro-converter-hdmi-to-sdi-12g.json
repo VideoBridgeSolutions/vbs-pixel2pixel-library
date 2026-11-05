@@ -11,7 +11,9 @@
   "rack": null
  },
  "kg": null,
+ "form": null,
  "power": {
+  "source": "mains",
   "typW": null,
   "maxW": 4,
   "psu": 1,
@@ -31,7 +33,8 @@
    "note": "HDMI 2.0 type A",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Video outputs",
@@ -45,7 +48,8 @@
    "note": "both outputs match HDMI input",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Control",
@@ -59,7 +63,8 @@
    "note": "power (4.4-5.25 V DC), config, updates",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   }
  ],
  "slots": [],
@@ -78,6 +83,7 @@
  "notes": "Dimensions/weight only shown as images on maker page (null). 4 W max via USB-C; PSU only in wPSU variant. Print-PDF id W-CONU-17.",
  "defaultCfg": null,
  "family": "",
+ "alsoFits": [],
  "pools": [],
  "cardMode": "auto",
  "author": "vbs",

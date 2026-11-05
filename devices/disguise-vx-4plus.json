@@ -11,7 +11,9 @@
   "rack": "19"
  },
  "kg": 21,
+ "form": null,
  "power": {
+  "source": "mains",
   "typW": null,
   "maxW": 785,
   "psu": 1,
@@ -31,7 +33,8 @@
    "note": "DisplayPort 1.4 GUI output",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Video outputs",
@@ -45,7 +48,8 @@
    "note": "4 VFC bays; ships with HDMI 2.0 VFC cards (DP 1.4, quad DVI-DL, quad 3G-SDI, 4x25GbE IP VFC options)",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Video inputs",
@@ -59,7 +63,8 @@
    "note": "HD-BNC; 4x 12G-SDI or 16x 3G-SDI",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Network",
@@ -73,7 +78,8 @@
    "note": "port A",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Network",
@@ -87,7 +93,8 @@
    "note": "ports B-C",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Network",
@@ -101,7 +108,8 @@
    "note": "ports D-E, QSFP28",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Network",
@@ -115,7 +123,8 @@
    "note": "system management port; speed/connector not stated",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Sync",
@@ -129,7 +138,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "USB",
@@ -143,7 +153,8 @@
    "note": "USB 3.0; type A assumed",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Audio",
@@ -157,7 +168,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Audio",
@@ -171,7 +183,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Control",
@@ -185,7 +198,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Control",
@@ -199,7 +213,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Phone",
@@ -213,7 +228,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   }
  ],
  "slots": [
@@ -245,7 +261,8 @@
      "note": "",
      "pool": "",
      "mirror": null,
-     "ord": null
+     "ord": null,
+     "shares": null
     }
    ],
    "note": "",
@@ -304,7 +321,8 @@
      "note": "",
      "pool": "",
      "mirror": null,
-     "ord": null
+     "ord": null,
+     "shares": null
     }
    ],
    "note": "",
@@ -363,7 +381,8 @@
      "note": "",
      "pool": "",
      "mirror": null,
-     "ord": null
+     "ord": null,
+     "shares": null
     }
    ],
    "note": "",
@@ -401,7 +420,8 @@
      "note": "",
      "pool": "",
      "mirror": null,
-     "ord": null
+     "ord": null,
+     "shares": null
     }
    ],
    "note": "",
@@ -439,7 +459,8 @@
      "note": "",
      "pool": "",
      "mirror": null,
-     "ord": null
+     "ord": null,
+     "shares": null
     }
    ],
    "note": "",
@@ -807,6 +828,7 @@
  "notes": "Typical power, PSU count/redundancy not stated (peak 785 W). Mgmt port connector unknown; USB type assumed. Optical ADAT/S-PDIF (Toslink), headphone jack and LTC/VITC timecode inputs not modelled (no connector id). Width with rack handles 483 mm.",
  "defaultCfg": null,
  "family": "",
+ "alsoFits": [],
  "pools": [],
  "cardMode": "auto",
  "author": "vbs",

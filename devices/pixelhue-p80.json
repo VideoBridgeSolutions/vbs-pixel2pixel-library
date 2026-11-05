@@ -11,7 +11,9 @@
   "rack": "19"
  },
  "kg": 23,
+ "form": null,
  "power": {
+  "source": "mains",
   "typW": null,
   "maxW": 450,
   "psu": 2,
@@ -31,7 +33,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Inputs",
@@ -45,7 +48,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Inputs",
@@ -59,7 +63,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Outputs",
@@ -73,7 +78,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Outputs",
@@ -87,7 +93,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Outputs",
@@ -101,7 +108,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Outputs",
@@ -115,7 +123,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Multiviewer",
@@ -129,7 +138,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Sync",
@@ -143,7 +153,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Sync",
@@ -157,7 +168,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Sync",
@@ -171,7 +183,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Control",
@@ -185,7 +198,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Control",
@@ -199,7 +213,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Control",
@@ -213,7 +228,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Control",
@@ -227,7 +243,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Audio",
@@ -241,7 +258,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   }
  ],
  "slots": [
@@ -270,6 +288,7 @@
  "notes": "Ports = fixed base unit, both input slots empty (up to 28 input channels with cards). 4 of the 8 fixed HDMI inputs share a channel with the 4 DP 1.2 inputs (one active). Main HDMI outs in 4 pairs (copy or split); OPT outs copy HDMI (10G SFP). LTC In, USB-C and Dante marked future update; LTC connector type not stated. Ethernet connector type not stated (RJ45 assumed). Max 450 W, no typical figure; 2 AC inlets (primary + backup), inlet type not stated.",
  "defaultCfg": null,
  "family": "",
+ "alsoFits": [],
  "pools": [],
  "cardMode": "auto",
  "author": "vbs",

@@ -11,7 +11,9 @@
   "rack": "19"
  },
  "kg": null,
+ "form": null,
  "power": {
+  "source": "mains",
   "typW": null,
   "maxW": null,
   "psu": 1,
@@ -31,7 +33,8 @@
    "note": "4 per phase; C16 1P+N MCB each; common 30 mA 4P RCCB",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Multicore",
@@ -45,7 +48,8 @@
    "note": "19-pin round multicore",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Multicore",
@@ -59,7 +63,8 @@
    "note": "16-pin rectangular multicore",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Thru",
@@ -73,7 +78,8 @@
    "note": "chain output; behind 63A 4P breaker + 30 mA RCCB",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   }
  ],
  "slots": [],
@@ -93,6 +99,7 @@
  "notes": "Part B04648. 3U per Briteq text; one reseller lists 6U (conflict). Dimensions/weight not found. Breaker allocation for Socapex/Harting circuits not stated. Per-phase digital V/A meters. Sources are reseller pages reproducing maker text.",
  "defaultCfg": null,
  "family": "",
+ "alsoFits": [],
  "pools": [],
  "cardMode": "auto",
  "author": "vbs",

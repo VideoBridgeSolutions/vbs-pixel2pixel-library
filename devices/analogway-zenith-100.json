@@ -11,7 +11,9 @@
   "rack": "19"
  },
  "kg": 11.7,
+ "form": null,
  "power": {
+  "source": "mains",
   "typW": null,
   "maxW": 170,
   "psu": 1,
@@ -31,7 +33,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Inputs",
@@ -45,7 +48,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Inputs",
@@ -59,7 +63,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Inputs",
@@ -73,7 +78,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Inputs",
@@ -87,7 +93,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Inputs",
@@ -101,7 +108,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Inputs",
@@ -115,7 +123,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Inputs",
@@ -129,7 +138,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Outputs",
@@ -143,7 +153,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Outputs",
@@ -157,7 +168,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Outputs",
@@ -171,7 +183,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Multiviewer",
@@ -185,7 +198,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Multiviewer",
@@ -199,7 +213,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Sync",
@@ -213,7 +228,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Sync",
@@ -227,7 +243,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Control",
@@ -241,7 +258,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Control",
@@ -255,7 +273,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   }
  ],
  "slots": [
@@ -543,13 +562,14 @@
   "https://mail.analogway.com/americas/products/alta-4k-presentation-switchers/zenith-100/",
   "https://s3.eu-west-3.amazonaws.com/aw.store01/Site+Internet/Series/Alta+4k/Products/Zenith+100/Quick+Start+Guide/zenith-100-quick-start-guide.pdf"
  ],
- "confidence": "partial",
+ "confidence": "verified",
  "notes": "Alta 4K series. In 1-2: multi-plug HDMI 1.4 / 3G-SDI (one active). HDMI loop-through on In 5 and In 8. Out 1-4 each multi-plug HDMI 2.0 + 12G-SDI (Out 3-4 also 12G-SFP; SFP cage carries 12G-SDI optical, module not specified). MVR = HDMI 1.4 + 3G-SDI mirrored. Control Ethernet count/connector not stated (1 RJ45 assumed); front USB type assumed A. Max 170 W; PSU count/inlet not stated (100-240 V 6 A).\nIA — non confirmé : typ_w (typical power consumption not published; only max 170 W), psu (number of power supplies not stated in datasheet), power_connector (AC inlet connector type not stated in the datasheet text I could access), port side (front/rear) for each connector group: the datasheet text doesn't say; only the front TFT LCD display is confirmed on the front, location of USB host type A (front or rear) unconfirmed, exact Genlock BNC count (datasheet says 'BNC with loop'; 2 assumed = in + loop), Dante card RJ45 count (primary + secondary per quick start guide, optional card)",
  "defaultCfg": null,
  "family": "",
+ "alsoFits": [],
  "pools": [],
  "cardMode": "auto",
  "author": "vbs",
- "v": 2,
- "updated": "2026-11-04T22:36:16.445Z"
+ "v": 3,
+ "updated": "2026-11-05T07:59:29.928Z"
 }

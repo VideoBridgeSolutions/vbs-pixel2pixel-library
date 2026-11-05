@@ -11,7 +11,9 @@
   "rack": "19"
  },
  "kg": 6.9,
+ "form": null,
  "power": {
+  "source": "mains",
   "typW": null,
   "maxW": 60,
   "psu": 1,
@@ -31,7 +33,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Inputs",
@@ -45,7 +48,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "LED outputs",
@@ -59,7 +63,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Sync",
@@ -73,7 +78,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Sync",
@@ -87,7 +93,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Control",
@@ -101,7 +108,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Control",
@@ -115,7 +123,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Control",
@@ -129,7 +138,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   }
  ],
  "slots": [],
@@ -149,6 +159,7 @@
  "notes": "Colorlight X8 spec V1.0 (2018), copy hosted by ledwallcentral; superseded by X8m (spec not reachable). DVI inputs follow HDMI 1.4. 2U; dimension values not extracted. 8 x RJ45 Gigabit outputs, 5 Mpx; no fibre. 60 W rated. USB connector types and power connector not stated.",
  "defaultCfg": null,
  "family": "",
+ "alsoFits": [],
  "pools": [],
  "cardMode": "auto",
  "author": "vbs",

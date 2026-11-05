@@ -1,0 +1,120 @@
+{
+ "id": "card-mw3nf9gq",
+ "brand": "Analog Way",
+ "model": "4x 12G-SDI & IP 2.5Gb",
+ "category": "card",
+ "dims": {
+  "w": 120,
+  "h": 40,
+  "d": null,
+  "u": null,
+  "rack": null
+ },
+ "kg": null,
+ "form": null,
+ "power": {
+  "source": "mains",
+  "typW": null,
+  "maxW": null,
+  "psu": 1,
+  "redundant": false,
+  "connector": null
+ },
+ "ports": [
+  {
+   "group": "12G-SDI",
+   "label": "12G-SDI",
+   "count": 4,
+   "start": 1,
+   "signal": "sdi12g",
+   "connector": "bnc",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": "p1",
+   "mirror": null,
+   "ord": 0,
+   "shares": null
+  },
+  {
+   "group": "IP 2.5Gb",
+   "label": "IP 2.5Gb",
+   "count": 1,
+   "start": 5,
+   "signal": "eth1g",
+   "connector": "rj45",
+   "dir": "io",
+   "side": "rear",
+   "note": "",
+   "pool": "p1",
+   "mirror": null,
+   "ord": 1,
+   "shares": null
+  }
+ ],
+ "slots": [],
+ "cards": [],
+ "cardsFrom": null,
+ "cardOrder": [],
+ "front": {
+  "items": [
+   {
+    "kind": "port",
+    "ref": "g0:0",
+    "x": 41,
+    "y": 30,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g0:1",
+    "x": 61.5,
+    "y": 30,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g0:2",
+    "x": 82,
+    "y": 30,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g0:3",
+    "x": 102,
+    "y": 30,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g1:0",
+    "x": 19,
+    "y": 30,
+    "rot": 0
+   }
+  ],
+  "guides": []
+ },
+ "rear": null,
+ "model3d": null,
+ "pic": null,
+ "picFront": null,
+ "src": [],
+ "confidence": "partial",
+ "notes": "",
+ "defaultCfg": null,
+ "family": "analog-way-input-slot",
+ "alsoFits": [],
+ "pools": [
+  {
+   "id": "p1",
+   "label": "Entrées simultanées",
+   "max": 8
+  }
+ ],
+ "cardMode": "fixed",
+ "author": "vbs",
+ "v": 2,
+ "updated": "2026-11-05T14:38:23.080Z"
+}

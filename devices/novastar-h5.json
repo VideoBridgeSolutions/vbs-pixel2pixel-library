@@ -11,7 +11,9 @@
   "rack": "19"
  },
  "kg": 17,
+ "form": null,
  "power": {
+  "source": "mains",
   "typW": null,
   "maxW": 400,
   "psu": 1,
@@ -31,7 +33,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Control",
@@ -45,7 +48,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   }
  ],
  "slots": [
@@ -91,6 +95,7 @@
  "notes": "No NovaStar H5 spec sheet found; chassis figures from reseller pages (17 kg net chassis, 400 W, 100-240 V). One PSU, backup PSU optional. LED outputs depend on fitted sending cards (not listed as ports). Control-card ports from H-series manual; RS232 connector type unknown (omitted), genlock port not described.",
  "defaultCfg": null,
  "family": "",
+ "alsoFits": [],
  "pools": [],
  "cardMode": "auto",
  "author": "vbs",

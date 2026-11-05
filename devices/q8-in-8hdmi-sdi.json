@@ -11,7 +11,9 @@
   "rack": null
  },
  "kg": null,
+ "form": null,
  "power": {
+  "source": "mains",
   "typW": null,
   "maxW": null,
   "psu": 1,
@@ -31,7 +33,8 @@
    "note": "",
    "pool": "in",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "In",
@@ -45,7 +48,8 @@
    "note": "",
    "pool": "in",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   }
  ],
  "slots": [],
@@ -62,6 +66,7 @@
  "notes": "12 connecteurs, 8 entrées utilisables en même temps.",
  "defaultCfg": null,
  "family": "q8-in-8hdmi-sdi",
+ "alsoFits": [],
  "pools": [
   {
    "id": "in",

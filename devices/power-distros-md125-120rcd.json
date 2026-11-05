@@ -11,7 +11,9 @@
   "rack": null
  },
  "kg": null,
+ "form": null,
  "power": {
+  "source": "mains",
   "typW": null,
   "maxW": null,
   "psu": 1,
@@ -31,7 +33,8 @@
    "note": "63A 4P RCD + 63A 4P MCB",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Outputs 32A 3ph",
@@ -45,7 +48,8 @@
    "note": "40A 4P RCD + 32A 4P MCB each",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Outputs 32A 1ph",
@@ -59,7 +63,8 @@
    "note": "32A 1P MCB each; grouped behind 2x 63A 4P MCB; RCD for these not stated",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   }
  ],
  "slots": [],
@@ -78,6 +83,7 @@
  "notes": "Main 125A 4P MCB. 12U HDPE case, IP65 lids closed, digital multimeter. RCD sensitivity (mA) not stated. Dimension order assumed W x D x H. Weight not stated. Brand 'Power Distros', sold by Procom ME.",
  "defaultCfg": null,
  "family": "",
+ "alsoFits": [],
  "pools": [],
  "cardMode": "auto",
  "author": "vbs",

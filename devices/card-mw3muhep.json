@@ -1,0 +1,178 @@
+{
+ "id": "card-mw3muhep",
+ "brand": "Analog Way",
+ "model": "SMPTE 2110",
+ "category": "card",
+ "dims": {
+  "w": 120,
+  "h": 40,
+  "d": null,
+  "u": null,
+  "rack": null
+ },
+ "kg": null,
+ "form": null,
+ "power": {
+  "source": "mains",
+  "typW": null,
+  "maxW": null,
+  "psu": 1,
+  "redundant": false,
+  "connector": null
+ },
+ "ports": [
+  {
+   "group": "2110 1",
+   "label": "Primary",
+   "count": 1,
+   "start": 1,
+   "signal": "eth100g",
+   "connector": "qsfp28",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": "p1",
+   "mirror": null,
+   "ord": 0,
+   "shares": null
+  },
+  {
+   "group": "2110 1",
+   "label": "Secondary",
+   "count": 1,
+   "start": 2,
+   "signal": "eth100g",
+   "connector": "qsfp28",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": "p1",
+   "mirror": null,
+   "ord": 1,
+   "shares": null
+  },
+  {
+   "group": "2110 2",
+   "label": "Secondary",
+   "count": 1,
+   "start": 4,
+   "signal": "eth100g",
+   "connector": "qsfp28",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": "p1",
+   "mirror": null,
+   "ord": 3,
+   "shares": null
+  },
+  {
+   "group": "2110 2",
+   "label": "Primary",
+   "count": 1,
+   "start": 3,
+   "signal": "eth100g",
+   "connector": "qsfp28",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": "p1",
+   "mirror": null,
+   "ord": 2,
+   "shares": null
+  }
+ ],
+ "slots": [],
+ "cards": [],
+ "cardsFrom": null,
+ "cardOrder": [],
+ "front": {
+  "items": [
+   {
+    "kind": "port",
+    "ref": "g0:0",
+    "x": 21,
+    "y": 24.5,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g1:0",
+    "x": 41.5,
+    "y": 24.5,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g3:0",
+    "x": 79.5,
+    "y": 24.5,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g2:0",
+    "x": 100,
+    "y": 24.5,
+    "rot": 0
+   },
+   {
+    "kind": "text",
+    "text": "ST2110",
+    "x": 103.5,
+    "y": 35,
+    "size": 4
+   },
+   {
+    "kind": "text",
+    "text": "SFP28",
+    "x": 106.5,
+    "y": 38,
+    "size": 2.5
+   },
+   {
+    "kind": "text",
+    "text": "2",
+    "x": 69.5,
+    "y": 16.5,
+    "size": 4
+   },
+   {
+    "kind": "text",
+    "text": "1",
+    "x": 11.5,
+    "y": 17,
+    "size": 4
+   },
+   {
+    "kind": "text",
+    "text": "IN",
+    "x": 4,
+    "y": 8.5,
+    "size": 6
+   }
+  ],
+  "guides": []
+ },
+ "rear": null,
+ "model3d": null,
+ "pic": null,
+ "picFront": null,
+ "src": [],
+ "confidence": "partial",
+ "notes": "",
+ "defaultCfg": null,
+ "family": "analog-way-input-slot",
+ "alsoFits": [],
+ "pools": [
+  {
+   "id": "p1",
+   "label": "Entrées simultanées",
+   "max": 8
+  }
+ ],
+ "cardMode": "fixed",
+ "author": "vbs",
+ "v": 2,
+ "updated": "2026-11-05T14:33:50.009Z"
+}

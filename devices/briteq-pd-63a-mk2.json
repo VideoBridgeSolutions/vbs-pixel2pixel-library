@@ -11,7 +11,9 @@
   "rack": "19"
  },
  "kg": 9.7,
+ "form": null,
  "power": {
+  "source": "mains",
   "typW": null,
   "maxW": null,
   "psu": 1,
@@ -31,7 +33,8 @@
    "note": "outputs A/B; C32 4P MCB each; common 30 mA 4P RCCB",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Outputs 16A",
@@ -45,7 +48,8 @@
    "note": "one per phase L1/L2/L3; C16 2P MCB each; common 30 mA 4P RCCB",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   }
  ],
  "slots": [],
@@ -64,6 +68,7 @@
  "notes": "Input CEE 63A 5p on 1.5 m H07RN-F 5G10. Width/height not in text (19\"/3U nominal). RCD type not stated; English spec says 2x C16 (other languages 3x). Source: Briteq manual hosted by reseller.",
  "defaultCfg": null,
  "family": "",
+ "alsoFits": [],
  "pools": [],
  "cardMode": "auto",
  "author": "vbs",

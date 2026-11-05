@@ -11,7 +11,9 @@
   "rack": "19"
  },
  "kg": 9.64,
+ "form": null,
  "power": {
+  "source": "mains",
   "typW": null,
   "maxW": 150,
   "psu": 1,
@@ -31,7 +33,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Sync",
@@ -45,7 +48,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Sync",
@@ -59,7 +63,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Control",
@@ -73,7 +78,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Control",
@@ -87,7 +93,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Control",
@@ -101,7 +108,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Control",
@@ -115,7 +123,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Power",
@@ -129,7 +138,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   }
  ],
  "slots": [
@@ -158,6 +168,7 @@
  "notes": "Colorlight spec V1.4. Outputs are fibre only: 4 x 10G (2 main + 2 backup), opticalCON DUO with LC-LC. 8.8 Mpx. Doc says 2.5U chassis but 88 mm high (2U set). LAN is Fast Ethernet (NE8FBH etherCON). 150 W rated with all cards. Power in/out Neutrik NAC3PX-TOP (in 6 A, out 4 A max). Genlock connector type not stated (BNC assumed). Ports per input card not stated.",
  "defaultCfg": null,
  "family": "",
+ "alsoFits": [],
  "pools": [],
  "cardMode": "auto",
  "author": "vbs",

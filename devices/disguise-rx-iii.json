@@ -11,7 +11,9 @@
   "rack": "19"
  },
  "kg": 20.5,
+ "form": null,
  "power": {
+  "source": "mains",
   "typW": null,
   "maxW": 539,
   "psu": 2,
@@ -31,7 +33,8 @@
    "note": "only physical video output; render output via RenderStream over network",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Managment",
@@ -45,7 +48,8 @@
    "note": "LAN3/LAN4; connector not stated",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Network",
@@ -59,7 +63,8 @@
    "note": "LAN1/LAN2; connector not stated",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Network",
@@ -73,7 +78,8 @@
    "note": "RenderStream / high-speed",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "USB",
@@ -87,7 +93,8 @@
    "note": "USB 3.0; type A assumed",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   }
  ],
  "slots": [],
@@ -185,6 +192,7 @@
  "notes": "2023 sheet: 539 W consumption, 20.5 kg, 'IEC' inlet with two cables bundled; 2021 sheet: 2000 W CRPS PSU rating, 32 kg, two IEC inlets in rear diagram (psu=2, redundancy not stated; C14 assumed). No genlock listed. Rack depth with slides 914.6 mm. GPU RTX A6000.",
  "defaultCfg": null,
  "family": "",
+ "alsoFits": [],
  "pools": [],
  "cardMode": "auto",
  "author": "vbs",

@@ -1,0 +1,98 @@
+{
+ "id": "card-mw3nr6ci",
+ "brand": "Analog Way",
+ "model": "4x SDVoE",
+ "category": "card",
+ "dims": {
+  "w": 120,
+  "h": 40,
+  "d": null,
+  "u": null,
+  "rack": null
+ },
+ "kg": null,
+ "form": null,
+ "power": {
+  "source": "mains",
+  "typW": null,
+  "maxW": null,
+  "psu": 1,
+  "redundant": false,
+  "connector": null
+ },
+ "ports": [
+  {
+   "group": "SDVoE",
+   "label": "SDVoE",
+   "count": 4,
+   "start": 1,
+   "signal": "eth10g",
+   "connector": "rj45",
+   "dir": "out",
+   "side": "rear",
+   "note": "",
+   "pool": "p1",
+   "mirror": null,
+   "ord": null,
+   "shares": null
+  }
+ ],
+ "slots": [],
+ "cards": [],
+ "cardsFrom": null,
+ "cardOrder": [],
+ "front": {
+  "items": [
+   {
+    "kind": "port",
+    "ref": "g0:0",
+    "x": 26.5,
+    "y": 29,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g0:1",
+    "x": 48.5,
+    "y": 29,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g0:2",
+    "x": 70.5,
+    "y": 29,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g0:3",
+    "x": 92.5,
+    "y": 29,
+    "rot": 0
+   }
+  ],
+  "guides": []
+ },
+ "rear": null,
+ "model3d": null,
+ "pic": null,
+ "picFront": null,
+ "src": [],
+ "confidence": "partial",
+ "notes": "",
+ "defaultCfg": null,
+ "family": "analog-way-output-connector-cards",
+ "alsoFits": [],
+ "pools": [
+  {
+   "id": "p1",
+   "label": "Sorties simultanées",
+   "max": 4
+  }
+ ],
+ "cardMode": "fixed",
+ "author": "vbs",
+ "v": 2,
+ "updated": "2026-11-05T14:46:39.997Z"
+}

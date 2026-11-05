@@ -1,0 +1,206 @@
+{
+ "id": "card-mw3jh8we",
+ "brand": "Analog Way",
+ "model": "LINK QSFP+",
+ "category": "card",
+ "dims": {
+  "w": 120,
+  "h": 40,
+  "d": null,
+  "u": null,
+  "rack": null
+ },
+ "kg": null,
+ "form": null,
+ "power": {
+  "source": "mains",
+  "typW": null,
+  "maxW": null,
+  "psu": 1,
+  "redundant": false,
+  "connector": null
+ },
+ "ports": [
+  {
+   "group": "LINK 1",
+   "label": "LINK 1",
+   "count": 3,
+   "start": 1,
+   "signal": "fiber-video",
+   "connector": "qsfp-plus",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": "p1",
+   "mirror": null,
+   "ord": 0,
+   "shares": null
+  },
+  {
+   "group": "LINK B",
+   "label": "LINK B",
+   "count": 3,
+   "start": 1,
+   "signal": "fiber-video",
+   "connector": "qsfp-plus",
+   "dir": "out",
+   "side": "rear",
+   "note": "",
+   "pool": "p1",
+   "mirror": null,
+   "ord": 1,
+   "shares": null
+  }
+ ],
+ "slots": [],
+ "cards": [],
+ "cardsFrom": null,
+ "cardOrder": [],
+ "front": {
+  "items": [
+   {
+    "kind": "port",
+    "ref": "g0:0",
+    "x": 11.5,
+    "y": 28,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g0:1",
+    "x": 30.5,
+    "y": 28,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g0:2",
+    "x": 49.5,
+    "y": 28,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g1:0",
+    "x": 70,
+    "y": 28,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g1:1",
+    "x": 89,
+    "y": 28,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g1:2",
+    "x": 108,
+    "y": 28,
+    "rot": 0
+   },
+   {
+    "kind": "shape",
+    "shape": "rect",
+    "x": 2,
+    "y": 18,
+    "w": 57.5,
+    "h": 5,
+    "fill": "#949494",
+    "stroke": "#000000",
+    "label": "",
+    "rows": 1,
+    "cols": 1,
+    "gap": 1.5,
+    "r": 0
+   },
+   {
+    "kind": "shape",
+    "shape": "rect",
+    "x": 60,
+    "y": 18,
+    "w": 57.5,
+    "h": 5,
+    "fill": "#000000",
+    "stroke": "#ffffff",
+    "label": "",
+    "rows": 1,
+    "cols": 1,
+    "gap": 1.5,
+    "r": 0
+   },
+   {
+    "kind": "text",
+    "text": "1",
+    "x": 10,
+    "y": 21,
+    "size": 4
+   },
+   {
+    "kind": "text",
+    "text": "2",
+    "x": 29,
+    "y": 21,
+    "size": 4
+   },
+   {
+    "kind": "text",
+    "text": "3",
+    "x": 48.5,
+    "y": 21,
+    "size": 4
+   },
+   {
+    "kind": "text",
+    "text": "3",
+    "x": 69,
+    "y": 21,
+    "size": 4
+   },
+   {
+    "kind": "text",
+    "text": "1",
+    "x": 107,
+    "y": 21,
+    "size": 4
+   },
+   {
+    "kind": "text",
+    "text": "2",
+    "x": 87.5,
+    "y": 21,
+    "size": 4
+   },
+   {
+    "kind": "text",
+    "text": "LINK",
+    "x": 1,
+    "y": 38,
+    "size": 4
+   }
+  ],
+  "guides": []
+ },
+ "rear": null,
+ "model3d": null,
+ "pic": null,
+ "picFront": null,
+ "src": [],
+ "confidence": "partial",
+ "notes": "",
+ "defaultCfg": null,
+ "family": "analog-way-output-connector-cards",
+ "alsoFits": [],
+ "pools": [
+  {
+   "id": "p1",
+   "label": "Sorties simultanées",
+   "max": 4
+  }
+ ],
+ "cardMode": "fixed",
+ "author": "vbs",
+ "v": 2,
+ "updated": "2026-11-05T14:42:57.370Z"
+}

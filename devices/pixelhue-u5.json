@@ -11,7 +11,9 @@
   "rack": null
  },
  "kg": 24,
+ "form": null,
  "power": {
+  "source": "mains",
   "typW": null,
   "maxW": 240,
   "psu": 1,
@@ -37,6 +39,7 @@
  "notes": "U5 is a compact event CONTROLLER (console) for P20/P10/Q8/P80, not a video switcher; no category for consoles so 'misc'. Dimensions include handles/rack ears. Datasheet lists connector types (Ethernet, USB type B, LTC in/out, MTC in/out, MIDI, KVM, keyboard/mouse, external input, AC 100-240 V 6 A) but NO counts, so ports left empty. U5 Pro: 1129.6 x 695.4 x 422.7 mm, 46 kg, 330 W max.",
  "defaultCfg": null,
  "family": "",
+ "alsoFits": [],
  "pools": [],
  "cardMode": "auto",
  "author": "vbs",

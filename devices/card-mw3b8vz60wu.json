@@ -1,0 +1,98 @@
+{
+ "id": "card-mw3b8vz60wu",
+ "brand": "Analog Way",
+ "model": "4x HDMI",
+ "category": "card",
+ "dims": {
+  "w": 130,
+  "h": 42,
+  "d": null,
+  "u": null,
+  "rack": null
+ },
+ "kg": null,
+ "form": null,
+ "power": {
+  "source": "mains",
+  "typW": null,
+  "maxW": null,
+  "psu": 1,
+  "redundant": false,
+  "connector": null
+ },
+ "ports": [
+  {
+   "group": "",
+   "label": "HDMI",
+   "count": 4,
+   "start": 1,
+   "signal": "hdmi20",
+   "connector": "hdmi",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": "p1",
+   "mirror": null,
+   "ord": null,
+   "shares": null
+  }
+ ],
+ "slots": [],
+ "cards": [],
+ "cardsFrom": null,
+ "cardOrder": [],
+ "front": {
+  "items": [
+   {
+    "kind": "port",
+    "ref": "g0:0",
+    "x": 27,
+    "y": 30,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g0:1",
+    "x": 53.5,
+    "y": 30,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g0:2",
+    "x": 79,
+    "y": 30,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g0:3",
+    "x": 104,
+    "y": 30,
+    "rot": 0
+   }
+  ],
+  "guides": []
+ },
+ "rear": null,
+ "model3d": null,
+ "pic": null,
+ "picFront": null,
+ "src": [],
+ "confidence": "partial",
+ "notes": "copiée de catalogue",
+ "defaultCfg": null,
+ "family": "analog-way-card",
+ "alsoFits": [],
+ "pools": [
+  {
+   "id": "p1",
+   "label": "Entrées simultanées",
+   "max": 8
+  }
+ ],
+ "cardMode": "auto",
+ "author": "vbs",
+ "v": 1,
+ "updated": "2026-11-05T09:16:46.376Z"
+}

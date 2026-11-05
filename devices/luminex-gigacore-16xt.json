@@ -11,7 +11,9 @@
   "rack": "19"
  },
  "kg": 3,
+ "form": null,
  "power": {
+  "source": "mains",
   "typW": null,
   "maxW": 30,
   "psu": 1,
@@ -31,7 +33,8 @@
    "note": "shielded etherCON; optional PoE/PoE+ up to 160 W total",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "SFP",
@@ -45,7 +48,8 @@
    "note": "SFP speed not stated (1G assumed)",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   }
  ],
  "slots": [],
@@ -64,6 +68,7 @@
  "notes": "DISCONTINUED. 30 W max (non-PoE). Pre-Rev A units had 15 V DC backup + 48 V PoE backup inputs (Molex). Weight 3 kg (page also states 2.5 kg). 1U derived from 44 mm height. Port side front assumed from 'PoE on front ports'.",
  "defaultCfg": null,
  "family": "",
+ "alsoFits": [],
  "pools": [],
  "cardMode": "auto",
  "author": "vbs",

@@ -11,7 +11,9 @@
   "rack": "half"
  },
  "kg": 2.1,
+ "form": null,
  "power": {
+  "source": "mains",
   "typW": null,
   "maxW": 22,
   "psu": 1,
@@ -31,7 +33,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "LED data",
@@ -45,7 +48,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Control",
@@ -59,7 +63,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   }
  ],
  "slots": [],
@@ -78,6 +83,7 @@
  "notes": "NovaStar spec V1.3.0. Half-1U width; pair with a second unit or connecting piece for 1U. Variants CVT10-S (single-mode 9/125, 1310 nm, 10 km) and CVT10-M (multi-mode OM3/OM4, 850 nm, 300 m); factory-fitted hot-swap modules, LC. Mode button switches CVT/DIS (fiber-to-copper or copper-to-fiber). Ethernet connector type not stated. PowerCON variant (blue/TRUE1) not stated. USB is for upgrades only.",
  "defaultCfg": null,
  "family": "",
+ "alsoFits": [],
  "pools": [],
  "cardMode": "auto",
  "author": "vbs",

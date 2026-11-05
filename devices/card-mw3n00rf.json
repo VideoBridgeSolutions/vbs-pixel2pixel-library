@@ -1,0 +1,126 @@
+{
+ "id": "card-mw3n00rf",
+ "brand": "Analog Way",
+ "model": "8x HDMI 1.4",
+ "category": "card",
+ "dims": {
+  "w": 120,
+  "h": 40,
+  "d": null,
+  "u": null,
+  "rack": null
+ },
+ "kg": null,
+ "form": null,
+ "power": {
+  "source": "mains",
+  "typW": null,
+  "maxW": null,
+  "psu": 1,
+  "redundant": false,
+  "connector": null
+ },
+ "ports": [
+  {
+   "group": "",
+   "label": "HDMI 1.4",
+   "count": 8,
+   "start": 1,
+   "signal": "hdmi14",
+   "connector": "hdmi",
+   "dir": "in",
+   "side": "rear",
+   "note": "",
+   "pool": "p1",
+   "mirror": null,
+   "ord": null,
+   "shares": null
+  }
+ ],
+ "slots": [],
+ "cards": [],
+ "cardsFrom": null,
+ "cardOrder": [],
+ "front": {
+  "items": [
+   {
+    "kind": "port",
+    "ref": "g0:4",
+    "x": 26,
+    "y": 29.5,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g0:5",
+    "x": 49,
+    "y": 29.5,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g0:6",
+    "x": 71,
+    "y": 29.5,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g0:7",
+    "x": 93,
+    "y": 29.5,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g0:0",
+    "x": 26,
+    "y": 13.5,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g0:1",
+    "x": 49,
+    "y": 13.5,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g0:2",
+    "x": 71,
+    "y": 13.5,
+    "rot": 0
+   },
+   {
+    "kind": "port",
+    "ref": "g0:3",
+    "x": 93,
+    "y": 13.5,
+    "rot": 0
+   }
+  ],
+  "guides": []
+ },
+ "rear": null,
+ "model3d": null,
+ "pic": null,
+ "picFront": null,
+ "src": [],
+ "confidence": "partial",
+ "notes": "",
+ "defaultCfg": null,
+ "family": "analog-way-input-slot",
+ "alsoFits": [],
+ "pools": [
+  {
+   "id": "p1",
+   "label": "Entrées simultanées",
+   "max": 8
+  }
+ ],
+ "cardMode": "fixed",
+ "author": "vbs",
+ "v": 2,
+ "updated": "2026-11-05T14:33:50.030Z"
+}

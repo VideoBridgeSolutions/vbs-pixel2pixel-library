@@ -11,7 +11,9 @@
   "rack": "19"
  },
  "kg": 3.9,
+ "form": null,
  "power": {
+  "source": "mains",
   "typW": null,
   "maxW": 50,
   "psu": 1,
@@ -31,7 +33,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Fiber outputs",
@@ -45,7 +48,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   },
   {
    "group": "Control",
@@ -59,7 +63,8 @@
    "note": "",
    "pool": "",
    "mirror": null,
-   "ord": null
+   "ord": null,
+   "shares": null
   }
  ],
  "slots": [
@@ -98,6 +103,7 @@
  "notes": "Megapixel brochure PDF could not be parsed. 1 RU; 8 x 10G fiber outputs to Megapixel switches (SFP+ assumed); 100G QSFP input with ST 2110/IPMX; up to 35 Mpx. Weight 3.9 kg, 50 W and IEC C13/C14 from ROE 2020 sheet (HELIOS 8K). Dimensions, genlock, USB unknown. LAN connector type not stated.",
  "defaultCfg": null,
  "family": "",
+ "alsoFits": [],
  "pools": [],
  "cardMode": "auto",
  "author": "vbs",
